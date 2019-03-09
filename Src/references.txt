@@ -1,0 +1,25 @@
+Building a chat room in 30 minutes using Redis, Socket.io and Express
+https://blog.manifold.co/building-a-chat-room-in-30-minutes-using-redis-socket-io-and-express-9e8e5a578675
+
+
+ServiceStack.Redis   .NET's most popular Redis Client for worlds fastest distributed NoSQL datastore
+https://servicestack.net/redis
+
+How to work with Redis Cache in .Net
+https://www.infoworld.com/article/3187905/application-development/how-to-work-with-redis-cache-in-net.html
+
+How to store an object into Redis Hash using servicestack typed client?
+https://stackoverflow.com/questions/32479408/how-to-store-an-object-into-redis-hash-using-servicestack-typed-client
+
+ServiceStack/ServiceStack.Redis
+https://github.com/ServiceStack/ServiceStack.Redis/blob/master/tests/ServiceStack.Redis.Tests/RedisClientHashTests.cs
+
+https://redislabs.com/blog/redis-cloud-30mb-ram-30-connections-for-free/
+cotanpi@hotmail.com	anphimf12
+databasename: projectmanager
+password: anphimf12
+Endpoint: redis-19119.c11.us-east-1-2.ec2.cloud.redislabs.com:19119
+
+ServiceStack/ServiceStack.Redis
+https://github.com/ServiceStack/ServiceStack.Redis
+https://github.com/ServiceStack/ServiceStack.Redis/wiki/DesigningNoSqlDatabase
