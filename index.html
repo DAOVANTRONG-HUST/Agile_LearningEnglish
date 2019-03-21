@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My first three.js app</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    
+        canvas {
+            width: 100%;
+            height: 100%
+        }
+    </style>
+</head>
+<body>http://mrdoob.github.com/three.js/build/three.js
+    <script src="http://mrdoob.github.com/three.js/build/three.js/build/three.js"></script>
+    <script src="http://mrdoob.github.com/three.js/build/three.js/examples/js/controls/OrbitControls.js"></script>
+    <div style="text-align: center; padding-top: 5%">
+        <button onclick="zoomin()" style="align-content: center">Zoom in + </button>
+        <button onclick="zoomout()" style="align-content: center">Zoom out - </button>
+    </div>
+    <script>
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        scene.background = new THREE.Color(0xffffff);
+
+        var geometry = new THREE.SphereGeometry(5, 32, 32);
+        var material = new THREE.MeshBasicMaterial({ color: 0x3f90db , wireframe: true });
+        var sphere1 = new THREE.Mesh(geometry, material);
+        var sphere2 = new THREE.Mesh(geometry, material);
+        // edit sphere position 
+        sphere1.position.x = -10 ;
+        sphere2.position.x = 10;    
+        // second sphere 
+
+        scene.add(sphere1);
+        scene.add(sphere2);
+        var distance = 25;
+        camera.position.z = distance;
+
+        var controls = new THREE.OrbitControls(camera);
+        camera.position.set(0, 20, 100);
+        controls.update();
+
+        var animate = function () {
+            requestAnimationFrame(animate);
+            sphere1.rotation.x += 0.01;
+            sphere1.rotation.y += 0.01;
+            sphere2.rotation.z -= 0.01;
+            sphere2.rotation.x -= 0.01;
+            controls.update();
+            renderer.render(scene, camera);
+            
+        };
+        animate();
+
+        function zoomin() {
+                controls.zoomIn();
+                controls.update();
+            }
+        function zoomout() {
+                controls.zoomOut();
+                controls.update();
+            }
+        
+
+        </script>
+    
+</body>
+</html>
