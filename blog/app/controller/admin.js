@@ -12,14 +12,13 @@ router.get("/signup", function(req, res){
 router.post("/signup", function(req, res){
     var user = req.body;
 
-    if( user.email.trim().lenght == 0){
+    if( user.email.trim().length == 0){
         res.render("signup", {data: {error: "Email is required!!!"}});
     }
 
-    if(user.passwd != user.repasswd && user.passwd.trim().lenght != 0){
+    if(user.passwd != user.repasswd && user.passwd.trim().length != 0){
         res.render("signup", {data: {error: "Password is not match!!!"}});
     }
-
     // insert to DB
 });
 

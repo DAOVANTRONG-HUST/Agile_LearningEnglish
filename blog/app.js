@@ -3,7 +3,6 @@ var config = require("config");
 var bodyParser = require("body-parser")
 var app = express();
 
-
 // body parser create.
 app.use(bodyParser.json()); // decode data convert json
 app.use(bodyParser.urlencoded({extended: true})); // take data in form.
