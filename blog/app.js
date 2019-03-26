@@ -11,9 +11,9 @@ app.set("views", __dirname + "/app/views"); // set thư mục để html và eng
 app.set("view engine", "ejs"); // file .ejs template render html in res
 
 //Static folder
-
 app.use("/static", express.static(__dirname + "/public"));
 
+// use controller.
 var controller = require(__dirname + "/app/controller");
 
 app.use(controller);
@@ -29,3 +29,4 @@ app.listen(port, host,  function(){
 //     console.log("Server is running port", 3000);
 // })
 
+// install xampp phpAdmin
