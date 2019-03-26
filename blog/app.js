@@ -10,6 +10,10 @@ app.use(bodyParser.json()); // decode data convert json
 app.set("views", __dirname + "/app/views"); // set thư mục để html và engine mặc định
 app.set("view engine", "ejs"); // file .ejs template render html in res
 
+//Static folder
+
+app.use("/static", express.static(__dirname + "/public"));
+
 var controller = require(__dirname + "/app/controller");
 
 app.use(controller);
