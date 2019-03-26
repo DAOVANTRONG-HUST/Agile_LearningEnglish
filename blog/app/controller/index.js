@@ -7,7 +7,8 @@ router.use("/blog", require(__dirname + "/blog"));
 
 
 router.get("/", function(req, res){
-    res.json({"message": "This is Home Page"});
+    //res.json({"message": "This is Home Page"});
+    res.render("test");
 })
 
 module.exports = router;
