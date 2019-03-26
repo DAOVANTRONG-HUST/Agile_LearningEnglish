@@ -3,6 +3,10 @@ var config = require("config");
 var bodyParser = require
 var app = express();
 
+
+// body parser create.
+app.use(bodyParser.json()); // decode data convert json
+
 var controller = require(__dirname + "/app/controller");
 
 app.use(controller);
