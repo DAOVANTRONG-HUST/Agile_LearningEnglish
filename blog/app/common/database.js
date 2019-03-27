@@ -8,7 +8,7 @@ var connection = mysql.createConnection({
     database  : config.get("mysql.database")
 });
 
-connection.connect();
+//connection.connect();
 
 function getConnection(){
     if(!connection){
