@@ -1,0 +1,33 @@
+{
+  "name": "nodejs_selfstudy",
+  "version": "1.0.0",
+  "description": "This is the first nodejs lesson that i've learned",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "selfstudy"
+  ],
+  "author": "hoangvlbk61",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.6"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7",
+    "pg": "^7.8.2"
+  }
+}
