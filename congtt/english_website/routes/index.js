@@ -6,15 +6,11 @@ const MongoClient = require('mongodb').MongoClient;
 var chuyenthanhObjectId = require('mongodb').ObjectID;
 const assert = require('assert');
 
-
 // Connection URL
 const url = 'mongodb://localhost:27017';
 
 // Database Name
 const dbName = 'contact';
-
-
-
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -204,7 +200,5 @@ MongoClient.connect(url, function(err, client) {
   });
 
  
-
-   
 });  // end sua du lieu 
 module.exports = router;
