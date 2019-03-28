@@ -14,7 +14,6 @@ function getConnection(){
     if(!connection){
         connection.connect();
     }
-
     return connection;
 }
 
