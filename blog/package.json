@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "trongdv",
+  "author": "Thanh Cong",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.5",
+    "bcrypt": "^3.0.4",
     "body-parser": "^1.18.3",
     "config": "^3.0.1",
     "ejs": "^2.6.1",

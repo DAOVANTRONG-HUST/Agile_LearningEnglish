@@ -1,41 +1,54 @@
-var express = require("express");
-var config = require("config"); //sử dụng config để có thể nhận được default.js
-var bodyParser = require("body-parser")
-var app = express();
-var session = require("express-session");
 
-// body parser create.
-app.use(bodyParser.json()); // chuyển dữ liệu trong form thành dạng json.
-app.use(bodyParser.urlencoded({extended: true})); // lấy được dữ liệu từ post form
+var express=require('express');
+var app=express();
 
-app.set("trust proxy", 1)
+// dung bien var de luu express lai vi express khong co san trong node
+// app nhu la mot nguoi quan li cua nha hang
+var config=require('config')
+
+
+
+// body-parser: hứng dư liệu từ form về 
+var bodyParser=require("body-parser")
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({extended: true}));
+
+
+
+// Bai 25 : Lam viec voi phien
+var session=require("express-session");
+app.set('trust proxy', 1) // trust first proxy
 app.use(session({
-    secret: config.get("secret_key"),
-    resave: false,
-    saveUninitialized: true,
-    cookie: {secure: true}
+  secret: config.get("secret_key"),
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: true }
 }));
 
-app.set("views", __dirname + "/app/views"); // set thư mục để html và engine mặc định
-app.set("view engine", "ejs"); // file .ejs template render html in res
+// view la thu muc chua ca template
+app.set("views",__dirname+"/apps/views");
+// setup ejs la template mac dinh
+app.set("view engine","ejs")
+// sau lenh nay tat ca cac file co duoi ejs trong thu muc view deu duoc nhan la template va duoc render ra trong bien respon cua express
 
 //Static folder
-app.use("/static", express.static(__dirname + "/public"));
+app.use("/static",express.static(__dirname+"/public"));
 
-// use controller.
-var controller = require(__dirname + "/app/controller");
 
-app.use(controller);
+var controllers=require(__dirname+"/apps/controllers");
+app.use(controllers);
 
-var host = config.get("server.host");
-var port = config.get("server.port");
 
-app.listen(port, host,  function(){
-    console.log("Server is running port", port);
+
+
+// cach1 :
+//app.listen(3000,function(){
+    //console.log("server is runing on port 3000");
+//});
+
+// cach 2:
+var host=config.get("server.host");
+var port=config.get("server.port");
+app.listen(port,host,function(){
+    console.log("server is listening on port 3000");
 })
-
-// app.listen(3000, function(){
-//     console.log("Server is running port", 3000);
-// })
-
-// install xampp phpAdmin
