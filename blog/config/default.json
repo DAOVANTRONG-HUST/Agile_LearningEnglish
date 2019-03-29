@@ -11,5 +11,6 @@
         "password": ""
     },
 
-    "salt": 10
+    "salt": 10,
+    "secret_key": "secretkey"
 }
