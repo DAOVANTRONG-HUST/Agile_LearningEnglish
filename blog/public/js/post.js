@@ -12,6 +12,7 @@ function Post(){
             $.ajax({
                 url:base_url+"/admin/post/edit",
                 type:"PUT",
+                data: params,
                 dataType:"json",
                 success:function(res){
                     if(res && res.status_code==200){
@@ -20,6 +21,7 @@ function Post(){
                 }
             })
         })
+
 
         $(".post_delete").click(function(e){
             var post_id=$(this).attr("post_id");
@@ -41,6 +43,8 @@ function Post(){
     bindEvent();
 }
 
+// đây là bộ quản lý sự kiện của Jquery.
 $(document).ready(function () {
     new Post();
 })
+

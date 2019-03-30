@@ -20,7 +20,7 @@ function getAllPosts(){
 function addPost(params){
     if(params){
         var defer=q.defer();
-        var query = conn.query('INSERT INTO posts SET ?', params, function (error, results, fields) {
+        var query = conn.query('INSERT INTO posts SET ?', params, function (error, results) {
             if(error){
                 defer.reject(error);
             }else{
@@ -37,7 +37,7 @@ function addPost(params){
 function getPostByID(id){
     if(id){
         var defer=q.defer();
-        var query=conn.query('SELECT * FROM posts WHERE id=?',id,function(error,posts){
+        var query=conn.query('SELECT * FROM posts WHERE ?',{id: id},function(error,posts){
             if(error){
                 defer.reject(error);
             }else{
@@ -53,7 +53,7 @@ function getPostByID(id){
 function updatePost(params){
     if(params){
         var defer=q.defer();
-        var query=conn.query('UPDATE posts SET title= ?, content= ? ,author= ? ,updated_at=? WHERE id=?',[params.titile,params.content,params.author,new Date(),params.id],function(error,posts){
+        var query=conn.query('UPDATE posts SET title= ?, content= ? ,author= ? ,updated_at=? WHERE id=?',[params.titile,params.content,params.author,new Date(),params.id],function(error, posts){
             if(error){
                 defer.reject(error);
             }else{
@@ -61,17 +61,16 @@ function updatePost(params){
             }
         });
         return defer.promise;
-        
-
     }
     return false;
 }
 
 
 function deletePost(id){
+    console.log(id);
     if(id){
         var defer=q.defer();
-        var query=conn.query('DELETE * FROM posts WHERE id=?',id,function(error,posts){
+        var query=conn.query('DELETE FROM posts WHERE ?',{id: id},function(error,posts){
             if(error){
                 defer.reject(error);
             }else{
@@ -84,9 +83,11 @@ function deletePost(id){
     return false;
 }
 module.exports={
+
     getAllPosts:getAllPosts,
     addPost:addPost,
     getPostByID:getPostByID,
     updatePost:updatePost,
     deletePost:deletePost
+
 }

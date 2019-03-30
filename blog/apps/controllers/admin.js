@@ -137,7 +137,7 @@ router.post("/post/new", function (req, res) {
             res.redirect("/admin");
         }).catch(function (err) {
             var data = {
-                error: "Could Insert post to db"
+                error: "Could not Insert post to db"
             }
             res.render("admin/post/new", { data: data })
         })
@@ -149,9 +149,9 @@ router.post("/post/new", function (req, res) {
 })
 router.get("/post/edit/:id",function(req,res){
     //:id la truyen du lieu vao bien id
-    // req.params dung de lay ra du lieu do
     var params=req.params;
     var id=params.id;
+        // req.params dung de lay ra du lieu do
 
     var data=post_md.getPostByID(id);
     if(data){
@@ -189,11 +189,11 @@ router.put("/post/edit",function(req,res){
             res.json({status_code:500});
         })
     }
-    
 })
 
 router.delete("/post/delete",function(req,res){
     var post_id=req.body.id;
+    console.log(post_id);
 
     var data=post_md.deletePost(post_id);
     if(!data){
