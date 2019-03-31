@@ -60,4 +60,7 @@ get_request.get('/themmoituvung', (req, res) => {
 get_request.get('/quanlytuvung/tuvung', (req, res) => {
     res.render('tuvung')
 })
+get_request.get('/', (req , res) => {
+    res.redirect('/index');
+})
 module.exports = get_request;
