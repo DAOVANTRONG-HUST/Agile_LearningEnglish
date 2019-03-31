@@ -16,7 +16,10 @@ const dbName = 'englishWebsite';
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
-
+/* GET home page. */
+router.get('/dashboard', function (req, res, next) {
+  res.render('dashboard', { title: 'Express' });
+});
 
 /* GET register */
 router.get('/register', function (req, res, next) {
@@ -103,7 +106,8 @@ router.post("/login", function (req, res, next) {
         console.log(dulieu);
         var user=dulieu[0];
         if(user.password===params.password){
-          console.log("login sucess");
+       
+          res.redirect("kiemtradauvao/datmuctieu/"+ user._id);
         }else{
           res.render("login/login", { data: { error: "Password is not correct" } });
         }
@@ -115,6 +119,120 @@ router.post("/login", function (req, res, next) {
     
   }
 })
+
+
+
+/* GET dat muc tieu */
+router.get('/kiemtradauvao/datmuctieu/:id', function (req, res, next) {
+  console.log(req.params.id);
+  var id= chuyenthanhObjectId(req.params.id);
+
+  //ham tim kiem
+  const findDocuments = function (db, callback) {
+    // Get the documents collection
+    const collection = db.collection('hocvien');
+    // Find some documents
+    collection.find({ _id: id}).toArray(function (err, docs) {
+      assert.equal(err, null);
+      console.log("Found the following records");
+      callback(docs);
+    });
+  }
+
+  MongoClient.connect(url, function (err, client) {
+    assert.equal(null, err);
+    console.log("Connected correctly to server");
+
+    const db = client.db(dbName);
+
+
+    findDocuments(db, function (dulieu) {
+      console.log(dulieu);
+      res.render("kiemtradauvao/datmuctieu",{data: dulieu[0]});
+      client.close();
+    });
+
+  });
+
+  
+});
+
+
+router.post("/kiemtradauvao/datmuctieu/:idcansua",function(req,res){
+  var data=req.body;
+  console.log(data);
+
+  var idcansua = chuyenthanhObjectId(req.params.idcansua);
+
+  var dulieu01={
+    entry_score:data.entry_score,
+    target_score:data.target_score,
+    start_study:new Date()
+  }
+
+  const updateDocument = function (db, callback) {
+    // Get the documents collection
+    const collection = db.collection('hocvien');
+    // Update document where a is 2, set b equal to 1
+    collection.updateOne({ _id: idcansua }
+      , { $set: dulieu01 }, function (err, result) {
+        assert.equal(err, null);
+        console.log("Updated ");
+        callback(result);
+      });
+  }
+
+  // Use connect method to connect to the server
+  MongoClient.connect(url, function (err, client) {
+    assert.equal(null, err);
+    console.log("Connected successfully to server");
+
+    const db = client.db(dbName);
+
+
+    updateDocument(db, function () {
+      client.close();
+      res.redirect("/dashboard/"+req.params.idcansua);
+    });
+  });
+  
+})
+
+
+/* GET dat muc tieu */
+router.get('/dashboard/:id', function (req, res, next) {
+  console.log(req.params.id);
+  var id= chuyenthanhObjectId(req.params.id);
+
+  //ham tim kiem
+  const findDocuments = function (db, callback) {
+    // Get the documents collection
+    const collection = db.collection('hocvien');
+    // Find some documents
+    collection.find({ _id: id}).toArray(function (err, docs) {
+      assert.equal(err, null);
+      console.log("Found the following records");
+      callback(docs);
+    });
+  }
+
+  MongoClient.connect(url, function (err, client) {
+    assert.equal(null, err);
+    console.log("Connected correctly to server");
+
+    const db = client.db(dbName);
+
+
+    findDocuments(db, function (dulieu) {
+      console.log(dulieu);
+      res.render("dashboard",{data: dulieu[0]});
+      client.close();
+    });
+
+  });
+
+  
+});
 
 
 
@@ -271,8 +389,8 @@ router.post('/sua/:idcansua', function (req, res, next) {
   var idcansua = chuyenthanhObjectId(req.params.idcansua);
 
   var dulieu01 = {
-    ten: req.body.ten,
-    dt: req.body.dt
+    ten: data.ten,
+    dt: data.dt
   }
 
   const updateDocument = function (db, callback) {
