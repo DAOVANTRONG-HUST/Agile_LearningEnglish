@@ -31,14 +31,13 @@ router.get("/signup", function (req, res) {
     res.render('signup', { data: {} });
 })
 
-// định tuyến cho sign in
 
 router.get("/signin", function (req, res) {
     res.render('signin', { data: {} });
 })
 
 
-// Hứng post từ form bắn lên
+
 router.post("/signup", function (req, res) {
     var user = req.body;
 
@@ -48,11 +47,7 @@ router.post("/signup", function (req, res) {
     if (user.passwd != user.repasswd && user.passwd.trim().length != 0) {
         res.render('signup', { data: { error: "Password not match" } });
     }
-    // Insert db
-
-    //Mã hóa mật khẩu
-    // var password=helper.hash_password(user.passwd);
-
+  
     user = {
         email: user.email,
         //password:password,
@@ -70,14 +65,6 @@ router.post("/signup", function (req, res) {
     }).catch(function (err) {
         res.render('signup', { data: { error: "Could't insert user data to DB" } });
     })
-
-
-    // if(!result){
-    //     res.render('signup',{data:{error:"Could insert user data to DB"}});
-    // }else{
-    //     res.json({message:"Insert success"})
-    // }
-
 })
 
 router.post("/signin", function (req, res) {
@@ -97,6 +84,7 @@ router.post("/signin", function (req, res) {
                 //if(!status)
                 if (params.password === user.password) {
                     //res.render("signin",{data:{error:"Password is not correct"}});
+                    req.session.user=user;
                     res.redirect("/admin/");
                 } else {
                     // res.redirect("/admin/");
@@ -206,5 +194,27 @@ router.delete("/post/delete",function(req,res){
         })
     }
 
+})
+
+router.get("/posts",function(req,res){
+    res.redirect("/admin");
+
+})
+
+router.get("/user",function(req,res){
+    var data=user_md.getAllUsers();
+    data.then(function(users){
+       var data={
+           users:users,
+           error:false
+       }
+       res.render("admin/user",{data:data});
+
+    }).catch(function(err){
+        var data={
+            error:"Could not get users"
+        }
+        res.render("admin/user",{data:data});
+    })
 })
 module.exports = router;
