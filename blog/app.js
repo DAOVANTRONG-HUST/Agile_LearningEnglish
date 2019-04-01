@@ -1,9 +1,9 @@
-
 var express=require('express');
 var app=express();
 
 // dung bien var de luu express lai vi express khong co san trong node
 // app nhu la mot nguoi quan li cua nha hang
+
 var config=require('config')
 
 
@@ -22,7 +22,11 @@ app.use(session({
   secret: config.get("secret_key"),
   resave: false,
   saveUninitialized: true,
+<<<<<<< HEAD
   cookie: { secure: false }
+=======
+  cookie: { secure: false } // để cho t có thể thêm dữ liệu khác vào
+>>>>>>> 4e495074f3936b35655a0e6a89c7d51edcf06dce
 }));
 
 // view la thu muc chua ca template

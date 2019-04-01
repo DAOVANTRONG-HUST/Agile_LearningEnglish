@@ -1,6 +1,7 @@
 var config=require("config");
 var mysql=require("mysql");
 
+// đọc sử dụng để lấy kết nối với server
 
 
 var connection=mysql.createConnection({
