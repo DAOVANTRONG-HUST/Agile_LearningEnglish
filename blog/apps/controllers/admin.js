@@ -93,7 +93,7 @@ router.post("/signin", function (req, res) {
                     req.session.user = user;
                     console.log(user);
 >>>>>>> 4e495074f3936b35655a0e6a89c7d51edcf06dce
-                    res.redirect("/admin/");
+                ~    res.redirect("/admin/");
                    // để xem user đã đăng nhập hay chưa ?
                     //console.log(req.session.user);
                 } else {
