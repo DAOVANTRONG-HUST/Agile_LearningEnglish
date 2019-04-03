@@ -88,7 +88,6 @@ router.post("/signin", function (req, res) {
                 if (params.password === user.password) {
                     //res.render("signin",{data:{error:"Password is not correct"}});
 <<<<<<< HEAD
-                    req.session.user=user;
 =======
                     req.session.user = user;
                     console.log(user);
@@ -217,26 +216,6 @@ router.delete("/post/delete", function (req, res) {
 })
 
 <<<<<<< HEAD
-router.get("/posts",function(req,res){
-    res.redirect("/admin");
-
-})
-
-router.get("/user",function(req,res){
-    var data=user_md.getAllUsers();
-    data.then(function(users){
-       var data={
-           users:users,
-           error:false
-       }
-       res.render("admin/user",{data:data});
-
-    }).catch(function(err){
-        var data={
-            error:"Could not get users"
-        }
-        res.render("admin/user",{data:data});
-    })
 =======
 router.get("/post", function (req, res) {
     if(req.session.user){
