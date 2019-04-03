@@ -23,7 +23,6 @@ app.use(session({
   resave: false,
   saveUninitialized: true,
 <<<<<<< HEAD
-  cookie: { secure: false }
 =======
   cookie: { secure: false } // để cho t có thể thêm dữ liệu khác vào
 >>>>>>> 4e495074f3936b35655a0e6a89c7d51edcf06dce
