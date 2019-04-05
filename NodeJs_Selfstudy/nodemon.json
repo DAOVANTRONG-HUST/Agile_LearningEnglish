@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_ATLAS_PW": "@Lehoang606",
+        "SECRET_KEY":"authnodesecretkey",
+        "MONGO_ATLAS_PATH": "mongodb+srv://hoangvlbk61:@Lehoang606@cluster0-z9rem.mongodb.net/ESS?retryWrites=true"
+    }
+}
