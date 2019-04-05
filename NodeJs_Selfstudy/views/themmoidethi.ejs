@@ -212,8 +212,9 @@
       <div class="right_col" role="main">
         <div class="">
           <div class="page-title">
+            <h3 style="text-align:center"><b>Thêm mới đề thi</b></h3>
             <div class="title_left">
-              <h3>Thêm mới đề thi</h3>
+              
             </div>
 
 
@@ -223,7 +224,37 @@
 
           <div class="row">
             <div class="col-md-12">
-
+              <div class="x_panel">
+                <div class="x_content">
+                  <br />
+                  <form class="form-horizontal form-label-left" action="" method="POST">
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="username"> Types<span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input id="name" class="form-control col-md-7 col-xs-12" data-validate-length-range="1,20"
+                          data-validate-words="1" name="types" required="required" type="text">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="username"> File<span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input id="name" class="form-control col-md-7 col-xs-12" name="file" required="required" type="file">
+                      </div>
+                    </div>
+              
+                    <div class="ln_solid"></div>
+                    <div class="form-group">
+                      <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-4">
+                        <button class="btn btn-primary" type="button"><a href="." style="color:white ">Cancel</a> </button>
+                        <button class="btn btn-primary" type="reset"><a style="color:white ">Reset</a></button>
+                        <button type="submit" class="btn btn-success"><a style="color:white ">Save and back</a> </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -254,6 +285,8 @@
 
   <!-- Custom Theme Scripts -->
   <script src="../build/js/custom.min.js"></script>
+
+  
 </body>
 
 </html>

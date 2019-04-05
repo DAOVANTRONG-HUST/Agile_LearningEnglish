@@ -54,11 +54,11 @@
               <h3>General</h3>
               <ul class="nav side-menu">
 
-                <li><a href="index"><i class="fa fa-home"></i> Trang chủ </a></li>
-                <li><a href="quanlythanhvien"><i class="fa fa-users"></i> Quản lý thành viên</a></li>
-                <li><a href="quanlydethi"><i class="fa fa-file-text-o"></i> Quản lý đề thi</a></li>
-                <li><a href="quanlytuvung"><i class="fa fa-sort-alpha-desc"></i> Quản lý từ vựng</a></li>
-                <li><a href="thietlapdanhsachhoc"><i class="fa fa-tasks"></i> Thiết lập danh sách học </a></li>
+                <li><a href="../index"><i class="fa fa-home"></i> Trang chủ </a></li>
+                <li><a href="../quanlythanhvien"><i class="fa fa-users"></i> Quản lý thành viên</a></li>
+                <li><a href="../quanlydethi"><i class="fa fa-file-text-o"></i> Quản lý đề thi</a></li>
+                <li><a href="../quanlytuvung"><i class="fa fa-sort-alpha-desc"></i> Quản lý từ vựng</a></li>
+                <li><a href="../thietlapdanhsachhoc"><i class="fa fa-tasks"></i> Thiết lập danh sách học </a></li>
                 <li><a><i class="fa fa-edit"></i> Thi thử <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
                     <li><a href="kiemtratuvung">Kiểm tra từ vựng</a></li>
@@ -147,7 +147,7 @@
                 <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                   <li>
                     <a>
-                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                      <span class="image"><img src="../images/img.jpg" alt="Profile Image" /></span>
                       <span>
                         <span>John Smith</span>
                         <span class="time">3 mins ago</span>
@@ -159,7 +159,7 @@
                   </li>
                   <li>
                     <a>
-                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                      <span class="image"><img src="../images/img.jpg" alt="Profile Image" /></span>
                       <span>
                         <span>John Smith</span>
                         <span class="time">3 mins ago</span>
@@ -171,7 +171,7 @@
                   </li>
                   <li>
                     <a>
-                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                      <span class="image"><img src="../images/img.jpg" alt="Profile Image" /></span>
                       <span>
                         <span>John Smith</span>
                         <span class="time">3 mins ago</span>
@@ -183,7 +183,7 @@
                   </li>
                   <li>
                     <a>
-                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                      <span class="image"><img src="../images/img.jpg" alt="Profile Image" /></span>
                       <span>
                         <span>John Smith</span>
                         <span class="time">3 mins ago</span>
@@ -213,8 +213,10 @@
       <div class="right_col" role="main">
         <div class="">
           <div class="page-title">
+            <h3 style="text-align:center"><b>Thêm mới thành viên</b></h3>
+            
             <div class="title_left">
-              <h3>Thêm mới thành viên</h3>
+              
             </div>
 
 
@@ -224,7 +226,96 @@
 
           <div class="row">
             <div class="col-md-12">
-
+              <div class="x_panel">
+                <div class="x_content">
+                  <br />
+                  <form class="form-horizontal form-label-left" action="" method="POST">
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="username">Tên đăng nhập <span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input id="name" class="form-control col-md-7 col-xs-12" data-validate-length-range="6,18" data-validate-words="1"
+                          name="id" required="required" type="text">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Tên người dùng <span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input id="name" class="form-control col-md-7 col-xs-12" data-validate-length-range="2,50" data-validate-words="1,10"
+                          name="username" required="required" type="text">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">Email <span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="email" id="email" name="email" required="required" class="form-control col-md-7 col-xs-12">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">Xác nhận Email <span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="email" id="email2" name="confirm_email" data-validate-linked="email" required="required"
+                          class="form-control col-md-7 col-xs-12">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="occupation"> Nơi làm việc <span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input id="occupation" type="text" name="workplace" data-validate-length-range="5,200" data-validate-words="1,15"
+                          class="optional form-control col-md-7 col-xs-12">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label for="password" class="control-label col-md-3">Mật khẩu</label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input id="password" type="password" name="password" data-validate-length-range="6,12" 
+                          class="form-control col-md-7 col-xs-12" required="required">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label for="password2" class="control-label col-md-3 col-sm-3 col-xs-12"> Nhập lại mật khẩu</label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input id="password2" type="password" name="password2" data-validate-linked="password" 
+                          class="form-control col-md-7 col-xs-12" required="required">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="telephone">Số điện thoại <span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="tel" id="telephone" name="phonenumber" required="required" data-validate-length-range="10,14"
+                          class="form-control col-md-7 col-xs-12" >
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12">Quản trị viên</label>
+                      <div class="col-md-6 col-sm-6 col-xs-12" required="required">
+                        <div id="is_superuser" class="btn-group" data-toggle="buttons">
+                          <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                            <input type="radio" name="is_superuser" value="yes"> &nbsp; Có &nbsp;
+                          </label>
+                          <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                            <input type="radio" name="is_superuser" value="no"> Không
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="ln_solid"></div>
+                    <div class="form-group">
+                      <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-4">
+                        <button class="btn btn-primary" type="button"><a href="." style="color:white ">Cancel</a> </button>
+                        <button class="btn btn-primary" type="reset"><a style="color:white ">Reset</a></button>
+                        <button type="submit" class="btn btn-success"><a style="color:white ">Save and back</a> </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -241,7 +332,6 @@
       <!-- /footer content -->
     </div>
   </div>
-
   <!-- jQuery -->
   <script src="../vendors/jquery/dist/jquery.min.js"></script>
   <!-- Bootstrap -->
@@ -252,9 +342,33 @@
   <script src="../vendors/nprogress/nprogress.js"></script>
   <!-- bootstrap-progressbar -->
   <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
-
+  <!-- iCheck -->
+  <script src="../vendors/iCheck/icheck.min.js"></script>
+  <!-- bootstrap-daterangepicker -->
+  <script src="../vendors/moment/min/moment.min.js"></script>
+  <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+  <!-- bootstrap-wysiwyg -->
+  <script src="../vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
+  <script src="../vendors/jquery.hotkeys/jquery.hotkeys.js"></script>
+  <script src="../vendors/google-code-prettify/src/prettify.js"></script>
+  <!-- jQuery Tags Input -->
+  <script src="../vendors/jquery.tagsinput/src/jquery.tagsinput.js"></script>
+  <!-- Switchery -->
+  <script src="../vendors/switchery/dist/switchery.min.js"></script>
+  <!-- Select2 -->
+  <script src="../vendors/select2/dist/js/select2.full.min.js"></script>
+  <!-- Parsley -->
+  <script src="../vendors/parsleyjs/dist/parsley.min.js"></script>
+  <!-- Autosize -->
+  <script src="../vendors/autosize/dist/autosize.min.js"></script>
+  <!-- jQuery autocomplete -->
+  <script src="../vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
+  <!-- starrr -->
+  <script src="../vendors/starrr/dist/starrr.js"></script>
   <!-- Custom Theme Scripts -->
   <script src="../build/js/custom.min.js"></script>
+  <!-- validator -->
+  <script src="../vendors/validator/validator.js"></script>
 </body>
 
 </html>
