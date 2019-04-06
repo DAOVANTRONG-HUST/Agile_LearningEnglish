@@ -87,11 +87,8 @@ router.post("/signin", function (req, res) {
                 //if(!status)
                 if (params.password === user.password) {
                     //res.render("signin",{data:{error:"Password is not correct"}});
-<<<<<<< HEAD
-=======
                     req.session.user = user;
                     console.log(user);
->>>>>>> 4e495074f3936b35655a0e6a89c7d51edcf06dce
                 ~    res.redirect("/admin/");
                    // để xem user đã đăng nhập hay chưa ?
                     //console.log(req.session.user);
@@ -215,8 +212,6 @@ router.delete("/post/delete", function (req, res) {
 
 })
 
-<<<<<<< HEAD
-=======
 router.get("/post", function (req, res) {
     if(req.session.user){
         res.redirect("/admin");
@@ -252,6 +247,5 @@ router.get("/user", function (req, res) {
     else{
         res.redirect("/admin/signin");
     }
->>>>>>> 4e495074f3936b35655a0e6a89c7d51edcf06dce
 })
 module.exports = router;
