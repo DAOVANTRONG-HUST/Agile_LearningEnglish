@@ -87,13 +87,9 @@ router.post("/signin", function (req, res) {
                 //if(!status)
                 if (params.password === user.password) {
                     //res.render("signin",{data:{error:"Password is not correct"}});
-<<<<<<< HEAD
-                    req.session.user=user;
-=======
                     req.session.user = user;
                     console.log(user);
->>>>>>> 4e495074f3936b35655a0e6a89c7d51edcf06dce
-                    res.redirect("/admin/");
+                ~    res.redirect("/admin/");
                    // để xem user đã đăng nhập hay chưa ?
                     //console.log(req.session.user);
                 } else {
@@ -216,28 +212,6 @@ router.delete("/post/delete", function (req, res) {
 
 })
 
-<<<<<<< HEAD
-router.get("/posts",function(req,res){
-    res.redirect("/admin");
-
-})
-
-router.get("/user",function(req,res){
-    var data=user_md.getAllUsers();
-    data.then(function(users){
-       var data={
-           users:users,
-           error:false
-       }
-       res.render("admin/user",{data:data});
-
-    }).catch(function(err){
-        var data={
-            error:"Could not get users"
-        }
-        res.render("admin/user",{data:data});
-    })
-=======
 router.get("/post", function (req, res) {
     if(req.session.user){
         res.redirect("/admin");
@@ -273,6 +247,5 @@ router.get("/user", function (req, res) {
     else{
         res.redirect("/admin/signin");
     }
->>>>>>> 4e495074f3936b35655a0e6a89c7d51edcf06dce
 })
 module.exports = router;

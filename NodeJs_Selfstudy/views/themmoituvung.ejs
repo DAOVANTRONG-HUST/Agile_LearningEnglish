@@ -236,8 +236,9 @@
       <div class="right_col" role="main">
         <div class="">
           <div class="page-title">
+            <h3 style="text-align:center"><b>Thêm mới từ vựng</b></h3>
             <div class="title_left">
-              <h3>Thêm mới từ vựng</h3>
+              
             </div>
 
 
@@ -247,7 +248,57 @@
 
           <div class="row">
             <div class="col-md-12">
-
+              <div class="x_panel">
+                <div class="x_content">
+                  <br />
+                  <form class="form-horizontal form-label-left" action="" method="POST">
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="username"> Word <span
+                          class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input id="name" class="form-control col-md-7 col-xs-12" data-validate-length-range="1,70"
+                          data-validate-words="1" name="word" required="required" type="text">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Meanings <span
+                          class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input id="name" class="form-control col-md-7 col-xs-12" data-validate-length-range="1,200"
+                          data-validate-words="1,10" name="meaning" required="required" type="text">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="examples"> Examples <span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="text" id="examples" name="examples" required="required" 
+                        class="form-control col-md-7 col-xs-12"  data-validate-length-range="1,200">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="synonyms"> Synonyms 
+                      </label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="text" id="synonyms" name="synonyms" class="form-control col-md-7 col-xs-12"
+                          data-validate-length-range="1,200">
+                      </div>
+                    </div>
+                    
+              
+                    <div class="ln_solid"></div>
+                    <div class="form-group">
+                      <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-4">
+                        <button class="btn btn-primary" type="button"><a href="." style="color:white ">Cancel</a> </button>
+                        <button class="btn btn-primary" type="reset"><a style="color:white ">Reset</a></button>
+                        <button type="submit" class="btn btn-success"><a style="color:white ">Save and back</a> </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -278,6 +329,9 @@
 
   <!-- Custom Theme Scripts -->
   <script src="../build/js/custom.min.js"></script>
+
+  <!-- validator -->
+  <script src="../vendors/validator/validator.js"></script>
 </body>
 
 </html>

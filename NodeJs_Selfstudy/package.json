@@ -1,36 +1,28 @@
 {
-  "name": "nodejs_selfstudy",
+  "name": "rest",
   "version": "1.0.0",
-  "description": "This is the first nodejs lesson that i've learned",
-  "main": "main.js",
+  "description": "Practive",
+  "main": "index.js",
   "scripts": {
-    "test": "node main.js"
+    "test": "node index",
+    "start": "nodemon server.js"
   },
   "keywords": [
     "node",
-    "nodejs",
-    "selfstudy"
+    "js"
   ],
-  "author": "hoangvlbk61",
-  "license": "MIT",
-  "devDependencies": {
-    "webpack": "^4.29.6"
-  },
+  "author": "hoangvlbk61@gmail.com",
+  "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.5",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
-    "cookie-parser": "^1.4.4",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.1.13",
-    "mongoose": "^5.4.19",
+    "mongoclient": "^1.0.3",
+    "mongoose": "^5.4.20",
     "morgan": "^1.9.1",
-    "multer": "^1.4.1",
-    "nodemon": "^1.18.10",
-    "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
-    "path": "^0.12.7",
-    "pg": "^7.8.2"
+    "nodemon": "^1.18.10"
   }
 }

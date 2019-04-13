@@ -15,21 +15,23 @@ var validator = (function($){
     /* general text messages
     */
     message = {
-        invalid         : 'invalid input',
+        invalid         : 'Dữ liệu không hợp lệ',
         checked         : 'must be checked',
-        empty           : 'please put something here',
-        min             : 'input is too short',
-        max             : 'input is too long',
-        number_min      : 'too low',
-        number_max      : 'too high',
-        url             : 'invalid URL',
-        number          : 'not a number',
-        email           : 'email address is invalid',
-        email_repeat    : 'emails do not match',
-        password_repeat : 'passwords do not match',
-        repeat          : 'no match',
-        complete        : 'input is not complete',
-        select          : 'Please select an option'
+        empty           : 'Bạn chưa nhập dữ liệu !',
+        min             : 'Độ dài dữ liệu tối thiểu: ',
+        max             : 'Độ dài dữ liệu tối đa: ',
+        number_min      : 'Số quá nhỏ',
+        number_max      : 'Số quá lớn',
+        url             : 'Invalid URL',
+        number          : 'Not a number',
+        email           : 'Địa chỉ email không hợp lệ!',
+        email_repeat    : 'Email không khớp',
+        password_repeat : 'Mật khẩu không khớp',
+        repeat          : 'Không khớp',
+        complete        : 'Chưa nhập xong !',
+        select          : 'Hãy chọn !',
+        overwords       : 'Số từ tối đa: ',
+        lackwords       : 'Số từ tối thiểu: '
     };
 
     if(!window.console){
@@ -80,6 +82,7 @@ var validator = (function($){
         text : function(a, skip){
             // make sure there are at least X number of words, each at least 2 chars long.
             // for example 'john F kenedy' should be at least 2 words and will pass validation
+    
             if( validateWords ){
                 var words = a.split(' ');
                 // iterrate on all the words
@@ -89,21 +92,25 @@ var validator = (function($){
                             return false;
                     return true;
                 };
-
-                if( words.length < validateWords || !wordsLength(2) ){
-                    alertTxt = message.complete;
+                if (words.length < validateWords[0] /* ||!wordsLength(2) */  ){
+                    alertTxt = message.lackwords + validateWords[0];
                     return false;
                 }
-                return true;
+                if (validateWords[1] != null && words.length > validateWords[1] )
+                {
+                    alertTxt = message.overwords + validateWords[1];
+                    return false;
+                }
+                // return true;
             }
-            if( !skip && lengthRange && a.length < lengthRange[0] ){
-                alertTxt = message.min;
+            if (lengthRange && a.length < lengthRange[0] ){
+                alertTxt = message.min + lengthRange[0] ;
                 return false;
             }
 
             // check if there is max length & field length is greater than the allowed
             if( lengthRange && lengthRange[1] && a.length > lengthRange[1] ){
-                alertTxt = message.max;
+                alertTxt = message.max + lengthRange[1];
                 return false;
             }
 
@@ -153,12 +160,12 @@ var validator = (function($){
             }
             // not enough numbers
             else if( lengthRange && a.length < lengthRange[0] ){
-                alertTxt = message.min;
+                alertTxt = message.min + lengthRange[0] ;
                 return false;
             }
             // check if there is max length & field length is greater than the allowed
             else if( lengthRange && lengthRange[1] && a.length > lengthRange[1] ){
-                alertTxt = message.max;
+                alertTxt = message.max + lengthRange[1];
                 return false;
             }
             else if( minmax[0] && (a|0) < minmax[0] ){
@@ -206,7 +213,7 @@ var validator = (function($){
         },
         hidden : function(a){
             if( lengthRange && a.length < lengthRange[0] ){
-                alertTxt = message.min;
+                alertTxt = message.min + lengthRange[0] ;
                 return false;
             }
             if( pattern ){
@@ -324,7 +331,7 @@ var validator = (function($){
         }
         /* Gather Custom data attributes for specific validation:
         */
-        validateWords   = data['validateWords'] || 0;
+        validateWords   = data['validateWords'] ? (data['validateWords'] + '').split(',') : [1];
         lengthRange     = data['validateLengthRange'] ? (data['validateLengthRange']+'').split(',') : [1];
         lengthLimit     = data['validateLength'] ? (data['validateLength']+'').split(',') : false;
         minmax          = data['validateMinmax'] ? (data['validateMinmax']+'').split(',') : ''; // for type 'number', defines the minimum and/or maximum for the value as a number.
