@@ -1,4 +1,5 @@
 var express = require('express');
+var user_md=require("../models/user");
 var router = express.Router();
 
 
@@ -16,10 +17,8 @@ const dbName = 'englishWebsite';
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
-/* GET home page. */
-router.get('/dashboard', function (req, res, next) {
-  res.render('dashboard', { title: 'Express' });
-});
+
+
 
 /* GET register */
 router.get('/register', function (req, res, next) {
@@ -42,28 +41,10 @@ router.post("/register", function (req, res, next) {
       last_name: data.lastname
 
     };
-    const insertDocuments = function (db, callback) {
-      // Get the documents collection
-      const collection = db.collection('hocvien');
-      // Insert some documents
-      collection.insert(user, function (err, result) {
-        assert.equal(err, null);
-        console.log("Inserted into the collection");
-        callback(result);
-      });
-    }
+    
 
-    // Use connect method to connect to the server
-    MongoClient.connect(url, function (err, client) {
-      assert.equal(null, err);
-      console.log("Connected successfully to server");
-
-      const db = client.db(dbName);
-
-      insertDocuments(db, function () {
-        client.close();
-      });
-    });
+    var dulieu = new user_md(user);
+    dulieu.save();
     res.redirect("/login");
 
   }
@@ -81,38 +62,20 @@ router.post("/login", function (req, res, next) {
   if (params.email.trim().length == 0) {
     res.render("login/login", { data: { error: "Please enter an email" } });
   } else {
-
-    //ham tim kiem
-    const findDocuments = function (db, callback) {
-      // Get the documents collection
-      const collection = db.collection('hocvien');
-      // Find some documents
-      collection.find({ email: params.email }).toArray(function (err, docs) {
-        assert.equal(err, null);
-        console.log("Found the following records");
-        console.log(docs);
-        callback(docs);
-      });
-    }
-
-    MongoClient.connect(url, function (err, client) {
-      assert.equal(null, err);
-      console.log("Connected correctly to server");
-
-      const db = client.db(dbName);
-
-
-      findDocuments(db, function (dulieu) {
-        console.log(dulieu);
-        var user=dulieu[0];
-        if(user.password===params.password){
-       
-          res.redirect("kiemtradauvao/datmuctieu/"+ user._id);
+    user_md.find({ email: params.email },function(err,dulieu){
+      var user=dulieu[0];
+      if(user.password===params.password){
+     
+        req.session.user=user;
+        if(user.entry_score && user.target_score){
+          res.redirect("/dashboard/"+req.session.user._id);
         }else{
-          res.render("login/login", { data: { error: "Password is not correct" } });
+          res.redirect("/dashboard/datmuctieu/"+req.session.user._id);
         }
-        client.close();
-      });
+        
+      }else{
+        res.render("login/login", { data: { error: "Password is not correct" } });
+      }
 
     });
 
@@ -122,117 +85,135 @@ router.post("/login", function (req, res, next) {
 
 
 
-/* GET dat muc tieu */
-router.get('/kiemtradauvao/datmuctieu/:id', function (req, res, next) {
-  console.log(req.params.id);
-  var id= chuyenthanhObjectId(req.params.id);
-
-  //ham tim kiem
-  const findDocuments = function (db, callback) {
-    // Get the documents collection
-    const collection = db.collection('hocvien');
-    // Find some documents
-    collection.find({ _id: id}).toArray(function (err, docs) {
-      assert.equal(err, null);
-      console.log("Found the following records");
-      callback(docs);
-    });
-  }
-
-  MongoClient.connect(url, function (err, client) {
-    assert.equal(null, err);
-    console.log("Connected correctly to server");
-
-    const db = client.db(dbName);
+// /* GET dat muc tieu */
+// router.get('/kiemtradauvao/datmuctieu', function (req, res, next) {
+//   if(req.session.user){
+//     res.render("kiemtradauvao/datmuctieu",{data: req.session.user});
+//   }else{
+//     res.redirect("/login");
+//   }
+// });
 
 
-    findDocuments(db, function (dulieu) {
-      console.log(dulieu);
-      res.render("kiemtradauvao/datmuctieu",{data: dulieu[0]});
-      client.close();
-    });
 
-  });
+
+
+
+
+
+
+// router.post("/kiemtradauvao/datmuctieu",function(req,res){
+
+//   if(req.session.user){
+//    var data=req.body;
+//    var idcansua=chuyenthanhObjectId(req.session.user._id);
+//    user_md.findById(idcansua,function(err,dulieu){
+//      dulieu.entry_score=data.entry_score;
+//      dulieu.target_score=data.target_score;
+//      dulieu.start_study=new Date();
+//      dulieu.save();
+//      req.session.user=dulieu;
+//    });
 
   
+//    console.log(req.session.user);
+//    res.redirect("/dashboard/"+req.session.user._id);
+
+   
+ 
+  
+    
+//   }else{
+//     res.redirect("/login");
+//   }
+// });
+
+// /* GET dat muc tieu */
+// router.get('/dashboard/:id', function (req, res, next) {
+
+//   if(req.session.user){
+//     var id= chuyenthanhObjectId(req.params.id);
+
+//     user_md.findById(id,function(err,dulieu){
+//       res.render("dashboard",{data:dulieu});
+//     })
+
+//   }else{
+//     res.redirect("/login");
+//   }
+ 
+// });
+
+router.get("/logout",function(req,res,next){
+  req.session.user=null;
+  res.redirect("/login");
 });
 
 
-router.post("/kiemtradauvao/datmuctieu/:idcansua",function(req,res){
-  var data=req.body;
-  console.log(data);
-
-  var idcansua = chuyenthanhObjectId(req.params.idcansua);
-
-  var dulieu01={
-    entry_score:data.entry_score,
-    target_score:data.target_score,
-    start_study:new Date()
-  }
-
-  const updateDocument = function (db, callback) {
-    // Get the documents collection
-    const collection = db.collection('hocvien');
-    // Update document where a is 2, set b equal to 1
-    collection.updateOne({ _id: idcansua }
-      , { $set: dulieu01 }, function (err, result) {
-        assert.equal(err, null);
-        console.log("Updated ");
-        callback(result);
-      });
-  }
-
-  // Use connect method to connect to the server
-  MongoClient.connect(url, function (err, client) {
-    assert.equal(null, err);
-    console.log("Connected successfully to server");
-
-    const db = client.db(dbName);
 
 
-    updateDocument(db, function () {
-      client.close();
-      res.redirect("/dashboard/"+req.params.idcansua);
-    });
-  });
-  
-})
 
 
-/* GET dat muc tieu */
-router.get('/dashboard/:id', function (req, res, next) {
-  console.log(req.params.id);
-  var id= chuyenthanhObjectId(req.params.id);
-
-  //ham tim kiem
-  const findDocuments = function (db, callback) {
-    // Get the documents collection
-    const collection = db.collection('hocvien');
-    // Find some documents
-    collection.find({ _id: id}).toArray(function (err, docs) {
-      assert.equal(err, null);
-      console.log("Found the following records");
-      callback(docs);
-    });
-  }
-
-  MongoClient.connect(url, function (err, client) {
-    assert.equal(null, err);
-    console.log("Connected correctly to server");
-
-    const db = client.db(dbName);
 
 
-    findDocuments(db, function (dulieu) {
-      console.log(dulieu);
-      res.render("dashboard",{data: dulieu[0]});
-      client.close();
-    });
 
-  });
 
-  
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
