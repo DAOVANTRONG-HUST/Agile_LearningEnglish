@@ -5,7 +5,7 @@ var dethi=require("../dbs/dethi.json")
 /* GET home page. */
 router.get('/', function (req, res, next) {
 
-  res.render('dethi/listening01',{dethi:dethi});
+  res.render('dethi/listening/part1',{dethi:dethi});
 
 });
 
