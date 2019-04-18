@@ -84,7 +84,7 @@ router.get('/datmuctieu/:id', function (req, res, next) {
         var id=chuyenthanhObjectId(req.params.id);
         user_md.findById(id,function(err,dulieu){
 
-          if(dulieu.target_score>new_target_score || new_target_score>990){
+          if(dulieu.entry_score>new_target_score || new_target_score>990){
             res.render("dashboard/capnhatmuctieu",{data:dulieu,error:"Điểm mục tiêu không hơp lệ"});
 
           }else{
@@ -93,6 +93,7 @@ router.get('/datmuctieu/:id', function (req, res, next) {
             req.session.user=dulieu;
             console.log(dulieu);
             res.redirect("/dashboard/"+dulieu._id);
+            
 
           }
 

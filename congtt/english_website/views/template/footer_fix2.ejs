@@ -294,7 +294,9 @@
 
     var isHomePage = '/dashboard/' == '/' ? true : false;
 </script>
-
+<script>
+    $(document).on('copy', preventCopy); 
+</script>
 <script>
     // this is deprecated: we no longer use tooltip notifications
     var showInstructions = false;
@@ -343,7 +345,7 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) { return; }
         js = d.createElement(s); js.id = id;
-        js.src = "";
+        js.src = "https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12&appId=956108007815000";
         js.async = true;
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));   
@@ -374,7 +376,7 @@
         n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
         t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
     }(window,
-        document, 'script', '');
+        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
 
     fbq('init', '1621041464887282');
     fbq('track', "PageView");
@@ -384,7 +386,7 @@
 
 </script>
 <noscript><img height="1" width="1" style="display:none"
-        src="" /></noscript>
+        src="https://www.facebook.com/tr?id=1621041464887282&ev=PageView&noscript=1" /></noscript>
 
 <noscript>
     <div class="nof">GiasuTOEIC.com works best with JavaScript enabled! To use standard view, enable JavaScript by

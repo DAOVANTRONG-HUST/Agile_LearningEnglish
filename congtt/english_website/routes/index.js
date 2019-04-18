@@ -69,6 +69,8 @@ router.post("/login", function (req, res, next) {
         req.session.user=user;
         if(user.entry_score && user.target_score){
           res.redirect("/dashboard/"+req.session.user._id);
+         
+         
         }else{
           res.redirect("/dashboard/datmuctieu/"+req.session.user._id);
         }
