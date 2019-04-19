@@ -130,12 +130,12 @@ router.post("/themmoithanhvien", (req, res, next) => {
                                 // Take the date of today !
                                 var dd = String(today.getDate()).padStart(2, '0');
                                 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-                                var yyyy = today.getFullYear();
+                                var yyyy = today.getFullYear(); 
                                 today = mm + '/' + dd + '/' + yyyy;
                                 // Init the new user
                                 const user = new User({
                                     _id: new mongoose.Types.ObjectId(),
-                                    user_id: uid + 1,
+                                    // user_id: uid + 1,
                                     id: req.body.id,
                                     password: hash,
                                     email: req.body.email,
