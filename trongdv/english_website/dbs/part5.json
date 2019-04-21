@@ -1,10 +1,9 @@
 {
     "id_exam":187103,
-    "PartI":{
-        "id_part":14308,
-        "audio_src":"/upload/2016/08/11510.mp3",
+    "Part5":{
+        "id_part":14309,
         "bo_cau_hoi":[
-            {"id_cauhoi":14304,"image_src":"/upload/2016/04/1089.png","sign":"a1", "a1":"0","explain":"Đán án: (A) He is riding his bicycle."},
+            {"id_cauhoi":10148,"image_src":"/upload/2016/04/1089.png","sign":"a1", "a1":"0","explain":"(A) he"},
             { "id_cauhoi":12176,"a2":"1","image_src":"/upload/2016/04/2133.png","sign":"a2", "explain":"ĐÁP ÁN: (B) The women are checking the map." },
             {"id_cauhoi":12177,"a3":"0","image_src":"/upload/2016/04/2136.png", "sign":"a3","explain":"ĐÁP ÁN: (A) He is calling from a public phone" },
             {"id_cauhoi":12178,"a4":"2","image_src":"/upload/2016/04/2139.png","sign":"a4","explain":"ĐÁP ÁN: (C) Many bags are displayed for sale."},

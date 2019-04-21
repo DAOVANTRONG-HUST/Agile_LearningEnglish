@@ -18,6 +18,12 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+/* GET home page. */
+router.get('/demotest', function (req, res, next) {
+  res.render('dethi/listening/test', { title: 'Express' });
+});
+
+
 
 
 /* GET register */
@@ -69,6 +75,8 @@ router.post("/login", function (req, res, next) {
         req.session.user=user;
         if(user.entry_score && user.target_score){
           res.redirect("/dashboard/"+req.session.user._id);
+         
+         
         }else{
           res.redirect("/dashboard/datmuctieu/"+req.session.user._id);
         }

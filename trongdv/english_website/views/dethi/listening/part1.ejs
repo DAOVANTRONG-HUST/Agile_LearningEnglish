@@ -58,7 +58,6 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
         </div>
     </header>
@@ -82,7 +81,7 @@
             <div class="content-box"
                 style="min-height: 500px;border:1px solid rgb(240, 240, 240);padding-top: 20px;box-shadow: 0px 0px 20px 1px rgb(240, 240, 240);margin-bottom:130px;">
 
-                <form method="POST" class="form qform" id="test" action="/test-submit"><input type="hidden"
+                <form method="POST" class="form qform" id="test" ><input type="hidden"
                         name="id_exam" value="187103" />
                     <%var stt=1;let a;%>
                     <div id="nopbai-kq"></div>
@@ -195,9 +194,9 @@
                 </form>
                 <script>
                     function send() {
-                        var formData = $("#test").serialize();
+                        var formData = $("#test").serialize(); // lấy dữ liệ từ form
                         // process the form
-
+                        // bản chất chỉ như ta nhấn nút submit của một form gửi bất kì.
                         // ajax như là một req gửi đến server
 
                         var base_url = location.protocol + "//" + document.domain + ":" + location.port;
@@ -206,14 +205,11 @@
                             url: "/dethi/submit",
                             data: formData,
                             dataType: "JSON",
-                            success: function (data) {
-
-                                console.log(data.q_list);
-
+                            success: function (kqtv) {
+                                console.log(data)
                                 $('#nopbai-button').html('');// khi nộp bài là nút button biến mất.
-                                $('#nopbai-kq').html(data.txt);// alter form hiển thị trên đầu.
-
-                                data.q_list.map(x => {
+                                $('#nopbai-kq').html(kqtv.txt);// alter form hiển thị trên đầu.
+                                kqtv.q_list.map(x => { // map gioonsg for()
                                     if (x.result == 1) {
                                         $('#test').find('.question-body#q-' + x.iq_id + ' .result-box-tmp').html('<h3><i class="fa fa-check green"></i> Xin chúc mừng bạn đã trả lời đúng!</h3><p>' + $("<textarea/>").html(x.explain).val() + '</p>');
                                         $('#test').find('.question-body#q-' + x.iq_id + ' .result-box-tmp').addClass('result-box result-correct');

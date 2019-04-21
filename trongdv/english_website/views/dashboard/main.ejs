@@ -220,15 +220,7 @@
             </div>
         </header>
         <article class="playfield " id="dashboard-id">
-            <div class="msg-to-customer activate-trial-msg-wrapper ">
-                <a href="/pay/?r=activate-trial-headline" title="Kích để xem thông tin các tài khoản">
-                    Mua Tài khoản phù hợp với bạn
-                </a>
-                <span style="padding: 0 15px">Hay</span>
-                <a href='/interaction/confirm/email/?next=/dashboard/' title="Kích để xác nhận email của bạn">
-                    Xác nhận email để tiếp tục học thử
-                </a>
-            </div>
+        
             <div class="container">
                 <div class="milestone">
                     <div id="sec1" class="heading-milestone">
@@ -253,9 +245,21 @@
                             </div>
                         </div>
                     </div>
+                    <%
+                    var canduoi;
+                    var cantren=data.entry_score;
+                    if(cantren%50===0){
+                        canduoi=cantren-50;
+                    }else{
+                        canduoi=Math.floor(cantren/50)*50;
+                    }
+                    var distance=Math.floor((data.target_score-data.entry_score)/50);
+                    var start=canduoi+100;
+
+                    %>
                     <div class="milestone-process hidden-lg hidden-md">
                         <ul>
-                            <li><span> <%=data.entry_score %> - <%=data.target_score %></span></li>
+                            <li><span> <%=canduoi %> - <%=cantren %></span></li>
                             <li>
                                 <img src="/static/LearningPlan/images/new/icon_lo_trinh_hoc.png" alt="">
                                 <span class="xem-lo-trinh">Xem lộ trình <br> học của bạn</span>
@@ -266,19 +270,22 @@
                         <ul class="process-list">
                             <li class="not-finish">
                                 <span class="start-date">Bắt đầu: <%=data.start_study.getDate()%>/<%=(data.start_study.getMonth()+1)%>/<%=data.start_study.getFullYear()%></span>
-                                <span class="point start-point"><%=data.entry_score %></span>
+                                <span class="point start-point"><%=canduoi %></span>
                                 <span class="img"><img src="/static/LearningPlan/images/new/upload/icon_pin.png"
                                         alt=""></span>
-                                <span class="point"><%=data.target_score %></span>
+                                <span class="point"><%=cantren %></span>
                                 <span class="target-tooltip">
                                     <span>Đây là cột mốc hiện tại bạn đang học</span>
                                 </span>
                             </li>
+                            <%for(var i=1;i<distance;i++){%>
                             <li>
-                                <span class="point">950</span>
+                                <span class="point"><%=start%></span>
                             </li>
+                                <%start+=50;%>
+                            <%}%>
                             <li>
-                                <span class="point">990</span>
+                                <span class="point"><%=start%></span>
                                 <span class="flag">
                                     <img src="/static/LearningPlan/images/new/icon_flag.png" alt="">
                                 </span>
