@@ -1,0 +1,809 @@
+{
+    "id_exam": 187103,
+    "Part5": {
+        "id_part": 14309,
+        "bo_cau_hoi": [
+            {
+                "id_cauhoi": 1,
+                "cauhoiso": "Câu 101",
+                "sign": "a1",
+                "q": "Mr. Kurt Spienza appears to be the only person in our team who can finish the survey by ______",
+                "da": [
+                    {
+                        "0": "(A) he"
+                    },
+                    {
+                        "1": "(B) him"
+                    },
+                    {
+                        "2": "(C) his"
+                    },
+                    {
+                        "3": "(D) himself"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 2,
+                "cauhoiso": "Câu 102",
+                "sign": "a2",
+                "q": "All the storage rooms are scheduled to undergo renovations and ______ closed for several days next week.",
+                "da": [
+                    {
+                        "0": "(A) will be"
+                    },
+                    {
+                        "1": "(B) was"
+                    },
+                    {
+                        "2": "(C) are"
+                    },
+                    {
+                        "3": "(D) has been"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 3,
+                "cauhoiso": "Câu 103",
+                "sign": "a3",
+                "q": "Many science majors enter graduate school ------- after completing a bachelor of science degree",
+                "da": [
+                    {
+                        "0": "(A) directly"
+                    },
+                    {
+                        "1": "(B) direct"
+                    },
+                    {
+                        "2": " (C) directed"
+                    },
+                    {
+                        "3": "(D) direction"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 4,
+                "cauhoiso": "Câu 104",
+                "sign": "a4",
+                "q": "Many companies interviewed plan to ....... more personnel, while 20 percent expect to reduce their payrolls.",
+                "da": [
+                    {
+                        "0": "(A) reply"
+                    },
+                    {
+                        "1": "(B) detect"
+                    },
+                    {
+                        "2": " (C) construct"
+                    },
+                    {
+                        "3": "(D) hire"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 5,
+                "cauhoiso": "Câu 105",
+                "sign": "a5",
+                "q": "It seems that laborers in underdeveloped countries would rather have their children help....... at work than enroll them in school.",
+                "da": [
+                    {
+                        "0": "(A) they"
+                    },
+                    {
+                        "1": " (B) them"
+                    },
+                    {
+                        "2": " (C) themselves"
+                    },
+                    {
+                        "3": "(D) their"
+                    }
+                ]
+            },
+
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 7,
+                "cauhoiso": "Câu 107",
+                "sign": "a7",
+                "q": "Customers who purchase more than 500 dollars worth of items can request an HDTV cable box at no ........... charge.",
+                "da": [
+                    {
+                        "0": "(A) additional"
+                    },
+                    {
+                        "1": " (B) addition"
+                    },
+                    {
+                        "2": " (C) adding"
+                    },
+                    {
+                        "3": "(D) additionally"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 8,
+                "cauhoiso": "Câu 108",
+                "sign": "a8",
+                "q": "------- remain complicated economic problems to be resolved, while the economic conditions have been good.",
+                "da": [
+                    {
+                        "0": "(A) They"
+                    },
+                    {
+                        "1": "(B) It"
+                    },
+                    {
+                        "2": " (C) There"
+                    },
+                    {
+                        "3": "( (D) That"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 9,
+                "cauhoiso": "Câu 109",
+                "sign": "a9",
+                "q": "Mr. Garry Noxon Cfl in accounting was _______ warned about having too many numerical errors in the budget report",
+                "da": [
+                    {
+                        "0": " (A) repeat"
+                    },
+                    {
+                        "1": " (B) repeatedly"
+                    },
+                    {
+                        "2": "(C) repeater"
+                    },
+                    {
+                        "3": "(D) repetition"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 10,
+                "cauhoiso": "Câu 110",
+                "sign": "a10",
+                "q": "Employers ------- in obtaining information concerning grants for technician certification may contact us at the e-mail address below.",
+                "da": [
+                    {
+                        "0": "(A) interested"
+                    },
+                    {
+                        "1": "  (B) listed"
+                    },
+                    {
+                        "2": "(C) hopeful"
+                    },
+                    {
+                        "3": " (D) enclosed"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 11,
+                "cauhoiso": "Câu 111",
+                "sign": "a11",
+                "q": "According to many ------- of the industry, the majority of small-sized firms are hoping to enter into lucrative businesses.",
+                "da": [
+                    {
+                        "0": "(A) survey"
+                    },
+                    {
+                        "1": "(B) surveys"
+                    },
+                    {
+                        "2": "(C) surveying"
+                    },
+                    {
+                        "3": " (D) surveyed"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 12,
+                "cauhoiso": "Câu 112",
+                "sign": "a12",
+                "q": "During the one-week promotional period, we offer all the visitors and customers 10 dollars worth of kitchen appliances ______ free of charge",
+                "da": [
+                    {
+                        "0": "(A) extremely"
+                    },
+                    {
+                        "1": "(B) exclusively"
+                    },
+                    {
+                        "2": " (C) continually"
+                    },
+                    {
+                        "3": " (D) completely"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 13,
+                "cauhoiso": "Câu 113",
+                "sign": "a13",
+                "q": "The first step in preparing a fairly -- presentation is to do your research thoroughly on your topic.",
+                "da": [
+                    {
+                        "0": " (A) informative"
+                    },
+                    {
+                        "1": " (B) inform"
+                    },
+                    {
+                        "2": " (C) information"
+                    },
+                    {
+                        "3": "(D) informer"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 114,
+                "cauhoiso": "Câu 114",
+                "sign": "a14",
+                "q":" ------- understaffed and under tight budget, 911 centers are struggling to adequately provide emergency assistance to the citizens",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            },
+            {
+                "id_cauhoi": 6,
+                "cauhoiso": "Câu 106",
+                "sign": "a6",
+                "q": "A new approach to information asset protection will be covered in the forthcoming March ------- of the magazine.",
+                "da": [
+                    {
+                        "0": "(A) issue"
+                    },
+                    {
+                        "1": " (B) condition"
+                    },
+                    {
+                        "2": " (C) prices"
+                    },
+                    {
+                        "3": "(D) promise"
+                    }
+                ]
+            }
+        ]
+    }
+}
