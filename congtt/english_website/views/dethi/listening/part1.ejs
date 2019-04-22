@@ -203,7 +203,7 @@
                         var base_url = location.protocol + "//" + document.domain + ":" + location.port;
                         $.ajax({
                             type: "POST",
-                            url: "/dethi/submit",
+                            url: "/dethi/part1/<%=dethi._id%>",
                             data: formData,
                             dataType: "JSON",
                             success: function (data) {
