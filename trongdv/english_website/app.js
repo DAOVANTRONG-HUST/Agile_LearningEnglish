@@ -10,10 +10,11 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/user');
 var dashboardRouter=require('./routes/dashboard');
 var dethiRouter=require("./routes/dethi");
+var part5Router=require("./routes/part5Router");
 
 
 var app = express();
-mongoose.connect('mongodb://localhost/englishWebsite',{ useNewUrlParser: true });
+mongoose.connect('mongodb://localhost:27017/learningenglist', {useNewUrlParser: true});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -35,6 +36,7 @@ app.use('/', indexRouter);
 app.use('/user', usersRouter);
 app.use('/dashboard',dashboardRouter);
 app.use("/dethi",dethiRouter);
+app.use("/part5",part5Router);
 
 
 // catch 404 and forward to error handler
