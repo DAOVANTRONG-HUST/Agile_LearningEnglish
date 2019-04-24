@@ -70,24 +70,12 @@ app.use("/dethi",dethiRouter);
 
 
 
-
-
-
-
-
-
-
-
 app.use('/products', productRoutes); 
 app.use('/orders',orderRoutes);
 app.use('/thietlapdanhsachhoc',vocabListSettingRoutes);
 app.use('/quanlythanhvien', memberManager);
 app.use('/quanlytuvung', vocabManager);
 app.use('/quanlydethi', testManager);
-
-
-
-
 
 
 
