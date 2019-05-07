@@ -40,7 +40,7 @@
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
-                <h2> Vũ Lê Hoàng </h2>
+                <h2> <%= data.firstname + " " + data.lastname %> </h2>
               </div>
             </div>
             <!-- /menu profile quick info -->
@@ -52,19 +52,21 @@
               <div class="menu_section">
                 <ul class="nav side-menu">
 
-                  <li><a href="index"><i class="fa fa-home"></i> Trang chủ </a></li>
-                  <li><a href="quanlythanhvien"><i class="fa fa-users"></i> Quản lý thành viên</a></li>
-                  <li><a href="quanlydethi"><i class="fa fa-file-text-o"></i> Quản lý đề thi</a></li>
-                  <li><a href="quanlytuvung"><i class="fa fa-sort-alpha-desc"></i> Quản lý từ vựng</a></li>
-                  <li><a href="thietlapdanhsachhoc"><i class="fa fa-tasks"></i> Thiết lập danh sách học </a></li>
+                  li><a href="/dashboard/<%=data._id%>"><i class="fa fa-home"></i> Trang chủ </a></li>
+                  <%if(data.is_admin){%>
+                  <li><a href="/quanlythanhvien"><i class="fa fa-users"></i> Quản lý thành viên</a></li>
+                  <li><a href="/quanlydethi"><i class="fa fa-file-text-o"></i> Quản lý đề thi</a></li>
+                  <li><a href="/quanlytuvung"><i class="fa fa-sort-alpha-desc"></i> Quản lý từ vựng</a></li>
+                  <%}%>
+                  <li><a href="/thietlapdanhsachhoc"><i class="fa fa-tasks"></i> Thiết lập danh sách học </a></li>
                   <li><a><i class="fa fa-edit"></i> Thi thử <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="kiemtratuvung">Kiểm tra từ vựng</a></li>
-                      <li><a href="kiemtratongthe">Kiểm tra tổng thể</a></li>
+                      <li><a href="/kiemtratuvung">Kiểm tra từ vựng</a></li>
+                      <li><a href="/kiemtratongthe">Kiểm tra tổng thể</a></li>
                     </ul>
                   </li>
-                  <li><a href="diemdanh"><i class="fa fa-check"></i> Điểm danh hàng ngày </a></li>
-                  <li><a href="forum"><i class="fa fa-comments-o"></i> Forum </a></li>
+                  <li><a href="/diemdanh"><i class="fa fa-check"></i> Điểm danh hàng ngày </a></li>
+                  <li><a href="/forum"><i class="fa fa-comments-o"></i> Forum </a></li>
 
                  <!--  <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
@@ -120,7 +122,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/img.jpg" alt="">Vũ Lê Hoàng
+                    <img src="images/img.jpg" alt=""><%= data.firstname + " " + data.lastname %>
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">

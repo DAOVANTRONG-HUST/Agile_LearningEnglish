@@ -220,7 +220,7 @@
             <div class="title_left">
               <h3> Danh sách thành viên </h3>
             </div>
-      
+
             <div class="title_right">
               <div class="col-md-9 col-sm-12 col-xs-12 form-group pull-center top_search">
                 <div class="input-group">
@@ -232,9 +232,9 @@
               </div>
             </div>
           </div>
-      
+
           <div class="clearfix"></div>
-      
+
           <div class="row">
             <div class="col-md-12">
               <div class="x_panel">
@@ -242,7 +242,7 @@
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
-                    <li><a href="../quanlythanhvien/themmoithanhvien"><i class="fa fa-plus"></i></a>
+                    <li><a href="#"><i class="fa fa-plus"></i></a>
                     </li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
@@ -260,42 +260,45 @@
                   <div class="clearfix"></div>
                 </div>
                 <div class="x_content">
-      
+
                   <!-- start project list -->
                   <table class="table table-striped projects text-center">
                     <thead>
                       <tr>
-                        <th style="width: 1%" class="text-center" >#</th>
-                        <th style="width: 10%" class="text-center" > Id  </th>
-                        <th style="width: 15%" class="text-center" > Email </th>
-                        <th style="width: 15%" class="text-center" > Username </th>
-                        <th style="width: 15%" class="text-center" > Phone Number</th>
-                        <th style="width: 9%" class="text-center" > Reputation</th>
-                        <th style="width: 15%" class="text-center" > Date Joined</th> 
-                        <th style="width: 20%" class="text-center" > Operator </th> 
+                        <th style="width: 1%" class="text-center">#</th>
+                        <th style="width: 10%" class="text-center"> Id </th>
+                        <th style="width: 15%" class="text-center"> Email </th>
+                        <th style="width: 15%" class="text-center"> Username </th>
+                        <th style="width: 15%" class="text-center"> Phone Number</th>
+                        <th style="width: 9%" class="text-center"> Reputation</th>
+                        <th style="width: 15%" class="text-center"> Date Joined</th>
+                        <th style="width: 20%" class="text-center"> Operator </th>
                       </tr>
                     </thead>
                     <tbody>
-                        <% list_user.forEach((user)=>{%>
+                      <% list_user.forEach((user)=>{%>
                       <tr>
                         <td> <%=user.userid%> </td>
                         <td> <%=user.id%> </td>
                         <td> <%=user.email%> </td>
-                        <td> <%=user.username%> </td>
+                        <td> <%=user.firstname + " " + user.lastname%> </td>
                         <td> <%=user.phonenumber%> </td>
-                        <td> <%=user.reputation%> </td>
-                        <td> <%=user.date_joined%> </td>  
-                        <td> 
-                          <a href="../quanlythanhvien/<%=user._id%>" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i>  </a>
-                          <a href="../quanlythanhvien/<%=user._id%>/capnhatthongtinthanhvien" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i>  </a>
-                          <a href="../quanlythanhvien/<%=user._id%>/delete" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i>  </a>
+                        <td> <%=user.reputation%> </td> 
+                        <td> <%=user.date_joined%> </td>
+                        <td>
+                          <a href="../quanlythanhvien/<%=user._id%>" class="btn btn-primary btn-xs"><i
+                              class="fa fa-folder"></i> </a>
+                          <a href="../quanlythanhvien/<%=user._id%>/capnhatthongtinthanhvien"
+                            class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> </a>
+                          <a href="../quanlythanhvien/<%=user._id%>/delete" class="btn btn-danger btn-xs"><i
+                              class="fa fa-trash-o"></i> </a>
                         </td>
                       </tr>
                       <%})%>
                     </tbody>
                   </table>
                   <!-- end project list -->
-      
+
                 </div>
               </div>
             </div>

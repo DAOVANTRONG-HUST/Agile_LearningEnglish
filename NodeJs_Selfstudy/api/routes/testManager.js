@@ -12,7 +12,7 @@ router.get('/', (req, res, next) => {
         else {
             var dbo = db.db("ESS");
             dbo.collection("tests").find().toArray((err, result) => {
-                res.render("quanlydethi", { list_vocab: result });
+                res.render("admin/quanlydethi", { list_vocab: result });
                 db.close();
             });
         }
@@ -20,7 +20,7 @@ router.get('/', (req, res, next) => {
 })
 
 router.get('/themmoidethi', (req, res, next) => {
-    res.render('themmoidethi');
+    res.render('admin/themmoidethi');
 })
 
 router.get('/:_id', (req, res, next) => {
@@ -28,10 +28,10 @@ router.get('/:_id', (req, res, next) => {
         .exec()
         .then(result => {
             if (result) {
-                res.render('chitietdethi', { vocab: result });
+                res.render('admin/chitietdethi', { vocab: result });
             }
             else {
-                res.render('page_404', { message: "Vocab not exist !" });
+                res.render('admin/page_404', { message: "Vocab not exist !" });
             }
         })
         .catch(err => {
@@ -47,10 +47,10 @@ router.get('/:_id/capnhatdethi', (req, res, next) => {
         .exec()
         .then(result => {
             if (result) {
-                res.render('capnhatdethi', { vocab: result });
+                res.render('admin/capnhatdethi', { vocab: result });
             }
             else {
-                res.render('page_404', { message: "Vocab not exist !" });
+                res.render('admin/page_404', { message: "Vocab not exist !" });
             }
         })
         .catch(err => {
@@ -113,7 +113,7 @@ router.post("/themmoidethi", (req, res, next) => {
                 .then(vocab => {
                     if (vocab) {
                         console.log(vocab);
-                        res.render('page_404', { message: "vocab not exist !" });
+                        res.render('admin/page_404', { message: "vocab not exist !" });
                     } else {
                         console.log(req.body);
                         const vocab = new Vocab({
