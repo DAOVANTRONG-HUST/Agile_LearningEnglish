@@ -1,4 +1,5 @@
 var express = require('express');
+var bcrypt = require('bcrypt');
 var user_md=require("../models/user_c");
 const User = require("../models/User");
 var router = express.Router();
@@ -75,24 +76,17 @@ router.post("/login", function (req, res, next) {
       } 
       else 
       {
-        if (user.password === params.password) {
-          
-          req.session.user = user;
-          res.redirect("/dashboard");
-          // if (user.entry_score && user.target_score) {
-          //   res.redirect("/dashboard/" + req.session.user._id);
-          // }
-          // else {
-          //   res.redirect("/dashboard/datmuctieu/" + req.session.user._id);
-          // }
-
-        } else {
-          res.render("login", { data: { error: "Password is not correct" } });
-        }
+        bcrypt.compare(params.password, user.password, (err, ret) => {
+          if(err)
+            res.render("login", { data: { error: "Password is not correct" } }); 
+          else 
+          {
+            req.session.user = user;
+            res.redirect("/dashboard");
+          }
+        })
       }
-
     });
-
   }
 })
 

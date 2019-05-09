@@ -3,20 +3,28 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const Vocab = require('../models/Vocab');
+const User = require('../models/User');
 var MongoClient = require('mongodb').MongoClient;
 
 
+const auth = require('../api/middleware/checkAuth');
+const perm = require('../api/middleware/checkPerm');
+
+router.all('*', auth, perm); 
+
 router.get('/', (req, res, next) => {
-    MongoClient.connect(process.env.MONGO_ATLAS_PATH, { useNewUrlParser: true }, function (err, db) {
-        if (err) throw err;
+    Vocab.find({}, function (err, result) { 
+        if (err)
+            res.status(200).json({
+                error: err
+            })
         else {
-            var dbo = db.db("ESS");
-            dbo.collection("vocabs").find().toArray((err, result) => {
-                res.render("admin/quanlytuvung", { list_vocab: result });
-                db.close();
-            });
+            id = req.session.user._id;
+            User.findById(id, (err, _user) => { 
+                res.render('quanlytuvung', { list_vocab: result, data: _user });
+            })
         }
-    });
+    })
 })
 
 router.get('/themmoituvung', (req, res, next) => {
@@ -28,10 +36,10 @@ router.get('/:_id', (req, res, next) => {
         .exec()
         .then(result => {
             if (result) {
-                res.render('admin/chitiettuvung', { vocab: result });
+                res.render('chitiettuvung', { vocab: result });
             }
             else {
-                res.render('admin/page_404', { message: "Vocab not exist !" });
+                res.render('page_404', { message: "Vocab not exist !" });
             }
         })
         .catch(err => {

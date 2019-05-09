@@ -22,6 +22,8 @@ var memberManager = require('./routes/memberManager');
 var testManager = require('./routes/testManager');
 var vocabManager = require('./routes/vocabManager');
 
+var forum = require('./routes/forum');
+
 var app = express();
 
 
@@ -72,7 +74,7 @@ app.use('/admin',adminRoutes);
 app.use('/quanlythanhvien', memberManager);
 app.use('/quanlytuvung', vocabManager);
 app.use('/quanlydethi', testManager);
-
+app.use('/forum', forum) ; 
 // var memberManager = require('./routes/memberManager');
 // app.use('/quanlythanhvien', memberManager);
 
