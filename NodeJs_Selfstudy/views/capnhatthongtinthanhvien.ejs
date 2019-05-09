@@ -228,27 +228,27 @@
             
             <div class="x_panel">
               <div class="x_title">
-                <h2 class="title"> <b> Cập nhật thông tin cá nhân người dùng: <%=user.username %> - <%=user.id%> </b></h2>
+                <h2 class="title"> <b> Cập nhật thông tin cá nhân người dùng:  <%=user.id%> </b></h2>
                 <div class="clearfix"></div>
               </div>
               <div class="x_content">
                 <br />
                 <form class="form-horizontal form-label-left" action="" method="POST">
                   <div class="item form-group">
-                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="username" >Tên đăng nhập <span
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="firstname" > Họ <span
                         class="required">*</span>
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                       <input id="name" class="form-control col-md-7 col-xs-12" data-validate-length-range="6,18" data-validate-words="1"
-                        name="id" required="required" type="text" value="<%=user.id%>">
+                        name="firstname" required="required" type="text" value="<%=user.firstname%>">
                     </div>
                   </div>
                   <div class="item form-group">
-                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Tên người dùng <span class="required">*</span>
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Tên <span class="required">*</span>
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                       <input id="name" class="form-control col-md-7 col-xs-12" data-validate-length-range="2,50"
-                        data-validate-words="1,10" name="username" required="required" type="text" value="<%=user.username%>">
+                        data-validate-words="1,10" name="lastname" required="required" type="text" value="<%=user.lastname%>">
                     </div>
                   </div>
                   <div class="item form-group">

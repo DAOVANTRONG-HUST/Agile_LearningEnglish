@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 router.get('/', (req, res, next) => {
     const vocablistsetting = "Thietlapdanh sach hoc :)) _ du lieu de tam day cho no co thoi =))  ";
-    res.render('admin/thietlapdanhsachhoc', { fakeinfo: vocablistsetting });
+    res.render('thietlapdanhsachhoc', { fakeinfo: vocablistsetting });
 })
 
 module.exports = router;

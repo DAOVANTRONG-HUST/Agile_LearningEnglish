@@ -54,7 +54,7 @@ router.post("/register", function (req, res, next) {
 router.get('/login', function (req, res, next) {
   if (req.session.user)
   {
-    res.redirect("/dashboard/" + req.session.user._id);
+    res.redirect("/dashboard/");
   }
   else 
     res.render("login", { data: {} });
@@ -78,7 +78,7 @@ router.post("/login", function (req, res, next) {
         if (user.password === params.password) {
           
           req.session.user = user;
-          res.redirect("/dashboard/" + req.session.user._id);
+          res.redirect("/dashboard");
           // if (user.entry_score && user.target_score) {
           //   res.redirect("/dashboard/" + req.session.user._id);
           // }

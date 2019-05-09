@@ -18,10 +18,17 @@ const dbName = 'englishWebsite';
 
 router.get('/', function (req, res, next) {
   
-  if (req.session.user) {
-        res.redirect("/dashboard/" + req.session.user._id)
-  } else {
-    res.redirect("/login");
+  if (! req.session.user) {
+      res.redirect("/login");
+  }
+  else {
+    var id = req.session.user._id ; 
+    User.findById(id, function (err, dulieu) {
+      if(err)
+        throw(err)
+      else
+        res.render("index", { data: dulieu });
+    })
   }
 });
 
@@ -29,11 +36,10 @@ router.get('/', function (req, res, next) {
 router.get('/:id', function(req, res, next) {
     if(req.session.user){
         var id= chuyenthanhObjectId(req.params.id);
-    
         User.findById(id,function(err,dulieu){
-          res.render("index",{data:dulieu});
+          res.redirect("/dashboard");
+          // res.render("index",{data:dulieu});
         })
-    
       }else{
         res.redirect("/login");
       }     
