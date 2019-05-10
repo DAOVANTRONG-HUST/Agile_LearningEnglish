@@ -342,25 +342,27 @@
                 </a>
 
 
-               
+
                 <div class="box">
 
-                    <% data.forEach(function(dethi) {%>
-                    <% stt=1; %>
+
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/dethi/part1/<%=dethi._id%>">
+                        <a href="/dethi/part1/<%=data.partI[i]._id%>">
                             <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
                                 <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề <%=stt%></h4>
-                           
-                            <a class="learn" href='/dethi/part1/<%=dethi._id%>'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/dethi/part1/<%=data.partI[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
 
-                    <% stt=stt+1; %>
-                    <%})%>
+
+                    <%}%>
                 </div>
                 
                 <div class='paging viewall'><a href="/dethi/list_part1">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
@@ -416,187 +418,107 @@
                     <h3 class="sub-header">Thi Thử TOEIC PART 1</h3>
                 </a>
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/54">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
+                        <a href="/dethi/part1/<%=data.partI[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 1</h4>
-                            <a class="learn" href='/exam/54'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/dethi/part1/<%=data.partI[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/221">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/221'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/222">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/222'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/223">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/223'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
-                <div class='paging viewall'><a href="/category/20">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
+
+                  
+                <div class='paging viewall'><a href="/dethi/list_part1">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
                 <div class="spacing"></div>
-                <a href="/category/19">
                     <h3 class="sub-header">Thi Thử TOEIC PART 2</h3>
                 </a>
+
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/53">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/30</p>
+                        <a href="/dethi/part2/<%=data.partII[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 1</h4>
-                            <a class="learn" href='/exam/53'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/dethi/part2/<%=data.partII[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/250">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/30</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/250'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/251">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/30</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/251'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/252">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/30</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/252'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
+               
                 <div class='paging viewall'><a href="/category/19">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
                 <div class="spacing"></div>
                 <a href="/category/13">
                     <h3 class="sub-header">Thi Thử TOEIC PART 3</h3>
                 </a>
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/52">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
+                        <a href="/dethi/part3/<%=data.partIII[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 1</h4>
-                            <a class="learn" href='/exam/52'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/dethi/part3/<%=data.partIII[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/279">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/279'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/280">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/280'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/281">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/281'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
+
                 <div class='paging viewall'><a href="/category/13">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
                 <div class="spacing"></div>
                 <a href="/category/14">
                     <h3 class="sub-header">Thi Thử TOEIC PART 4</h3>
                 </a>
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/51">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
+                        <a href="/dethi/part4/<%=data.partIV[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 1</h4>
-                            <a class="learn" href='/exam/51'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/dethi/part4/<%=data.partIV[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/308">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/308'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/310">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/310'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/311">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/311'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
                 <div class='paging viewall'><a href="/category/14">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
                 <div class="spacing"></div>

@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
-var partI = new mongoose.Schema(
+var partII = new mongoose.Schema(
     {
         _id: mongoose.Schema.Types.ObjectId,
         id_exam:"number",
-        PartI:{
+        PartII:{
             id_part:"number",
             audio_src:"string",
             bo_cau_hoi:[
-                {id_cauhoi:"number",answer:"number",image_src:"string",sign:"string", explain:"string"}
+                {id_cauhoi:"number",answer:"number",sign:"string", explain:"string"}
                
             ]
         } 
@@ -15,5 +15,5 @@ var partI = new mongoose.Schema(
 
 
 
-, { collection: "partI" });
-module.exports = mongoose.model("partI", partI);
+, { collection: "partII" });
+module.exports = mongoose.model("partII", partII);
