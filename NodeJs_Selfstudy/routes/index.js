@@ -68,7 +68,7 @@ router.post("/login", function (req, res, next) {
   if (params.email.trim().length == 0) {
     res.render("login", { data: { error: "Please enter an email" } });
   } else {
-    User.find({ email: params.email },function(err,dulieu){
+    User.find({ email: params.email },function (err,dulieu){
       var user=dulieu[0];
       if(user == undefined) 
       {
@@ -81,6 +81,8 @@ router.post("/login", function (req, res, next) {
             res.render("login", { data: { error: "Password is not correct" } }); 
           else 
           {
+            user.last_login = Date.now() ; 
+            user.save();
             req.session.user = user;
             res.redirect("/dashboard");
           }
