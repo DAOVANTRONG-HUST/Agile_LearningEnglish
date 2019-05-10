@@ -1,34 +1,32 @@
-const express = require('express'); 
-const app = express() ; 
-const morgan = require('morgan');
-const bodyParser = require('body-parser');
+var createError = require('http-errors');
+var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var session = require('express-session');
 const mongoose = require('mongoose');
+var logger = require('morgan');
+const bodyParser = require('body-parser');
 
-//setup using public and views 
-app.use(express.static("public"));
-app.set("view engine", "ejs");
-app.set("views", "./views");
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/user');
+var dashboardRouter=require('./routes/dashboard');
+var dethiRouter=require("./routes/dethi");
 
-mongoose.connect('mongodb+srv://hoangvlbk61:' 
-                + process.env.MONGO_ATLAS_PW 
-                + '@cluster0-z9rem.mongodb.net/ESS?retryWrites=true', 
-                {
-                    useNewUrlParser: true,
-                })
-mongoose.Promise = global.Promise;
+var productRoutes = require('./routes/products');
+var orderRoutes = require('./routes/orders')
+var vocabListSettingRoutes = require('./routes/vocablistsetting');
 
-// const userRoutes = require('./api/routes/user_model');
-const productRoutes = require('./api/routes/products');
-const orderRoutes = require('./api/routes/orders')
-const indexRoutes = require('./api/routes/index')
-const vocabListSettingRoutes = require('./api/routes/vocablistsetting');
-const memberManager = require('./api/routes/memberManager');
-const testManager = require('./api/routes/testManager');
-const vocabManager = require('./api/routes/vocabManager');
+var adminRoutes = require('./routes/admin');
+
+var memberManager = require('./routes/memberManager');
+var testManager = require('./routes/testManager');
+var vocabManager = require('./routes/vocabManager');
+
+var forum = require('./routes/forum');
+
+var app = express();
 
 
-// Hỗ trợ cho phần phát triển (OPTIONS = 'dev')
-app.use(morgan('dev'));
 // Chuyển gói tin body về dạng json để đọc ghi 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
@@ -45,35 +43,58 @@ app.use((req, res, next) => {
     next() ;
 })
 
-app.get('/', (req, res, next) => {
-    res.redirect('/index');
-})
+mongoose.connect('mongodb://localhost/englishWebsite',{ useNewUrlParser: true });
 
-//app use 
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: false }
+}))
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use('/', indexRouter);
+app.use('/user', usersRouter);
+app.use('/dashboard',dashboardRouter);
+app.use("/dethi",dethiRouter);
+
+app.use('/thietlapdanhsachhoc', vocabListSettingRoutes);
 app.use('/products', productRoutes); 
 app.use('/orders',orderRoutes);
-// app.use('/user',userRoutes);
-app.use('/index',indexRoutes),
-app.use('/thietlapdanhsachhoc',vocabListSettingRoutes);
+app.use('/admin',adminRoutes);
+
 app.use('/quanlythanhvien', memberManager);
 app.use('/quanlytuvung', vocabManager);
 app.use('/quanlydethi', testManager);
+app.use('/forum', forum) ; 
+// var memberManager = require('./routes/memberManager');
+// app.use('/quanlythanhvien', memberManager);
 
-app.use((req, res, next )=> {
-    const error = new Error(' Page not Found') ; 
-    error.status = 404;
-    next(error);
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404));
 });
 
-app.use((error, req, res, next)=> {
-    res.status(error.status || 500);
-    res.json({
-        error: {
-            message: error.message
-        }
-    })
+// error handler
+app.use(function(err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  // render the error page
+  res.status(err.status || 500);
+  res.render('page_404');
 });
 
+  
 
-
-module.exports = app ;
+module.exports = app;

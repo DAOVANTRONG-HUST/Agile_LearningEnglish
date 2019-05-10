@@ -11,13 +11,12 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/user');
 var dashboardRouter=require('./routes/dashboard');
 var dethiRouter=require("./routes/dethi");
+
 var productRoutes = require('./routes/products');
 var orderRoutes = require('./routes/orders')
 var vocabListSettingRoutes = require('./routes/vocablistsetting');
-var memberManager = require('./routes/memberManager');
-var testManager = require('./routes/testManager');
-var vocabManager = require('./routes/vocabManager');
 
+var adminRoutes = require('./routes/admin');
 
 var app = express();
 
@@ -65,40 +64,13 @@ app.use('/dashboard',dashboardRouter);
 app.use("/dethi",dethiRouter);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+app.use('/thietlapdanhsachhoc', vocabListSettingRoutes);
 app.use('/products', productRoutes); 
 app.use('/orders',orderRoutes);
-app.use('/thietlapdanhsachhoc',vocabListSettingRoutes);
-app.use('/quanlythanhvien', memberManager);
-app.use('/quanlytuvung', vocabManager);
-app.use('/quanlydethi', testManager);
+app.use('/admin',adminRoutes);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// var memberManager = require('./routes/memberManager');
+// app.use('/quanlythanhvien', memberManager);
 
 
 // catch 404 and forward to error handler
@@ -114,9 +86,9 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('admin/page_404');
 });
 
-
+  
 
 module.exports = app;

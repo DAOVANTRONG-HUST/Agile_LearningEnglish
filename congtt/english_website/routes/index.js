@@ -18,8 +18,6 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-
-
 /* GET register */
 router.get('/register', function (req, res, next) {
   res.render('login/register', { data: {} });
@@ -64,24 +62,29 @@ router.post("/login", function (req, res, next) {
   } else {
     user_md.find({ email: params.email },function(err,dulieu){
       var user=dulieu[0];
-      if(user.password===params.password){
-     
-        req.session.user=user;
-        if(user.entry_score && user.target_score){
-          res.redirect("/dashboard/"+req.session.user._id);
-         
-         
-        }else{
-          res.redirect("/dashboard/datmuctieu/"+req.session.user._id);
+      if(user == undefined) 
+      {
+        res.render("login/login", { data: { error: "Email " + params.email + " chưa được đăng ký !" } });
+      } 
+      else 
+      {
+        if (user.password === params.password) {
+
+          req.session.user = user;
+          if (user.entry_score && user.target_score) {
+            res.redirect("/dashboard/" + req.session.user._id);
+          }
+          else {
+            res.redirect("/dashboard/datmuctieu/" + req.session.user._id);
+          }
+
+        } else {
+          res.render("login/login", { data: { error: "Password is not correct" } });
         }
-        
-      }else{
-        res.render("login/login", { data: { error: "Password is not correct" } });
       }
 
     });
 
-    
   }
 })
 
@@ -95,13 +98,6 @@ router.post("/login", function (req, res, next) {
 //     res.redirect("/login");
 //   }
 // });
-
-
-
-
-
-
-
 
 
 // router.post("/kiemtradauvao/datmuctieu",function(req,res){
