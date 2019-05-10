@@ -16,6 +16,9 @@ var VocabSchema = new Schema({
         {
             type: String
         }
+    }, 
+    {
+        collection:"vocab"
     
 });
 module.exports = mongoose.model('Vocab', VocabSchema);
