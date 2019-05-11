@@ -294,6 +294,9 @@ router.get('/xem', function (req, res, next) {
 
   });
 
+
+  
+
 });
 
 /* Xoa du lieu . */
