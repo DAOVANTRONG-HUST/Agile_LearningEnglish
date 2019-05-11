@@ -3,6 +3,7 @@ var partI_md = require("../models/partI");
 var partII_md = require("../models/partII");
 var partIII_md = require("../models/partIII");
 var partIV_md = require("../models/partIV");
+var partV_md = require("../models/partV");
 var router = express.Router();
 
 
@@ -43,6 +44,8 @@ function caculatorTest(req, res, part) {
 
 }
 
+/* GET users listing. */
+
 /* GET home page. */
 router.get('/', function (req, res, next) {
 
@@ -52,15 +55,19 @@ router.get('/', function (req, res, next) {
 
       partIII_md.find({}, function (err, data_partIII) {
         partIV_md.find({}, function (err, data_partIV) {
+        partV_md.find({}, function (err, data_partV) {
           var data = {
             partI: data_partI,
             partII: data_partII,
             partIII: data_partIII,
-            partIV: data_partIV
+            partIV: data_partIV,
+            partV: data_partV
           }
-
+          console.log(data);
           res.render("dethi/danhsachdethi", { data: data });
 
+
+        });
         });
 
 
@@ -97,17 +104,13 @@ router.get('/part1/:id', function (req, res, next) {
   partI_md.findById(id, function (err, dethi) {
     res.render('dethi/listening/part1', { dethi: dethi });
   })
-
-
-
-
 });
+
 
 router.post('/part1/:id', function (req, res) {
   var id = chuyenthanhObjectId(req.params.id);
   partI_md.findById(id, function (err, dethi) {
     caculatorTest(req, res, dethi.PartI);
-
   });
 
 
@@ -169,7 +172,22 @@ router.post('/part4/:id', function (req, res) {
   });
 });
 
+/* Part 5*/
+router.get('/part5/:id', function (req, res, next) {
+  var id = chuyenthanhObjectId(req.params.id);
 
+  partV_md.findById(id, function (err, dethi) {
+    console.log(dethi);
+    res.render('dethi/reading/part5', { dethi: dethi });
+  })
+
+});
+router.post('/part5/:id', function (req, res) {
+  var id = chuyenthanhObjectId(req.params.id);
+  partV_md.findById(id, function (err, dethi) {
+    caculatorTest(req, res, dethi.PartV);
+  });
+});
 
 
 module.exports = router;

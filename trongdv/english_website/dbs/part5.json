@@ -24,10 +24,10 @@
                             "explain": "ĐÁP ÁN: (A) Meet with some clients. ",
                             "description": {
                                     "question": "Question 102. What will the man do this afternoon? ",
-                                    "_0": "(A) will be",
-                                    "_1": "(B) was",
-                                    "_2": "(C) are",
-                                    "_3": "(D) has been"
+                                    "A": "(A) will be",
+                                    "B": "(B) was",
+                                    "C": "(C) are",
+                                    "D": "(D) has been"
                             }
                     },
                     {
@@ -37,10 +37,10 @@
                             "explain": "ĐÁP ÁN: (D) At 4 o'clock",
                             "description": {
                                     "question": " Question 103. What time will the man start his appointment this afternoon?",
-                                    "_0": "(A) directly",
-                                    "_1": "(B) direct",
-                                    "_2": "(C) directed",
-                                    "_3": "(D) direction"
+                                    "A": "(A) directly",
+                                    "B": "(B) direct",
+                                    "C": "(C) directed",
+                                    "D": "(D) direction"
                             }
                     },
                     {
@@ -50,10 +50,10 @@
                             "explain": "ĐÁP ÁN: (C) A mobile phone company",
                             "description": {
                                     "question": "Question 104. What kind of company does the man work for? ",
-                                    "_0": "(A) reply",
-                                    "_1": "(B) detect",
-                                    "_2": "(C) construct",
-                                    "_3": "(D) hire"
+                                    "A": "(A) reply",
+                                    "B": "(B) detect",
+                                    "C": "(C) construct",
+                                    "D": "(D) hire"
                             }
                     },
                     {
@@ -63,10 +63,10 @@
                             "explain": "ĐÁP ÁN:  (A) The price may have risen.",
                             "description": {
                                     "question": "Question 105. How does the man explain the change in the woman's bill? ",
-                                    "_0": "(A) they",
-                                    "_1": "(B) them",
-                                    "_2": "(C) themselves",
-                                    "_3": "(D) their"
+                                    "A": "(A) they",
+                                    "B": "(B) them",
+                                    "C": "(C) themselves",
+                                    "D": "(D) their"
                             }
                     },
                     {
@@ -76,10 +76,10 @@
                             "explain": "ĐÁP ÁN:  (B) Her telephone number.",
                             "description": {
                                     "question": "Question 106. What information does the man ask the woman for?",
-                                    "_0": "(A) issue",
-                                    "_1": "(B) condition",
-                                    "_2": "(C) prices",
-                                    "_3": "(D) promise"
+                                    "A": "(A) issue",
+                                    "B": "(B) condition",
+                                    "C": "(C) prices",
+                                    "D": "(D) promise"
                             }
                     },
                     {
@@ -89,10 +89,10 @@
                             "explain": "ĐÁP ÁN: (D) The retirement of a colleague.",
                             "description": {
                                     "question": "Question 107. What is the celebration for?",
-                                    "_0": "(A) additional",
-                                    "_1": "(B) addition",
-                                    "_2": "(C) adding",
-                                    "_3": "(D) additionally"
+                                    "A": "(A) additional",
+                                    "B": "(B) addition",
+                                    "C": "(C) adding",
+                                    "D": "(D) additionally"
                             }
                     },
                     {
@@ -102,10 +102,10 @@
                             "explain": "ĐÁP ÁN: (C) At 7:00 .",
                             "description": {
                                     "question": "Question 108. When will the celebration start?",
-                                    "_0": "(A) They",
-                                    "_1": "(B) It",
-                                    "_2": "(C) There",
-                                    "_3": "( (D) That"
+                                    "A": "(A) They",
+                                    "B": "(B) It",
+                                    "C": "(C) There",
+                                    "D": "( (D) That"
                             }
                     },
                     {
@@ -115,10 +115,10 @@
                             "explain": "ĐÁP ÁN: (C) To a bakery.",
                             "description": {
                                     "question": "Question 109. Where will the woman go before the party? ",
-                                    "_0": "(A) repeat",
-                                    "_1": "(B) repeatedly",
-                                    "_2": "(C) repeater",
-                                    "_3": "(D) repetition"
+                                    "A": "(A) repeat",
+                                    "B": "(B) repeatedly",
+                                    "C": "(C) repeater",
+                                    "D": "(D) repetition"
                             }
                     },
                     {
@@ -128,10 +128,10 @@
                             "explain": "ĐÁP ÁN: (B) He recently won a prize.",
                             "description": {
                                     "question": "Question 110. Why is William happy? ",
-                                    "_0": "(A) interested",
-                                    "_1": "(B) listed",
-                                    "_2": "(C) hopeful",
-                                    "_3": "(D) enclosed"
+                                    "A": "(A) interested",
+                                    "B": "(B) listed",
+                                    "C": "(C) hopeful",
+                                    "D": "(D) enclosed"
                             }
                     },
                     {
@@ -141,10 +141,10 @@
                             "explain": "ĐÁP ÁN: (B) Sign up for a workshop.",
                             "description": {
                                     "question": "Question 111. What does William hope to do? ",
-                                    "_0": "(A) survey",
-                                    "_1": "(B) surveys",
-                                    "_2": "(C) surveying",
-                                    "_3": "(D) surveyed"
+                                    "A": "(A) survey",
+                                    "B": "(B) surveys",
+                                    "C": "(C) surveying",
+                                    "D": "(D) surveyed"
                             }
                     },
                     {
@@ -154,10 +154,10 @@
                             "explain": "ĐÁP ÁN: (A) An oil painting.",
                             "description": {
                                     "question": "Question 112. What is William working on these days? ",
-                                    "_0": "(A) extremely",
-                                    "_1": "(B) exclusively",
-                                    "_2": "(C) continually",
-                                    "_3": "(D) completely"
+                                    "A": "(A) extremely",
+                                    "B": "(B) exclusively",
+                                    "C": "(C) continually",
+                                    "D": "(D) completely"
                             }
                     },
                     {
@@ -167,10 +167,10 @@
                             "explain": "ĐÁP ÁN: (B) At an office building.",
                             "description": {
                                     "question": "Question 113. Where is the conversation most likely taking place?",
-                                    "_0": "(A) informative",
-                                    "_1": "(B) inform",
-                                    "_2": "(C) information",
-                                    "_3": "(D) informer"
+                                    "A": "(A) informative",
+                                    "B": "(B) inform",
+                                    "C": "(C) information",
+                                    "D": "(D) informer"
                             }
                     },
                     {
@@ -180,10 +180,10 @@
                             "explain": "(C) Sign the form.",
                             "description": {
                                     "question": "Question 114. What does the assistant offer to do? ",
-                                    "_0": "(A) issue",
-                                    "_1": "(B) condition",
-                                    "_2": "(C) prices",
-                                    "_3": "(D) promise"
+                                    "A": "(A) issue",
+                                    "B": "(B) condition",
+                                    "C": "(C) prices",
+                                    "D": "(D) promise"
                             }
                     },
                     {
@@ -193,10 +193,10 @@
                             "explain": "ĐÁP ÁN:  (B) A filing cabinet.",
                             "description": {
                                     "question": "Question 115. What will be delivered to the conference room? ",
-                                    "_0": "(A) are required",
-                                    "_1": "(B) require",
-                                    "_2": "(C) requires",
-                                    "_3": "(D) has required"
+                                    "A": "(A) are required",
+                                    "B": "(B) require",
+                                    "C": "(C) requires",
+                                    "D": "(D) has required"
                             }
                     },
                     {
@@ -206,10 +206,10 @@
                             "explain": "ĐÁP ÁN: (A) An information desk clerk ",
                             "description": {
                                     "question": "Question 116. Who most likely is the man? ",
-                                    "_0": "(A) only if",
-                                    "_1": "(B) until",
-                                    "_2": "(C) not only",
-                                    "_3": "(D) since"
+                                    "A": "(A) only if",
+                                    "B": "(B) until",
+                                    "C": "(C) not only",
+                                    "D": "(D) since"
                             }
                     },
                     {
@@ -219,10 +219,10 @@
                             "explain": "ĐÁP ÁN:  (C) To check her order.",
                             "description": {
                                     "question": "Question 117. Where is the woman going? ",
-                                    "_0": "(A) attendant",
-                                    "_1": "(B) attendance",
-                                    "_2": "(C) attended",
-                                    "_3": "(D) attendee"
+                                    "A": "(A) attendant",
+                                    "B": "(B) attendance",
+                                    "C": "(C) attended",
+                                    "D": "(D) attendee"
                             }
                     },
                     {
@@ -232,10 +232,10 @@
                             "explain": "ĐÁP ÁN: (C) Using a discount coupon.",
                             "description": {
                                     "question": "Question 118. How does the man suggest lowering the admission price? ",
-                                    "_0": "(A) proficient",
-                                    "_1": "(B) considerable",
-                                    "_2": "(C) secondary",
-                                    "_3": "(D) present"
+                                    "A": "(A) proficient",
+                                    "B": "(B) considerable",
+                                    "C": "(C) secondary",
+                                    "D": "(D) present"
                             }
                     },
                     {
@@ -245,10 +245,10 @@
                             "explain": "ĐÁP ÁN: (A) White.",
                             "description": {
                                     "question": "Question 119. What color monitors are available now? ",
-                                    "_0": "(A) maintaining",
-                                    "_1": "(B) maintenancen",
-                                    "_2": "(C) maintained",
-                                    "_3": "(D) maintains"
+                                    "A": "(A) maintaining",
+                                    "B": "(B) maintenancen",
+                                    "C": "(C) maintained",
+                                    "D": "(D) maintains"
                             }
                     },
                     {
@@ -258,10 +258,10 @@
                             "explain": "ĐÁP ÁN: (C) $ 200 .",
                             "description": {
                                     "question": "Question 120. How much does it cost to increase the size of the monitor? ",
-                                    "_0": "(A) demonstrate",
-                                    "_1": "(B) decline",
-                                    "_2": "(C) face",
-                                    "_3": "(D) ease"
+                                    "A": "(A) demonstrate",
+                                    "B": "(B) decline",
+                                    "C": "(C) face",
+                                    "D": "(D) ease"
                             }
                     },
                     {
@@ -271,10 +271,10 @@
                             "explain": "(B) In about two weeks.",
                             "description": {
                                     "question": "Question 121. When can the man expect to receive his monitor? ",
-                                    "_0": "(A) since",
-                                    "_1": "(B) then",
-                                    "_2": "(C) here",
-                                    "_3": "(D) much"
+                                    "A": "(A) since",
+                                    "B": "(B) then",
+                                    "C": "(C) here",
+                                    "D": "(D) much"
                             }
                     },
                     {
@@ -284,10 +284,10 @@
                             "explain": "ĐÁP ÁN: (C) He can’t open the garage gate by himself.",
                             "description": {
                                     "question": "122. What problem is the man faced with? ",
-                                    "_0": "(A) against",
-                                    "_1": "(B) except",
-                                    "_2": "(C) upon",
-                                    "_3": "(D) throughout"
+                                    "A": "(A) against",
+                                    "B": "(B) except",
+                                    "C": "(C) upon",
+                                    "D": "(D) throughout"
                             }
                     },
                     {
@@ -297,10 +297,10 @@
                             "explain": "ĐÁP ÁN: (D) On Tuesday.",
                             "description": {
                                     "question": "123. When did the woman receive her parking permit? ",
-                                    "_0": "(A) requests",
-                                    "_1": "(B) request",
-                                    "_2": "(C) requesting",
-                                    "_3": "(D) requested"
+                                    "A": "(A) requests",
+                                    "B": "(B) request",
+                                    "C": "(C) requesting",
+                                    "D": "(D) requested"
                             }
                     },
                     {
@@ -310,10 +310,10 @@
                             "explain": "ĐÁP ÁN: (D) Contact the HR department.",
                             "description": {
                                     "question": "124. What does the woman suggest the man do? ",
-                                    "_0": "(A) suited",
-                                    "_1": "(B) conductive",
-                                    "_2": "(C) forward",
-                                    "_3": "(D) prior"
+                                    "A": "(A) suited",
+                                    "B": "(B) conductive",
+                                    "C": "(C) forward",
+                                    "D": "(D) prior"
                             }
                     },
                     {
@@ -323,10 +323,10 @@
                             "explain": "ĐÁP ÁN: (B) At a hair salon.",
                             "description": {
                                     "question": "125. Where most likely does this conversation take place? ",
-                                    "_0": "(A) weaken",
-                                    "_1": "(B) invalidate",
-                                    "_2": "(C) verify",
-                                    "_3": "(D) weigh"
+                                    "A": "(A) weaken",
+                                    "B": "(B) invalidate",
+                                    "C": "(C) verify",
+                                    "D": "(D) weigh"
                             }
                     },
                     {
@@ -336,10 +336,10 @@
                             "explain": "ĐÁP ÁN: (D) Change her hair color.",
                             "description": {
                                     "question": "126. What would the woman like to do? ",
-                                    "_0": "(A) as expensive",
-                                    "_1": "(B) more expensive",
-                                    "_2": "(C) so expensively",
-                                    "_3": "(D) most expensively"
+                                    "A": "(A) as expensive",
+                                    "B": "(B) more expensive",
+                                    "C": "(C) so expensively",
+                                    "D": "(D) most expensively"
                             }
                     },
                     {
@@ -349,10 +349,10 @@
                             "explain": "(D) To attend a training seminar.",
                             "description": {
                                     "question": "127. Why did the man visit New York? ",
-                                    "_0": "(A) extension",
-                                    "_1": "(B) production",
-                                    "_2": "(C) grade",
-                                    "_3": "(D) rise"
+                                    "A": "(A) extension",
+                                    "B": "(B) production",
+                                    "C": "(C) grade",
+                                    "D": "(D) rise"
                             }
                     },
                     {
@@ -362,10 +362,10 @@
                             "explain": "ĐÁP ÁN: (C) He can't access his messages.",
                             "description": {
                                     "question": "Question 128. What is the man's problem? ",
-                                    "_0": "(A) will overcome",
-                                    "_1": "(B) be overcome",
-                                    "_2": "(C) to overcome",
-                                    "_3": "(D) has overcome"
+                                    "A": "(A) will overcome",
+                                    "B": "(B) be overcome",
+                                    "C": "(C) to overcome",
+                                    "D": "(D) has overcome"
                             }
                     },
                     {
@@ -375,10 +375,10 @@
                             "explain": "ĐÁP ÁN:  (B) To technical services.",
                             "description": {
                                     "question": "Question 129. Where will the man probably go next? ",
-                                    "_0": "(A) budget",
-                                    "_1": "(B) prices",
-                                    "_2": "(C) credits ",
-                                    "_3": "(D) expenses"
+                                    "A": "(A) budget",
+                                    "B": "(B) prices",
+                                    "C": "(C) credits ",
+                                    "D": "(D) expenses"
                             }
                     },
                     {
@@ -388,10 +388,10 @@
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 130. Where is the technical support staff office located? ",
-                                    "_0": "(A) has presented",
-                                    "_1": "(B) presenting",
-                                    "_2": "(C) present",
-                                    "_3": "(D) to present"
+                                    "A": "(A) has presented",
+                                    "B": "(B) presenting",
+                                    "C": "(C) present",
+                                    "D": "(D) to present"
                             }
                     },
                     {
@@ -401,10 +401,10 @@
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 131. Where is the technical support staff office located? ",
-                                    "_0": "(A) fallen",
-                                    "_1": "(B) refused",
-                                    "_2": "(C) performed",
-                                    "_3": "(D) acquired"
+                                    "A": "(A) fallen",
+                                    "B": "(B) refused",
+                                    "C": "(C) performed",
+                                    "D": "(D) acquired"
                             }
                     },
                     {
@@ -414,10 +414,10 @@
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 132. Where is the technical support staff office located? ",
-                                    "_0": "(A) elevation",
-                                    "_1": "(B) mobility",
-                                    "_2": "(C) belief",
-                                    "_3": "(D) popularity"
+                                    "A": "(A) elevation",
+                                    "B": "(B) mobility",
+                                    "C": "(C) belief",
+                                    "D": "(D) popularity"
                             }
                     },
                     {
@@ -427,10 +427,10 @@
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 133. Where is the technical support staff office located? ",
-                                    "_0": "(A) issue",
-                                    "_1": "(B) condition",
-                                    "_2": "(C) prices",
-                                    "_3": "(D) promise"
+                                    "A": "(A) issue",
+                                    "B": "(B) condition",
+                                    "C": "(C) prices",
+                                    "D": "(D) promise"
                             }
                     },
                     {
@@ -440,10 +440,10 @@
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 134. Where is the technical support staff office located? ",
-                                    "_0": "(A) to",
-                                    "_1": "(B) by",
-                                    "_2": "(C) on",
-                                    "_3": "(D) for"
+                                    "A": "(A) to",
+                                    "B": "(B) by",
+                                    "C": "(C) on",
+                                    "D": "(D) for"
                             }
                     },
                     {
@@ -453,10 +453,10 @@
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 135. Where is the technical support staff office located? ",
-                                    "_0": "(A) practice",
-                                    "_1": "(B) persist",
-                                    "_2": "(C) cooperate",
-                                    "_3": "(D) retain"
+                                    "A": "(A) practice",
+                                    "B": "(B) persist",
+                                    "C": "(C) cooperate",
+                                    "D": "(D) retain"
                             }
                     },
                     {
@@ -466,10 +466,10 @@
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 136. Where is the technical support staff office located? ",
-                                    "_0": "(A) exclusive",
-                                    "_1": "(B) excluding",
-                                    "_2": "(C) exclusively",
-                                    "_3": "(D) excluded"
+                                    "A": "(A) exclusive",
+                                    "B": "(B) excluding",
+                                    "C": "(C) exclusively",
+                                    "D": "(D) excluded"
                             }
                     },
                     {
@@ -479,10 +479,10 @@
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 137. Where is the technical support staff office located? ",
-                                    "_0": "(A) facing",
-                                    "_1": "(B) progressing",
-                                    "_2": "(C) playing",
-                                    "_3": "(D) dealing"
+                                    "A": "(A) facing",
+                                    "B": "(B) progressing",
+                                    "C": "(C) playing",
+                                    "D": "(D) dealing"
                             }
                     },
                     {
@@ -492,10 +492,10 @@
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 138. Where is the technical support staff office located? ",
-                                    "_0": "(A) Despite",
-                                    "_1": "(B) Unless",
-                                    "_2": "(C) In order to",
-                                    "_3": "(D) As well as"
+                                    "A": "(A) Despite",
+                                    "B": "(B) Unless",
+                                    "C": "(C) In order to",
+                                    "D": "(D) As well as"
                             }
                     },
                     {
@@ -505,23 +505,23 @@
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 139. Where is the technical support staff office located? ",
-                                    "_0": "(A) such",
-                                    "_1": "(B) either",
-                                    "_2": "(C) with",
-                                    "_3": "(D) and"
+                                    "A": "(A) such",
+                                    "B": "(B) either",
+                                    "C": "(C) with",
+                                    "D": "(D) and"
                             }
                     },
                     {
-                            "id_cauhoi": 780,
+                            "id_cauhoi": 80,
                             "answer": 3,
                             "sign": "a140",
                             "explain": "ĐÁP ÁN: (D) Near the HR department.",
                             "description": {
                                     "question": "Question 140. Where is the technical support staff office located? ",
-                                    "_0": "(A) seek",
-                                    "_1": "(B) seeking",
-                                    "_2": "(C) have sought",
-                                    "_3": "(D) being sought"
+                                    "A": "(A) seek",
+                                    "B": "(B) seeking",
+                                    "C": "(C) have sought",
+                                    "D": "(D) being sought"
                             }
                     }
             ]
