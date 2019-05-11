@@ -18,8 +18,6 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-
-
 /* GET register */
 router.get('/register', function (req, res, next) {
   res.render('login/register', { data: {} });
@@ -100,13 +98,6 @@ router.post("/login", function (req, res, next) {
 //     res.redirect("/login");
 //   }
 // });
-
-
-
-
-
-
-
 
 
 // router.post("/kiemtradauvao/datmuctieu",function(req,res){
@@ -302,6 +293,9 @@ router.get('/xem', function (req, res, next) {
     });
 
   });
+
+
+  
 
 });
 

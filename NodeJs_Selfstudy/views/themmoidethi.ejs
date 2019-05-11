@@ -232,8 +232,12 @@
                       <label class="control-label col-md-3 col-sm-3 col-xs-12" for="username"> Types<span class="required">*</span>
                       </label>
                       <div class="col-md-6 col-sm-6 col-xs-12">
-                        <input id="name" class="form-control col-md-7 col-xs-12" data-validate-length-range="1,20"
-                          data-validate-words="1" name="types" required="required" type="text">
+                        <select id="heard" class="form-control" required>
+                          <option value="Writing">Writing</option>
+                          <option value="Speaking">Speaking</option>
+                          <option value="Listening">Listening</option>
+                          <option value="Reading">Reading</option>
+                        </select>
                       </div>
                     </div>
                     <div class="item form-group">

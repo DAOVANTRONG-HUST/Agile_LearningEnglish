@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var bcrypt = require('bcrypt-nodejs');
+<<<<<<< HEAD
 var dbpath = require('../config/database');
 
 
@@ -30,6 +31,29 @@ var UserSchema = new Schema({
         type: String,
         unique: true,
         required: true
+=======
+
+
+var UserSchema = new Schema({
+    _id: mongoose.Schema.Types.ObjectId,
+    email: {
+        type: String,
+        required: true,
+        unique: true,
+        match: /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
+    },
+    firstname: {
+        type: String, 
+        unique: true
+    },
+    lastname: {
+        type: String,
+        unique: true
+    },
+    phonenumber: {
+        type: String,
+        unique: true
+>>>>>>> 216ba34625163f201cf656331af5aa7e92d5a484
     },
     password: {
         type: String,
@@ -47,11 +71,21 @@ var UserSchema = new Schema({
         type: Date,
         default: Date.now()
     },
+<<<<<<< HEAD
     is_superuser: {
         type: false
     },
     is_active: {
         type: false,
+=======
+    is_admin: {
+        type: Boolean, 
+        default: false
+    },
+    is_active: {
+        type: Boolean,
+        default: true
+>>>>>>> 216ba34625163f201cf656331af5aa7e92d5a484
     },
     date_joined: {
         type: Date,
@@ -62,6 +96,7 @@ var UserSchema = new Schema({
             vocab_id: Number 
         }
     ],
+<<<<<<< HEAD
     
 });
 
@@ -99,5 +134,11 @@ MongoClient.connect(dbpath.database, { useNewUrlParser: true }, (err, db) => {
     }
     
 }); 
+=======
+}, {
+    collection:"user"
+}
+); 
+>>>>>>> 216ba34625163f201cf656331af5aa7e92d5a484
 
 module.exports = mongoose.model('User', UserSchema);
