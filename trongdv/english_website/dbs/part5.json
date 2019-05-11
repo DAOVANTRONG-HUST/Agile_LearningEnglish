@@ -1,50 +1,529 @@
 {
-    "id_exam":187103,
-    "Part5":{
-        "id_part":14309,
-        "bo_cau_hoi":
-        [
-
-            {"id_cauhoi":1,     "a1":"3",     "sign":"a1",     "translate":"Dịch nghĩa : Dường như Ông Kun Spenza là người duy nhất trong nhóm của chúng tôi đã  hoàn thành cuộc điều tra bởi một mình ông." , "explain":"Giải thích: ta cần hiểu nghĩa Dùng  by + đại từ phản thân (myself, yourself, himself, herself, itself, ourselves, themself) “appears to “ : dường như"},  
-            {"id_cauhoi":2,     "a2":"0",     "sign":"a2",    "translate":"Dịch nghĩa : Tất cả các phòng chứa đều được lên kế hoạch để sửa chữa và sẽ đóng cửa trong vài ngày vào tuần tới.",                  "explain":"Giải thích: Ta thấy ở cuối câu có “next week” => thì tương lai  =>  A"},
-            {"id_cauhoi":3,     "a3":"0",     "sign":"a3",     "translate": "Dịch nghĩa: Nhiều chuyên ngành về khoa học nhập trực tiếp vào cao học ngay sau khi tốt nghiệp cử nhân khoa học.",                 "explain":"Giải thích:  Trong câu đã có đủ thành phần.. ngoài ra ta có thể thấy khoảng trống cần 1 trạng từ để bổ nghĩa cho động từ ở phía trên enter => A Nhận biết : có đuôi ly"},
-            {"id_cauhoi":4,     "a4":"3",     "sign":"a4",     "translate":"Dịch nghĩa : Nhiều công ty phỏng vấn có kế hoạch thuê thêm nhân viên, trong khi họ mong đợi rằng có thể cắt giảm 20% biên chế (tổng số lương phải trả)","explain":"Giải thích : ta cần hiểu nghĩa của câu reply: đáp lại, phản hồi detect : phát hiện construct: xây dựng hire: thuê"},
-            {"id_cauhoi":5,     "a5":"1",     "sign":"a5",     "translate":"Dịch nghĩa : Dường như những người lao động ở các nước kém phát triển muốn đưa con cái của họ lao động trong trong công việc hơn là cho họ vào học.","explain":"Giải thích: Help” ở đây là động từ và đối tượng là những người lao động chịu tác động của từ “ help”  sự giúp đỡ từ phía con cái của họ  => cần 1 tân ngữ => B they : đại từ nhân xưng, dùng làm chủ ngữ themselves : đại từ phản thân thier + N "}, 
-            {"id_cauhoi":6,     "a6":"0",     "sign":"a6",     "translate":"Dịch văn bản: Cách tiếp cận mới để bảo vệ tài sản thông tin sẽ được đề cập trong số ra tháng 3 sắp tới của tạp chí.","explain":"Giải thích: Khoảng trống cần 1 danh từ => cần hiểu nghĩa của câu issue: Phát hành ấn phẩm condition: điều kiện price: giá promise: hứa "},  
-            {"id_cauhoi":7,     "a7":"0",     "sign":"a7",    "translate":"Dịch nghĩa : Khách hàng mua nhiều hơn 500 đô la các mặt hàng có thể yêu cầu một hộp cáp HDTV mà không phải trả thêm tiền", "explain":"Giải thích: Ta thấy charge : tính phí  là một N => trước nó cần một Adj => A"},
-            {"id_cauhoi":8,     "a8":"2",     "sign":"a8",    "translate":"Dịch nghĩa: Vẫn còn nhiều vấn đề kinh tế phức tạp  ần phải giải quyết, trong khi điều kiện kinh tế vẫn tốt.", "explain":"Giải thích: There are/ is = there remain =  vẫn còn"},
-            {"id_cauhoi":9,     "a9":"1",     "sign":"a9",    "translate":"Dịch văn bản : Ông Garry Noxon Cfl trong ngành kế toán đã được nhắc nhở nhiều lần về việc có quá nhiều lỗi số trong báo cáo ngân sách.", "explain":"Giải thích:  ta có  “be” + “adv” + “adj” => Cần 1 trạng từ để bổ nghĩa cho “warned” = cảnh báo"},
-            {"id_cauhoi":10,    "a10":"0",    "sign":"a10",     "translate":"Dịch nghĩa: Các nhà tuyển dụng quan tâm đến việc có được thông tin liên quan đến tài trợ cho chứng chỉ kỹ thuật viên có thể liên hệ với chúng tôi theo địa chỉ e-mail dưới đây.","explain":"Giải thích:  ta cần hiểu nghĩa technician certification” = giấy chứng nhận kỹ thuật, chứng chỉ kỉ thuật viên interested : hứng thú  listed : được liệt kê hopeful: hi vọng enclosed: đính kèm"}, 
-            {"id_cauhoi":11,    "a11":"1",    "sign":"a11",    "translate":"Dịch nghĩa: Theo nhiều khảo sát của ngành công nghiệp, phần lớn các công ty nhỏ đang hy vọng sẽ tham gia vào các hoạt động sinh lợi.", "explain":"(Giải thích:  Khoảng trống này cần 1 danh từ => loại cả C và D Vì trước nó là many => cần số nhiều => B "}, 
-            {"id_cauhoi":12,    "a12":"3",    "sign":"a12",  "translate":"Dịch nghĩa:: Trong suốt tuần lễ khuyến mãi vừa qua, chúng tôi đã cung cấp hoàn toàn miễn phí cho tất cả các du khách và khách hàng những thiết bị nhà bếp có giá 10 đô la.",   "explain":"Giải thích: ta cần hiểu nghĩa  extremely: cực kì, rất exclusively: độc quyền riêng lẻ continually: liên tục, không ngừng  completely: hoàn toàn "},  
-            {"id_cauhoi":13,    "a13":"0",    "sign":"a13",   "translate":"Dịch văn bản: Bước đầu tiên để chuẩn bị một bài trình bày khá thông tin chi tiết là nghiên cứu kỹ về chủ đề của bạn.",  "explain":"Giải thích : ta cần tính từ để bổ nghĩa cho presentation => A  Nhận biết: có đuôi tive"},
-            {"id_cauhoi":14,    "a14":"3",    "sign":"a14",  "translate":"Dịch nghĩa: Mặc dù thiếu nhân lực và ngân sách epo hẹp , 911 trung tâm đang cố gắng cung cấp đầy đủ hỗ trợ khẩn cấp cho công dân.",   "explain":"Giải thích: Câu trên mang quan hệ ý nghĩa đối lập  Although có thể đi với tính từ hoặc V-ed hoặc cụm trạng từ, khi đó chủ ngữ 2 vế giống nhau, có thể bị lược bỏ như trên yet = tuy nhiên meanwhile = trong khi but = nhưng"},
-            {"id_cauhoi":15,    "a15":"0",    "sign":"a15",   "translate":"Dịch nghĩa: Ứng viên cho vị trí quản lý được yêu cầu phải có động lực cao cùng với các kỹ năng máy tính cơ bản.",  "explain":"Giải thích : Ta thấy Applicants: các ứng cử viên  là chủ ngữ => động từ chia ở số nhiều => loại cả  B và D Câu chia ở bị động với thì hiện đại đơn => loại C => chọn A"},
-            {"id_cauhoi":16,    "a16":"0",    "sign":"a16",  "translate":"Dịch nghĩa : Các đơn nộp sẽ chỉ được chấp nhận nếu kèm theo giấy tờ tùy thân.",   "explain":"Giải thích:  Ta cần hiểu nghĩa “identification”  = chứng minh thư only if: chỉ khi until cho đến khi not only: không chỉ since: kể từ "}, 
-            {"id_cauhoi":17,    "a17":"1",    "sign":"a17",   "translate":"Dịch nghĩa : Rất có thể số lượng người tham gia hội thảo thường niên của năm nay sẽ đặt con số kỷ lục nhất từ trước đến nay, với hơn 1000 người dự kiến tham dự.",  "explain":"Giải thích : Ta cần một danh từ ở đây => loại C xét 2 danh từ A và B attendant (N) :  người tham gia nhưng để phục vụ người khác attendance (N) : số lượng người tham gia attendee : người tham dự với tư cách được mời Cả B và D đều có nghĩa giống nhau, nhưng lưu ý B là danh từ không đếm được, nên không cần mạo từ, và D là danh từ đếm được, nếu dùng D phải có mạo từ => B"},  
-            {"id_cauhoi":18,    "a18":"1",    "sign":"a18",  "translate":"Dịch nghĩa: Mặc dù có những nỗ lực đáng kể và thành công một phần trong vài năm qua, tỷ lệ thất nghiệp vẫn đang gia tăng.",   "explain":"Giải thích : Ta cần hiểu nghĩa proficient:  giỏi giang có hiệu quả considerable: đáng kể  secondary: cấp 2, thứ hai presen: món quà, thuyết trình"},
-            {"id_cauhoi":19,    "a19":"1",    "sign":"a19",   "translate":"Dịch nghĩa: Một báo giá chi tiết về việc bảo trì liên tục sẽ được cung cấp miễn phí bất cứ lúc nào theo yêu cầu.",  "explain":"Giải thích:  Ongoing :tiếp tục, liên tục là một tính từ =>  cần một danh từ để nó bổ nghĩa =>  B"},
-            {"id_cauhoi":20,    "a20":"3",    "sign":"a20",   "translate":"Dịch nghĩa: : Những nỗ lực để giảm bớt tắc nghẽn trong giờ cao điểm đang được thực hiện, nhưng dường như để không có gì để chứng tỏ nó hiệu quả tại thời điểm này.",  "explain":"trongdv"},
-            {"id_cauhoi":21,    "a21":"1",    "sign":"a21",  "translate":"Dịch nghĩa: Tất cả các tệp quan trọng được tổ chức đầu tiên bằng màu sắc và sau đó được sắp xếp theo tên theo tiêu đề và tên",   "explain":""}, 
-            {"id_cauhoi":22,    "a22":"3",    "sign":"a22",  "translate":"Dịch nghĩa : Người đi bộ và người lái xe nên tuân theo các biển báo giao thông được đặt trên khắp lộ trinh đi",   "explain":"(A) he"},  
-            {"id_cauhoi":23,    "a23":"0",    "sign":"a23",  "translate":"Dịch nghĩa: Bộ phận dịch vụ khách hàng có trách nhiệm thực hiện các yêu cầu của công chúng và phải chuyển tiếp cho giám đốc tài chính",   "explain":"(A) he"},
-            {"id_cauhoi":24,    "a24":"3",    "sign":"a24",  "translate":"Dịch nghĩa :  Biên tập viên rất bận rộn đọc, chỉnh sửa và biên soạn tài liệu trước ngày xuất bản",   "explain":"(A) he"},
-            {"id_cauhoi":25,    "a25":"1",    "sign":"a25",  "translate":"Dịch nghĩa : Khách hàng có quyền làm mất hiệu lực đơn đặt hàng trong vòng 5 ngày làm việc kể từ khi giao hàng mà không có lý do hủy bỏ",   "explain":"(A) he"},
-            {"id_cauhoi":26,    "a26":"1",    "sign":"a26",   "translate":"Dịch nghĩa : Khi chăm sóc sức khoẻ trở nên đắt hơn cách đây một thập niên, các công ty buộc phải chi tiêu nhiều hơn cho các phúc lợi.",  "explain":"(A) he"}, 
-            {"id_cauhoi":27,    "a27":"3",    "sign":"a27",  "translate":"Dịch nghĩa : Báo cáo về doanh số bán nhà hiện tại đã chỉ ra rằng có một lượng tăng không ngờ so với năm ngoái, nhưng số lượng nhà không bán được vẫn tăng lên",   "explain":"(A) he"},  
-            {"id_cauhoi":28,    "a28":"2",    "sign":"a28",  "translate":"Dịch nghĩa : Nhiều nhà nghiên cứu đang nghiên cứu làm thế nào để giảm thời gian để vượt qua và quên đi một tai nạn",   "explain":"(A) he"},
-            {"id_cauhoi":29,    "a29":"3",    "sign":"a29",  "translate":"Dịch nghĩa : Chi phí ăn ở và chi phí sinh hoạt sẽ khác nhau, tùy thuộc vào yêu cầu cá nhân và nơi làm việc",   "explain":"(A) he"},
-            {"id_cauhoi":30,    "a30":"3",    "sign":"a30",  "translate":"Dịch nghĩa : Người nói nên chuẩn bị để trình bày nghiên cứu của mình cho khán giả và có thể giải đáp được những câu hỏi liên quan đến chúng",   "explain":"(A) he"},
-            {"id_cauhoi":31,    "a31":"0",    "sign":"a31",  "translate":"Dịch nghĩa : Người mua đã hủy bỏ các hợp đồng nhà mới, do giá bất động sản đã giảm đáng kể trong những năm gần đây.",   "explain":"(A) he"}, 
-            {"id_cauhoi":32,    "a32":"3",    "sign":"a32", "translate":"Dịch nghĩa : Trong nhiều năm, các bộ phim sản xuất trong nước đã được phổ biến trong số mọi người ở mọi lứa tuổi",    "explain":"(A) he"},  
-            {"id_cauhoi":33,    "a33":"0",    "sign":"a33",  "translate":"Dịch nghĩa : Họ được yêu cầu phải thông báo cho phòng nhân sự trước khi nghỉ việc do sự bất đồng về chính sách của công ty",   "explain":"(A) he"},
-            {"id_cauhoi":34,    "a34":"3",    "sign":"a34",  "translate":"Dịch nghĩa : Dù bạn đã chỉnh sửa lại cuốn sách của mình ra sao, bạn phải bao gồm ảnh của tác phẩm nghệ thuật mà bạn muốn giữ lại từ ấn bản trước đó",   "explain":"(A) he"},
-            {"id_cauhoi":35,    "a35":"2",    "sign":"a35",   "translate":"Dịch nghĩa : Nhân viên sẽ chỉ được thưởng và ưu đãi tùy thuộc vào thành tích hoạt động của họ chứ không dựa vào mối quan hệ của họ với người giám sát",  "explain":"(A) he"},
-            {"id_cauhoi":36,    "a36":"0",    "sign":"a36",   "translate":"Dịch nghĩa : Kiểm toán nội bộ đang tiến hành xác định các mối rủi ro về điều hành và tài chính mà công ty chúng ta đang phải đối mặt tại thời điểm hiện tại",  "explain":"(A) he"},  
-            {"id_cauhoi":37,    "a37":"0",    "sign":"a37",  "translate":"Dịch nghĩa : Mặc dù đều kiện thời tiết khắc nghiệt, các nhân viên phải đến đúng giờ trước ca làm việc của họ.",   "explain":"(A) he"},
-            {"id_cauhoi":38,    "a38":"3",    "sign":"a38",  "translate":"Dịch nghĩa : Các đồ ăn nhé, đồ uống được bố trí trong đại sảnh và bữa chính sẽ được phục vụ ngay sau đó",   "explain":"(A) he"},
-            {"id_cauhoi":39,    "a39":"3",    "sign":"a39",  "translate":"Dịch nghĩa: Sự quyên góp đang được tìm kiếm cho việc mua các nhu yếu phẩm sẽ đem đến một kỳ nghỉ lễ đầy đủ hơn cho những người khó khăn.",   "explain":"(A) he"},
-            {"id_cauhoi":40,    "a40":"2",    "sign":"a40",  "translate":"Dịch nghĩa : Tất cả các kế toán viên được yêu cầu phải lập bảo báo cáo mô tả chi tiết các khoản chi tiêu hợp tác thường niên của công ty",   "explain":"(A) he"}
-        ]
-    } 
+    "id_exam": 187103,
+    "PartV": {
+            "id_part": 14309,
+            "audio_src": "",
+            "bo_cau_hoi": [
+                    {
+                            "id_cauhoi": 41,
+                            "answer": 1,
+                            "sign": "a101",
+                            "explain": "ĐÁP ÁN: (B) Change an appointment time.",
+                            "description": {
+                                    "question": "Question 101.Mr. Kurt Spienza appears to be the only person in our team who can finish the survey by ______",
+                                    "A": "(A) he",
+                                    "B": "(B) him",
+                                    "C": "(C) his",
+                                    "D": "(D) himself"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 42,
+                            "answer": 0,
+                            "sign": "a102",
+                            "explain": "ĐÁP ÁN: (A) Meet with some clients. ",
+                            "description": {
+                                    "question": "Question 102. What will the man do this afternoon? ",
+                                    "_0": "(A) will be",
+                                    "_1": "(B) was",
+                                    "_2": "(C) are",
+                                    "_3": "(D) has been"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 43,
+                            "answer": 3,
+                            "sign": "a103",
+                            "explain": "ĐÁP ÁN: (D) At 4 o'clock",
+                            "description": {
+                                    "question": " Question 103. What time will the man start his appointment this afternoon?",
+                                    "_0": "(A) directly",
+                                    "_1": "(B) direct",
+                                    "_2": "(C) directed",
+                                    "_3": "(D) direction"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 44,
+                            "answer": 2,
+                            "sign": "a104",
+                            "explain": "ĐÁP ÁN: (C) A mobile phone company",
+                            "description": {
+                                    "question": "Question 104. What kind of company does the man work for? ",
+                                    "_0": "(A) reply",
+                                    "_1": "(B) detect",
+                                    "_2": "(C) construct",
+                                    "_3": "(D) hire"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 45,
+                            "answer": 0,
+                            "sign": "a105",
+                            "explain": "ĐÁP ÁN:  (A) The price may have risen.",
+                            "description": {
+                                    "question": "Question 105. How does the man explain the change in the woman's bill? ",
+                                    "_0": "(A) they",
+                                    "_1": "(B) them",
+                                    "_2": "(C) themselves",
+                                    "_3": "(D) their"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 46,
+                            "answer": 1,
+                            "sign": "a106",
+                            "explain": "ĐÁP ÁN:  (B) Her telephone number.",
+                            "description": {
+                                    "question": "Question 106. What information does the man ask the woman for?",
+                                    "_0": "(A) issue",
+                                    "_1": "(B) condition",
+                                    "_2": "(C) prices",
+                                    "_3": "(D) promise"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 47,
+                            "answer": 3,
+                            "sign": "a107",
+                            "explain": "ĐÁP ÁN: (D) The retirement of a colleague.",
+                            "description": {
+                                    "question": "Question 107. What is the celebration for?",
+                                    "_0": "(A) additional",
+                                    "_1": "(B) addition",
+                                    "_2": "(C) adding",
+                                    "_3": "(D) additionally"
+                            }
+                    },
+                    {
+                            "id_cauhoi":48,
+                            "answer": 2,
+                            "sign": "a108",
+                            "explain": "ĐÁP ÁN: (C) At 7:00 .",
+                            "description": {
+                                    "question": "Question 108. When will the celebration start?",
+                                    "_0": "(A) They",
+                                    "_1": "(B) It",
+                                    "_2": "(C) There",
+                                    "_3": "( (D) That"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 49,
+                            "answer": 2,
+                            "sign": "a109",
+                            "explain": "ĐÁP ÁN: (C) To a bakery.",
+                            "description": {
+                                    "question": "Question 109. Where will the woman go before the party? ",
+                                    "_0": "(A) repeat",
+                                    "_1": "(B) repeatedly",
+                                    "_2": "(C) repeater",
+                                    "_3": "(D) repetition"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 50,
+                            "answer": 1,
+                            "sign": "a110",
+                            "explain": "ĐÁP ÁN: (B) He recently won a prize.",
+                            "description": {
+                                    "question": "Question 110. Why is William happy? ",
+                                    "_0": "(A) interested",
+                                    "_1": "(B) listed",
+                                    "_2": "(C) hopeful",
+                                    "_3": "(D) enclosed"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 51,
+                            "answer": 1,
+                            "sign": "a111",
+                            "explain": "ĐÁP ÁN: (B) Sign up for a workshop.",
+                            "description": {
+                                    "question": "Question 111. What does William hope to do? ",
+                                    "_0": "(A) survey",
+                                    "_1": "(B) surveys",
+                                    "_2": "(C) surveying",
+                                    "_3": "(D) surveyed"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 52,
+                            "answer": 0,
+                            "sign": "a112",
+                            "explain": "ĐÁP ÁN: (A) An oil painting.",
+                            "description": {
+                                    "question": "Question 112. What is William working on these days? ",
+                                    "_0": "(A) extremely",
+                                    "_1": "(B) exclusively",
+                                    "_2": "(C) continually",
+                                    "_3": "(D) completely"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 53,
+                            "answer": 1,
+                            "sign": "a113",
+                            "explain": "ĐÁP ÁN: (B) At an office building.",
+                            "description": {
+                                    "question": "Question 113. Where is the conversation most likely taking place?",
+                                    "_0": "(A) informative",
+                                    "_1": "(B) inform",
+                                    "_2": "(C) information",
+                                    "_3": "(D) informer"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 54,
+                            "answer": 2,
+                            "sign": "a114",
+                            "explain": "(C) Sign the form.",
+                            "description": {
+                                    "question": "Question 114. What does the assistant offer to do? ",
+                                    "_0": "(A) issue",
+                                    "_1": "(B) condition",
+                                    "_2": "(C) prices",
+                                    "_3": "(D) promise"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 55,
+                            "answer": 1,
+                            "sign": "a115",
+                            "explain": "ĐÁP ÁN:  (B) A filing cabinet.",
+                            "description": {
+                                    "question": "Question 115. What will be delivered to the conference room? ",
+                                    "_0": "(A) are required",
+                                    "_1": "(B) require",
+                                    "_2": "(C) requires",
+                                    "_3": "(D) has required"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 56,
+                            "answer": 0,
+                            "sign": "a116",
+                            "explain": "ĐÁP ÁN: (A) An information desk clerk ",
+                            "description": {
+                                    "question": "Question 116. Who most likely is the man? ",
+                                    "_0": "(A) only if",
+                                    "_1": "(B) until",
+                                    "_2": "(C) not only",
+                                    "_3": "(D) since"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 57,
+                            "answer": 2,
+                            "sign": "a117",
+                            "explain": "ĐÁP ÁN:  (C) To check her order.",
+                            "description": {
+                                    "question": "Question 117. Where is the woman going? ",
+                                    "_0": "(A) attendant",
+                                    "_1": "(B) attendance",
+                                    "_2": "(C) attended",
+                                    "_3": "(D) attendee"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 58,
+                            "answer": 2,
+                            "sign": "a118",
+                            "explain": "ĐÁP ÁN: (C) Using a discount coupon.",
+                            "description": {
+                                    "question": "Question 118. How does the man suggest lowering the admission price? ",
+                                    "_0": "(A) proficient",
+                                    "_1": "(B) considerable",
+                                    "_2": "(C) secondary",
+                                    "_3": "(D) present"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 59,
+                            "answer": 0,
+                            "sign": "a119",
+                            "explain": "ĐÁP ÁN: (A) White.",
+                            "description": {
+                                    "question": "Question 119. What color monitors are available now? ",
+                                    "_0": "(A) maintaining",
+                                    "_1": "(B) maintenancen",
+                                    "_2": "(C) maintained",
+                                    "_3": "(D) maintains"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 60,
+                            "answer": 2,
+                            "sign": "a120",
+                            "explain": "ĐÁP ÁN: (C) $ 200 .",
+                            "description": {
+                                    "question": "Question 120. How much does it cost to increase the size of the monitor? ",
+                                    "_0": "(A) demonstrate",
+                                    "_1": "(B) decline",
+                                    "_2": "(C) face",
+                                    "_3": "(D) ease"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 61,
+                            "answer": 1,
+                            "sign": "a121",
+                            "explain": "(B) In about two weeks.",
+                            "description": {
+                                    "question": "Question 121. When can the man expect to receive his monitor? ",
+                                    "_0": "(A) since",
+                                    "_1": "(B) then",
+                                    "_2": "(C) here",
+                                    "_3": "(D) much"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 62,
+                            "answer": 2,
+                            "sign": "a122",
+                            "explain": "ĐÁP ÁN: (C) He can’t open the garage gate by himself.",
+                            "description": {
+                                    "question": "122. What problem is the man faced with? ",
+                                    "_0": "(A) against",
+                                    "_1": "(B) except",
+                                    "_2": "(C) upon",
+                                    "_3": "(D) throughout"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 63,
+                            "answer": 3,
+                            "sign": "a123",
+                            "explain": "ĐÁP ÁN: (D) On Tuesday.",
+                            "description": {
+                                    "question": "123. When did the woman receive her parking permit? ",
+                                    "_0": "(A) requests",
+                                    "_1": "(B) request",
+                                    "_2": "(C) requesting",
+                                    "_3": "(D) requested"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 64,
+                            "answer": 3,
+                            "sign": "a124",
+                            "explain": "ĐÁP ÁN: (D) Contact the HR department.",
+                            "description": {
+                                    "question": "124. What does the woman suggest the man do? ",
+                                    "_0": "(A) suited",
+                                    "_1": "(B) conductive",
+                                    "_2": "(C) forward",
+                                    "_3": "(D) prior"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 65,
+                            "answer": 1,
+                            "sign": "a125",
+                            "explain": "ĐÁP ÁN: (B) At a hair salon.",
+                            "description": {
+                                    "question": "125. Where most likely does this conversation take place? ",
+                                    "_0": "(A) weaken",
+                                    "_1": "(B) invalidate",
+                                    "_2": "(C) verify",
+                                    "_3": "(D) weigh"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 66,
+                            "answer": 3,
+                            "sign": "a126",
+                            "explain": "ĐÁP ÁN: (D) Change her hair color.",
+                            "description": {
+                                    "question": "126. What would the woman like to do? ",
+                                    "_0": "(A) as expensive",
+                                    "_1": "(B) more expensive",
+                                    "_2": "(C) so expensively",
+                                    "_3": "(D) most expensively"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 67,
+                            "answer": 3,
+                            "sign": "a127",
+                            "explain": "(D) To attend a training seminar.",
+                            "description": {
+                                    "question": "127. Why did the man visit New York? ",
+                                    "_0": "(A) extension",
+                                    "_1": "(B) production",
+                                    "_2": "(C) grade",
+                                    "_3": "(D) rise"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 68,
+                            "answer": 2,
+                            "sign": "a128",
+                            "explain": "ĐÁP ÁN: (C) He can't access his messages.",
+                            "description": {
+                                    "question": "Question 128. What is the man's problem? ",
+                                    "_0": "(A) will overcome",
+                                    "_1": "(B) be overcome",
+                                    "_2": "(C) to overcome",
+                                    "_3": "(D) has overcome"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 69,
+                            "answer": 1,
+                            "sign": "a129",
+                            "explain": "ĐÁP ÁN:  (B) To technical services.",
+                            "description": {
+                                    "question": "Question 129. Where will the man probably go next? ",
+                                    "_0": "(A) budget",
+                                    "_1": "(B) prices",
+                                    "_2": "(C) credits ",
+                                    "_3": "(D) expenses"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 70,
+                            "answer": 3,
+                            "sign": "a130",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 130. Where is the technical support staff office located? ",
+                                    "_0": "(A) has presented",
+                                    "_1": "(B) presenting",
+                                    "_2": "(C) present",
+                                    "_3": "(D) to present"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 71,
+                            "answer": 3,
+                            "sign": "a131",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 131. Where is the technical support staff office located? ",
+                                    "_0": "(A) fallen",
+                                    "_1": "(B) refused",
+                                    "_2": "(C) performed",
+                                    "_3": "(D) acquired"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 72,
+                            "answer": 3,
+                            "sign": "a132",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 132. Where is the technical support staff office located? ",
+                                    "_0": "(A) elevation",
+                                    "_1": "(B) mobility",
+                                    "_2": "(C) belief",
+                                    "_3": "(D) popularity"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 73,
+                            "answer": 3,
+                            "sign": "a133",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 133. Where is the technical support staff office located? ",
+                                    "_0": "(A) issue",
+                                    "_1": "(B) condition",
+                                    "_2": "(C) prices",
+                                    "_3": "(D) promise"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 74,
+                            "answer": 3,
+                            "sign": "a134",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 134. Where is the technical support staff office located? ",
+                                    "_0": "(A) to",
+                                    "_1": "(B) by",
+                                    "_2": "(C) on",
+                                    "_3": "(D) for"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 75,
+                            "answer": 3,
+                            "sign": "a135",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 135. Where is the technical support staff office located? ",
+                                    "_0": "(A) practice",
+                                    "_1": "(B) persist",
+                                    "_2": "(C) cooperate",
+                                    "_3": "(D) retain"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 76,
+                            "answer": 3,
+                            "sign": "a136",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 136. Where is the technical support staff office located? ",
+                                    "_0": "(A) exclusive",
+                                    "_1": "(B) excluding",
+                                    "_2": "(C) exclusively",
+                                    "_3": "(D) excluded"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 77,
+                            "answer": 3,
+                            "sign": "a137",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 137. Where is the technical support staff office located? ",
+                                    "_0": "(A) facing",
+                                    "_1": "(B) progressing",
+                                    "_2": "(C) playing",
+                                    "_3": "(D) dealing"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 78,
+                            "answer": 3,
+                            "sign": "a138",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 138. Where is the technical support staff office located? ",
+                                    "_0": "(A) Despite",
+                                    "_1": "(B) Unless",
+                                    "_2": "(C) In order to",
+                                    "_3": "(D) As well as"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 79,
+                            "answer": 3,
+                            "sign": "a139",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 139. Where is the technical support staff office located? ",
+                                    "_0": "(A) such",
+                                    "_1": "(B) either",
+                                    "_2": "(C) with",
+                                    "_3": "(D) and"
+                            }
+                    },
+                    {
+                            "id_cauhoi": 780,
+                            "answer": 3,
+                            "sign": "a140",
+                            "explain": "ĐÁP ÁN: (D) Near the HR department.",
+                            "description": {
+                                    "question": "Question 140. Where is the technical support staff office located? ",
+                                    "_0": "(A) seek",
+                                    "_1": "(B) seeking",
+                                    "_2": "(C) have sought",
+                                    "_3": "(D) being sought"
+                            }
+                    }
+            ]
+    }
 }
