@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../../thanhtv/css/listWord.css" rel="stylesheet" >
+    </head>
+    <body>
+        
+            
+        <% 
+      data.forEach((e)=>{
+         %>
+           <div class="center"><h2 id="header_title" class="page-title"><%=e.title%></h2></div>
+         <%   e.word.forEach((da)=>{ 
+             if(da.userlist.indexOf(username)>-1){%>
+
+                <div class="row">
+                        <div class="col-md-9 col-sm-10">
+                            <div class="lesson-content">
+                                <div id="tab4" class="toggle-content"><div class="tuvung">
+                                        <div class="stt">
+                                            <%= da.number %>	</div>
+                                            <div id="title" hidden><%-da.theme%></div>
+                                        <div class="hinhanh">										
+                                            <div><img class="img-responsive img_left"  src="../../thanhtv/<%=da.image %>"></div>
+                                        </div>
+                                        <div class="noidung">
+                                                <span style="color: blue; font-size: 16px ! important;"><%=da.name%></span>
+                                                <span style="color: red;"><%= da.phien_am%></span><br>
+                                                <span class="bold">Giải thích: </span><%=da.mean%><br>
+                                                <span class="bold">Từ loại: </span><%=da.loai%><br>
+                                                <span class="bold">Ví dụ: </span><%=da.example%></b><br>
+                                                <b class="bold"><%=da.dich%></b><br><br>
+                                                        
+                                                <audio controls="">
+                                                        <source src="../../thanhtv/<%=da.audio%>" type="audio/mpeg">
+                                                        Your browser does not support the audio element.
+                                                    </audio>
+                                                
+                                                
+                                        </div>
+                                        
+                                    </div>
+                            </div> <!-- /.inner-content -->
+                            <div style="clear:both"></div>
+                        </div> <!-- /.col-md-9 -->
+                        
+                    </div>
+                    </div>
+                  
+                <% }})  %>
+       <% })%>
+	</body>
+	<!-- Sử dụng jquery để truy cập tới các  -->
+	<script src="../../thanhtv/js/jquery.js"></script>
+	<!-- Sử dụng ajax để gửi dữ liệu lên server thay vì dùng form -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Gọi đến file Handle.js để thực hiện sự kiện -->
+	<script src="../../thanhtv/js/handleIcon.js"></script>
+</html>

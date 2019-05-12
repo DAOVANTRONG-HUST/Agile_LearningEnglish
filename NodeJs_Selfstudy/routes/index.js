@@ -17,7 +17,7 @@ const dbName = 'englishWebsite';
 /* GET home page. */
 router.get('/', function (req, res, next) {
   if (req.session.user) {
-    res.redirect("/dashboard/" + req.session.user._id);
+    res.redirect("/dashboard" + req.session.user._id);
   }
   else
     res.redirect('login');
@@ -26,7 +26,7 @@ router.get('/', function (req, res, next) {
 /* GET register */
 router.get('/register', function (req, res, next) {
   if (req.session.user) {
-    res.redirect("/dashboard/" + req.session.user._id);
+    res.redirect("/dashboard" + req.session.user._id);
   }
   else
     res.render('login', { data: {} });
@@ -55,7 +55,7 @@ router.post("/register", function (req, res, next) {
 router.get('/login', function (req, res, next) {
   if (req.session.user)
   {
-    res.redirect("/dashboard/");
+    res.redirect("/dashboard");
   }
   else 
     res.render("login", { data: {} });

@@ -1,243 +1,305 @@
-<% include ../template/header_dethi %>
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title> English Self-Study Supporter </title>
 
-    <!-- start top -->
-    <header data-sticky data-class-name="bg-blue" class="clearfix header1">
-        <div class="content">
-            <div class="logo">
-                <a href="/?r=nav" title="Gia sư TOEIC">
-                    <img src="/static/RealEdu/images/logo.png" alt="Gia sư TOEIC Logo">
-                </a>
-            </div>
-            <div class="logo-text">
-                <a href="/?r=nav" title="Luyện thi TOEIC Online">
-                    <img src="/static/RealEdu/images/logo_text_nhu_co_giasu.png" alt="Luyện thi TOEIC Online">
-                </a>
-            </div>
-            <div class="header__menu header__menu--desktop">
-                <div data-sub-menu class="header__menu__left">
-                    <ul class="list-menu">
-                        <li class="list-menu__item menu-in-li">
-                            <div data-btn-submenu-user class="user-block user-avatar">
-                                <img src="/static/RealEdu/images/user_icon.png" alt="User icon" class="icon-user">
-                                <p class="name-user">Tôi</p>
-                                <img src="/static/RealEdu/images/show_menu_icon.png" alt="Menu icon" class="icon-show">
-                            </div>
-                            <ul data-sub-menu-user class="list-menu submenu">
-                                <li class="list-menu__item">
-                                    <a href="/user/quetoi/?r=nav" title="Thiết lập tài khoản">
-                                        <figure><img src="/static/RealEdu/images/profile_page_icon.png"
-                                                alt="Thiết lập tài khoản"></figure>
-                                        <span>Thiết lập tài khoản</span>
-                                    </a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/notes/?r=nav" title="Ghi chú của tôi">
-                                        <figure><img src="/static/RealEdu/images/learning_notes_icon.png"
-                                                alt="Những ghi chú của tôi"></figure>
-                                        <span>Ghi chú của tôi</span>
-                                    </a>
-                                </li>
-                                <li class="list-menu__item learning-guide">
-                                    <a href="/huong-dan/cach-hoc-tren-gia-su-toeic/?r=account"
-                                        title="Hướng dẫn cách học">
-                                        <figure><img src="/static/RealEdu/images/learning_guide_icon.png"
-                                                alt="Hướng dẫn cách học"></figure>
-                                        <span>Hướng dẫn cách học</span>
-                                    </a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/pay/?r=account" title="Hướng dẫn thanh toán">
-                                        <figure><img src="/static/RealEdu/images/payment_guide.png"
-                                                alt="Hướng dẫn thanh toán"></figure>
-                                        <span>Hướng dẫn thanh toán</span>
-                                    </a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/affiliate/?r=nav" title="Giới thiệu cho GSToeic">
-                                        <figure><img src="/static/RealEdu/images/refer_gst_icon.png"
-                                                alt="Giới thiệu cho GSToeic"></figure>
-                                        <span>Giới thiệu cho GSToeic</span>
-                                    </a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/contact/?r=account" title="Gửi góp ý">
-                                        <figure><img src="/static/RealEdu/images/feedback_icon.png" alt="Gửi góp ý">
-                                        </figure>
-                                        <span>Gửi góp ý</span>
-                                    </a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/logout/" title="Thoát">
-                                        <figure><img src="/static/RealEdu/images/logout_icon.png" alt="Thoát">
-                                        </figure>
-                                        <span>Thoát</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li style="padding:0;" class="list-menu__item ">
-                            <div data-btn-submenu-user class="user-block" style="display: block;">
-                                <a href="/dashboard/?r=nav" class="name-user submit-btn oval-btn">
-                                    Góc học tập theo lộ trình
-                                </a>
-                            </div>
-                        </li>
-                        <li style="padding: 0;">
-                            <div data-btn-submenu-user class="user-block" style="display: block;">
-                                <div class="name-user submit-btn oval-btn">
-                                    Học tùy thích
-                                    <img style="float: none; margin-top: 0"
-                                        src="/static/RealEdu/images/show_menu_icon.png" alt="Menu icon"
-                                        class="icon-show">
-                                </div>
-                            </div>
-                            <ul data-sub-menu-user class="submenu learn-freely">
-                                <li class="list-menu__item">
-                                    <a href="/de-thi-toeic/?r=nav#secdeluyentap" title="Đề luyện tập">
-                                        <span>Đề luyện tập</span></a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/de-thi-toeic/?r=nav#secdethitoeic" title="Đề thi thử">
-                                        <span>Đề thi thử</span></a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/de-thi-toeic/?r=nav#detoeic_rutgon" title="Đề thi rút gọn">
-                                        <span>Đề thi rút gọn</span></a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/ngu-phap-tieng-anh/?r=nav" title="Ngữ pháp PRO">
-                                        <span>Ngữ pháp PRO</span></a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/tu-vung-tieng-anh/toeic-pro/?r=nav" title="Từ vựng TOEIC PRO">
-                                        <span>Từ vựng PRO</span></a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/600-tu-vung-toeic/?r=nav" title="600 Từ vựng TOEIC">
-                                        <span>600 Từ TOEIC</span></a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/luyen-nghe-toeic/?r=nav" title="Game luyện nghe">
-                                        <span>Game luyện nghe</span></a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/phan-tich-de-thi-toeic/?r=nav" title="Chiến lược làm bài">
-                                        <span>Chiến lược làm bài</span></a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/meo-thi-toeic/?r=nav" title="Mẹo làm bài">
-                                        <span>Mẹo làm bài</span></a>
-                                </li>
-                                <li class="list-menu__item">
-                                    <a href="/questions/?r=nav" title="Đặt câu hỏi">
-                                        <span>Đặt câu hỏi</span></a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li style="padding:0;" class="list-menu__item">
-                            <div data-btn-submenu-user class="user-block" style="display: block;">
-                                <a href="/huong-dan/?r=nav" title="Hướng dẫn" class="name-user submit-btn oval-btn">
-                                    Hướng dẫn
-                                </a>
-                            </div>
-                        </li>
-                        <li class="list-menu__item hotline">
-                            <span class="glyphicon glyphicon-earphone"></span> &nbsp;
-                            0916 92 1419
-                        </li>
-                    </ul>
-                </div>
-                <div class="header__menu__right">
-                    <div data-btn-submenu-user class="user-block">
-                        <img src="/static/RealEdu/images/user_icon.png" alt="User icon" class="icon-user">
-                        <p class="name-user">Cong</p>
-                        <img src="/static/RealEdu/images/show_menu_icon.png" alt="Menu icon" class="icon-show">
+    <!-- Bootstrap -->
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+
+    <!-- bootstrap-progressbar -->
+    <link href="vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet" />
+    <!-- bootstrap-daterangepicker -->
+    <link href="vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="build/css/custom.min.css" rel="stylesheet">
+
+    <link href="/css/style.css?v=1554266457" rel="stylesheet">
+    <link href="/css/global.css?v=1554266457" rel="stylesheet">
+    <link href="/css/meter.css?v=1554266457" rel="stylesheet">
+    <link href="/js/jQueryUI/my.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?v=1.1" rel="stylesheet">
+    <link href="/css/responsive.css?v=1.1" rel="stylesheet">
+    <script src="/js/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- <link rel="icon" href="/upload/2016/05/logo.ico?v=2"" type=" image/x-icon"/> jQueryUI -->
+    <script src="/js/jQueryUI/jquery-ui.min.js"></script>
+    <script src="/js/jQueryUI/jquery.ui.touch-punch.min.js"></script>
+    <!-- Pagination -->
+    <script src="/js/pagination/jquery.twbsPagination.js"></script>
+    <!-- Autokey -->
+    <script src="/js/autokey.js"></script>
+    <!-- JS -->
+    <script src="/js/main.js"></script>
+    <script src="/js/login.js"></script>
+    <script src="/js/comment.js"></script>
+    <!-- Global site tag (gtag.js) - Google AdWords: 807852125 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-807852125"></script>
+    
+    <style>
+        .ui-widget,
+        .ui-widget textarea,
+        .ui-button .ui-button-text {
+            font-family: "Roboto-Regular";
+        }
+    
+        .ui-button {
+            padding: 3px 7px;
+        }
+    
+        .ui-button .ui-button-text {
+            font-size: 16px;
+        }
+    </style>
+    
+    
+    <style>
+        .ftests-result-label {
+            background: #AAABAB;
+            font-style: italic;
+            color: #fff;
+            padding: 3px 5px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+    </style>
+    
+    
+    
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-807852125');
+    </script>
+
+</head>
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="/dashboard" class="site_title"><i class="fa fa-paw"></i> <span>ESS </span></a>
                     </div>
-                    <ul data-sub-menu-user class="list-menu submenu">
-                        <li class="list-menu__item">
-                            <a href="/user/quetoi/?r=nav" title="Thiết lập tài khoản">
-                                <figure><img src="/static/RealEdu/images/profile_page_icon.png"
-                                        alt="Thiết lập tài khoản"></figure>
-                                <span>Thiết lập tài khoản</span>
-                            </a>
-                        </li>
-                        <li class="list-menu__item">
-                            <a href="/notes/?r=nav" title="Ghi chú của tôi">
-                                <figure><img src="/static/RealEdu/images/learning_notes_icon.png"
-                                        alt="Những ghi chú của tôi"></figure>
-                                <span>Ghi chú của tôi</span>
-                            </a>
-                        </li>
-                        <li class="list-menu__item learning-guide">
-                            <a href="/huong-dan/cach-hoc-tren-gia-su-toeic/?r=account" title="Hướng dẫn cách học">
-                                <figure><img src="/static/RealEdu/images/learning_guide_icon.png"
-                                        alt="Hướng dẫn cách học"></figure>
-                                <span>Hướng dẫn cách học</span>
-                            </a>
-                        </li>
-                        <li class="list-menu__item">
-                            <a href="/pay/?r=account" title="Hướng dẫn thanh toán">
-                                <figure><img src="/static/RealEdu/images/payment_guide.png" alt="Hướng dẫn thanh toán">
-                                </figure>
-                                <span>Hướng dẫn thanh toán</span>
-                            </a>
-                        </li>
-                        <li class="list-menu__item">
-                            <a href="/affiliate/?r=nav" title="Giới thiệu cho GSToeic">
-                                <figure><img src="/static/RealEdu/images/refer_gst_icon.png"
-                                        alt="Giới thiệu cho GSToeic"></figure>
-                                <span>Giới thiệu cho GSToeic</span>
-                            </a>
-                        </li>
-                        <li class="list-menu__item">
-                            <a href="/contact/?r=account" title="Gửi góp ý">
-                                <figure><img src="/static/RealEdu/images/feedback_icon.png" alt="Gửi góp ý">
-                                </figure>
-                                <span>Gửi góp ý</span>
-                            </a>
-                        </li>
-                        <li class="list-menu__item logout-menu">
-                            <a href="/logout/" title="Thoát">
-                                <figure><img src="/static/RealEdu/images/logout_icon.png" alt="Thoát"></figure>
-                                <span>Thoát</span>
-                            </a>
-                        </li>
+
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+                    <div class="profile clearfix">
+                        <div class="profile_pic">
+                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2><%= data.firstname + " " + data.lastname %></h2>
+                        </div>
+                    </div>
+                    <!-- /menu profile quick info -->
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <h3>General</h3>
+                            <ul class="nav side-menu">
+
+                                <li><a href="/dashboard"><i class="fa fa-home"></i> Trang chủ </a></li>
+                                <%if(data.is_admin){%>
+                                <li><a href="/quanlythanhvien"><i class="fa fa-users"></i> Quản lý thành viên</a></li>
+                                <li><a href="/quanlydethi"><i class="fa fa-file-text-o"></i> Quản lý đề thi</a></li>
+                                <li><a href="/quanlytuvung"><i class="fa fa-sort-alpha-desc"></i> Quản lý từ vựng</a>
+                                </li>
+                                <%}%>
+                                <li><a href="/thietlapdanhsachhoc"><i class="fa fa-tasks"></i> Thiết lập danh sách học </a></li>
+                                <li><a><i class="fa fa-edit"></i> Thi thử <span class="fa fa-chevron-down"></span></a>
+                                  <ul class="nav child_menu">
+                                    <li><a href="kiemtratuvung">Kiểm tra từ vựng</a></li>
+                                    <li><a href="kiemtratongthe">Kiểm tra tổng thể</a></li>
+                                  </ul>
+                                </li>
+                                <li><a href="/diemdanh"><i class="fa fa-check"></i> Điểm danh hàng ngày </a></li>
+                                <li><a href="/forum"><i class="fa fa-comments-o"></i> Forum </a></li>
+                                <!--  <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="form.">General Form</a></li>
+                      <li><a href="form_advanced.">Advanced Components</a></li>
+                      <li><a href="form_validation.">Form Validation</a></li>
+                      <li><a href="form_wizards.">Form Wizard</a></li>
+                      <li><a href="form_upload.">Form Upload</a></li>
+                      <li><a href="form_buttons.">Form Buttons</a></li>
                     </ul>
-                    <ul class="list-menu list-menu--mobile">
-                        <li class="list-menu__item">
-                            <a href="/dashboard/?r=nav" title="goc hoc tap">GÓC HỌC TẬP</a>
-                        </li>
-                    </ul>
-                    <button type="button" data-btn-submenu class="btn-menu">
-                        <img src="/static/RealEdu/images/icon_menu_closed.png" alt="menu closed" data-submenu-close>
-                        <img src="/static/RealEdu/images/icon_menu_open.png" alt="menu opened"
-                            data-submenu-open></button>
-                </div>
+                  </li> -->
+
+              </ul>
             </div>
+            <!-- <div class="menu_section">
+                <h3>Live On</h3>
+                <ul class="nav side-menu">
+                                    
+                  <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
+                </ul> 
+              </div> -->
+
+          </div>
+          <!-- /sidebar menu -->
+
+          <!-- /menu footer buttons -->
+          <div class="sidebar-footer hidden-small">
+            <a data-toggle="tooltip" data-placement="top" title="Settings">
+              <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+            </a>
+            <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+              <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+            </a>
+            <a data-toggle="tooltip" data-placement="top" title="Lock">
+              <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+            </a>
+            <a data-toggle="tooltip" data-placement="top" title="Logout" href="logout">
+              <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+            </a>
+          </div>
+          <!-- /menu footer buttons -->
         </div>
-    </header>
+      </div>
+
+      <!-- top navigation -->
+      <div class="top_nav">
+        <div class="nav_menu">
+          <nav>
+            <div class="nav toggle">
+              <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class="">
+                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown"
+                  aria-expanded="false">
+                  <img src="images/img.jpg" alt=""><%= data.firstname + " " + data.lastname %>
+                                <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="/profile"> Profile</a></li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="badge bg-red pull-right">50%</span>
+                                            <span>Settings</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="javascript:;">Help</a></li>
+                                    <li><a href="logout"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                                </ul>
+                                </li>
+
+                                <li role="presentation" class="dropdown">
+                                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="fa fa-envelope-o"></i>
+                                        <span class="badge bg-green">6</span>
+                                    </a>
+                                    <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                                        <li>
+                                            <a>
+                                                <span class="image"><img src="images/img.jpg"
+                                                        alt="Profile Image" /></span>
+                                                <span>
+                                                    <span>John Smith</span>
+                                                    <span class="time">3 mins ago</span>
+                                                </span>
+                                                <span class="message">
+                                                    Film festivals used to be do-or-die moments for movie makers. They
+                                                    were where...
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span class="image"><img src="images/img.jpg"
+                                                        alt="Profile Image" /></span>
+                                                <span>
+                                                    <span>John Smith</span>
+                                                    <span class="time">3 mins ago</span>
+                                                </span>
+                                                <span class="message">
+                                                    Film festivals used to be do-or-die moments for movie makers. They
+                                                    were where...
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span class="image"><img src="images/img.jpg"
+                                                        alt="Profile Image" /></span>
+                                                <span>
+                                                    <span>John Smith</span>
+                                                    <span class="time">3 mins ago</span>
+                                                </span>
+                                                <span class="message">
+                                                    Film festivals used to be do-or-die moments for movie makers. They
+                                                    were where...
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span class="image"><img src="images/img.jpg"
+                                                        alt="Profile Image" /></span>
+                                                <span>
+                                                    <span>John Smith</span>
+                                                    <span class="time">3 mins ago</span>
+                                                </span>
+                                                <span class="message">
+                                                    Film festivals used to be do-or-die moments for movie makers. They
+                                                    were where...
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <div class="text-center">
+                                                <a>
+                                                    <strong>See All Alerts</strong>
+                                                    <i class="fa fa-angle-right"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- /top navigation -->
+
+    <div class="right_col" role="main">
+        <!-- top tiles -->
+    
+        <!-- /top tiles -->
+    
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
 
 
-    <div class="width content-container">
+    <!-- <div class="width content-container"> -->
         <!-- left sidebar -->
-        <div class="sidebar-left">
-            <a class="list l4" href="/category/4">&nbsp;</a>
-            <a class="list l1" href="/category/1">&nbsp;</a>
-            <a class="list l2" href="/category/2">&nbsp;</a>
-            <a class="list l3" href="/category/3">&nbsp;</a>
-            <img src="/img/left-sidebar.png" />
-            <br><span style="float: right;">
-                <div class="fb-like" data-href="https://www.toeic123.vn:443/category/4" data-layout="button_count"
-                    data-action="like" data-show-faces="true" data-share="true"></div>
-            </span>
-
-        </div>
         <!-- end left sidebar -->
         <!-- content -->
-        <div class="content">
+        <!-- <div class="content"> -->
             <div class="content-box">
                 <div class="header">
                     <div class="h3-container">
@@ -293,7 +355,7 @@
                 <a href="/category/34">
                     <h3 class="sub-header">Thi thử toeic Full - Phần Reading</h3>
                 </a>
-                <div class="box">
+                <div class="box col-md-12">
                     <div class="box-item">
                         <a href="/exam/4867">
                             <div class="img" style="background:url(/upload/2016/08/11522.png); background-size: cover;">
@@ -342,28 +404,30 @@
                 </a>
 
 
-               
+
                 <div class="box">
 
-                    <% data.forEach(function(dethi) {%>
-                    <% stt=1; %>
+
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/dethi/part1/<%=dethi._id%>">
+                        <a href="/kiemtratongthe/part1/<%=test_data.partI[i]._id%>">
                             <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
                                 <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề <%=stt%></h4>
-                           
-                            <a class="learn" href='/dethi/part1/<%=dethi._id%>'>Luyện ngay</a>
-                        </a>
-                    </div>
+                            <h4>Bộ đề <%=i%></h4>
 
-                    <% stt=stt+1; %>
-                    <%})%>
+                            <a class="learn" href='/kiemtratongthe/part1/<%=test_data.partI[i]._id%>'>Luyện ngay</a>
+                        </a> 
+                    </div> 
+
+
+                    <%}%>
                 </div>
                 
-                <div class='paging viewall'><a href="/dethi/list_part1">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
+                <div class='paging viewall'><a href="/kiemtratongthe/list_part1">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
                 <div class="spacing"></div>
                 <a href="/category/35">
                     <h3 class="sub-header">Thi thử toeic Full</h3>
@@ -416,329 +480,192 @@
                     <h3 class="sub-header">Thi Thử TOEIC PART 1</h3>
                 </a>
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/54">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
+                        <a href="/kiemtratongthe/part1/<%=test_data.partI[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 1</h4>
-                            <a class="learn" href='/exam/54'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/kiemtratongthe/part1/<%=test_data.partI[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/221">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/221'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/222">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/222'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/223">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/223'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
-                <div class='paging viewall'><a href="/category/20">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
+
+                  
+                <div class='paging viewall'><a href="/kiemtratongthe/list_part1">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
                 <div class="spacing"></div>
-                <a href="/category/19">
                     <h3 class="sub-header">Thi Thử TOEIC PART 2</h3>
                 </a>
+
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/53">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/30</p>
+                        <a href="/kiemtratongthe/part2/<%=test_data.partII[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 1</h4>
-                            <a class="learn" href='/exam/53'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/kiemtratongthe/part2/<%=test_data.partII[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/250">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/30</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/250'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/251">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/30</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/251'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/252">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/30</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/252'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
+               
                 <div class='paging viewall'><a href="/category/19">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
                 <div class="spacing"></div>
                 <a href="/category/13">
                     <h3 class="sub-header">Thi Thử TOEIC PART 3</h3>
                 </a>
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/52">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
+                        <a href="/kiemtratongthe/part3/<%=test_data.partIII[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 1</h4>
-                            <a class="learn" href='/exam/52'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/kiemtratongthe/part3/<%=test_data.partIII[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/279">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/279'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/280">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/280'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/281">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/281'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
+
                 <div class='paging viewall'><a href="/category/13">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
                 <div class="spacing"></div>
                 <a href="/category/14">
                     <h3 class="sub-header">Thi Thử TOEIC PART 4</h3>
                 </a>
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/51">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
+                        <a href="/kiemtratongthe/part4/<%=test_data.partIV[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 1</h4>
-                            <a class="learn" href='/exam/51'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/kiemtratongthe/part4/<%=test_data.partIV[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/308">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/308'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/310">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/310'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/311">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/10</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/311'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
+
                 <div class='paging viewall'><a href="/category/14">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
-                <div class="spacing"></div>
+                                <div class="spacing"></div>
                 <a href="/category/15">
                     <h3 class="sub-header">Thi Thử TOEIC PART 5</h3>
                 </a>
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/338">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/40</p>
+                        <a href="/kiemtratongthe/part5/<%=test_data.partV[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/338'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/kiemtratongthe/part5/<%=test_data.partV[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/339">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/40</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/339'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/340">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/40</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/340'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/341">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/40</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 5</h4>
-                            <a class="learn" href='/exam/341'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
+                
                 <div class='paging viewall'><a href="/category/15">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
+
+
                 <div class="spacing"></div>
-                <a href="/category/16">
+                             <a href="/category/16">
                     <h3 class="sub-header">Thi Thử TOEIC PART 6</h3>
                 </a>
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/50">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/4</p>
+                        <a href="/kiemtratongthe/part5/<%=test_data.partV[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 1</h4>
-                            <a class="learn" href='/exam/50'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/kiemtratongthe/part5/<%=test_data.partV[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/367">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/4</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/367'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/368">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/4</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/368'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/369">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/4</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/369'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
+                
                 <div class='paging viewall'><a href="/category/16">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
                 <div class="spacing"></div>
-                <a href="/category/17">
+                               <a href="/category/17">
                     <h3 class="sub-header">Thi Thử TOEIC PART 7</h3>
                 </a>
                 <div class="box">
+
+                      
+
+                    <% for(var i=1;i<=4;i++) {%>
+
                     <div class="box-item">
-                        <a href="/exam/396">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/13</p>
+                        <a href="/kiemtratongthe/part5/<%=test_data.partV[i]._id%>">
+                            <div class="img" style="background:url(/upload/2016/08/11524.png); background-size: cover;">
+                                <p>0/100</p>
                             </div>
                             <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 2</h4>
-                            <a class="learn" href='/exam/396'>Luyện ngay</a>
+                            <h4>Bộ đề <%=i%></h4>
+
+                            <a class="learn" href='/kiemtratongthe/part5/<%=test_data.partV[i]._id%>'>Luyện ngay</a>
                         </a>
                     </div>
-                    <div class="box-item">
-                        <a href="/exam/397">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/13</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 3</h4>
-                            <a class="learn" href='/exam/397'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/398">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/13</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 4</h4>
-                            <a class="learn" href='/exam/398'>Luyện ngay</a>
-                        </a>
-                    </div>
-                    <div class="box-item">
-                        <a href="/exam/399">
-                            <div class="img" style="background:url(/upload/2016/04/3004.png); background-size: cover;">
-                                <p>0/13</p>
-                            </div>
-                            <div class="meter"><span style="width: 0%"></span></div>
-                            <h4>Bộ đề 5</h4>
-                            <a class="learn" href='/exam/399'>Luyện ngay</a>
-                        </a>
-                    </div>
+
+
+                    <%}%>
                 </div>
+                
                 <div class='paging viewall'><a href="/category/17">Xem tất cả &nbsp;&nbsp;&nbsp; &rang;</a></div>
                 <div class="spacing"></div>
             </div>
@@ -755,4 +682,173 @@
         </div>
         <!-- end right sidebar -->
     </div>
-    <% include ../template/footer %>
+
+    </div>
+    </div>
+    <br />
+    </div>
+<footer>
+    <div class="pull-right">
+        Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+    </div>
+    <div class="clearfix"></div>
+</footer>
+<!-- /footer content -->
+</div>
+</div>
+
+<!-- jQuery -->
+<script src="../vendors/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="../vendors/fastclick/lib/fastclick.js"></script>
+<!-- NProgress -->
+<script src="../vendors/nprogress/nprogress.js"></script>
+<!-- Chart.js -->
+<script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+<!-- gauge.js -->
+<script src="../vendors/gauge.js/dist/gauge.min.js"></script>
+<!-- bootstrap-progressbar -->
+<script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+<!-- iCheck -->
+<script src="../vendors/iCheck/icheck.min.js"></script>
+<!-- Skycons -->
+<script src="../vendors/skycons/skycons.js"></script>
+<!-- Flot -->
+<script src="../vendors/Flot/jquery.flot.js"></script>
+<script src="../vendors/Flot/jquery.flot.pie.js"></script>
+<script src="../vendors/Flot/jquery.flot.time.js"></script>
+<script src="../vendors/Flot/jquery.flot.stack.js"></script>
+<script src="../vendors/Flot/jquery.flot.resize.js"></script>
+<!-- Flot plugins -->
+<script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+<script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+<script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+<!-- DateJS -->
+<script src="../vendors/DateJS/build/date.js"></script>
+<!-- JQVMap -->
+<script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
+<script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+<script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+<!-- bootstrap-daterangepicker -->
+<script src="../vendors/moment/min/moment.min.js"></script>
+<script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+<!-- Custom Theme Scripts -->
+<script src="../build/js/custom.min.js"></script>
+<script src="../vendors/validator/validator.js"></script>
+
+<script type="text/javascript" src="/static/libs/jquery-3.1.1_with_migrate-3.0.0_with_bootstrap3.3.7.min.js"></script>
+<script type="text/javascript" src="/static/libs/jquery-ui/jquery-ui-1.11.4.min.js"></script>
+<script type="text/javascript" src="/static/RealEdu/js/template-1842100419.js"></script>
+<script>
+    var isMobileWeb = false;
+
+
+
+    var isFixedMenu = false;
+
+    var isHomePage = '/dashboard/' == '/' ? true : false;
+</script>
+
+<script>
+    // this is deprecated: we no longer use tooltip notifications
+    var showInstructions = false;
+
+    var isMobileBrowser = false;
+
+
+
+    var dialogContent = null;
+    var dialogNotificationId = null;
+
+
+    $(".view-all").on("click", function () {
+        $("[data-load-toeic]").removeClass("hidden");
+        $(this).hide();
+    })
+</script>
+
+<script type="text/javascript" src="/static/libs/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="/static/libs/slick/slick.min.js"></script>
+<script type="text/javascript" src="/static/libs/chart.js"></script>
+<script type="text/javascript" src="/static/libs/stickbar.js"></script>
+<script type="text/javascript" src="/static/LearningPlan/js/dashboard-1842100419.js"></script>
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: "956108007815000",
+            cookie: true,    // enable cookies to allow the server to access the session
+            status: true,  // Check Facebook Login status
+            xfbml: true,    // parse social plugins on this page
+            version: 'v2.12'
+        });
+
+        // do this checking to make sure that FB api is available 
+        // a func named "callBackAfterFBInit" needs to be defined above this code 
+        // => in the header js of the html that want to execute codes after fb init
+        if (typeof callBackAfterFBInit == 'function') {
+            callBackAfterFBInit();
+        };
+
+
+    };
+
+    //Load the SDK asynchronously
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s); js.id = id;
+        js.src = "";
+        js.async = true;
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));   
+</script>
+
+<script>
+    (function () {
+        // if firefox 3.5+, hide content till load (or 3 seconds) to prevent FOUT
+        var d = document, e = d.documentElement, s = d.createElement('style');
+        if (e.style.MozTransform === '') { // gecko 1.9.1 inference
+            s.textContent = 'h1,h2{visibility:hidden}';
+            var r = document.getElementsByTagName('script')[0];
+            r.parentNode.insertBefore(s, r);
+            function f() { s.parentNode && s.parentNode.removeChild(s); }
+            addEventListener('load', f, false);
+            setTimeout(f, 3000);
+        }
+
+    })();
+</script>
+
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        }; if (!f._fbq) f._fbq = n;
+        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }(window,
+        document, 'script', '');
+
+    fbq('init', '1621041464887282');
+    fbq('track', "PageView");
+
+
+    fbq('trackCustom', 'VisitedDashboard');
+
+</script>
+<noscript><img height="1" width="1" style="display:none"
+        src="" /></noscript>
+
+<noscript>
+    <div class="nof">GiasuTOEIC.com works best with JavaScript enabled! To use standard view, enable JavaScript by
+        changing your browser options, then try again.</div>
+</noscript>
+
+</body>
+
+</html>

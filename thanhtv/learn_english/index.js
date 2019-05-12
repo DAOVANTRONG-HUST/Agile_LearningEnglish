@@ -12,11 +12,13 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.listen(3000, () => console.log('Server started'))
-app.get('/', (req, res) => res.render('home'));
+
 var url ="mongodb://127.0.0.1:27017";
 // xử lí khi click vào bất kì chủ đề nào trên giao diện trang chủ
 
 //username là tên người dùng. cái này ông lấy từ user thay vào nhé
+
+app.get('/', (req, res) => res.render('home'));
 
 var username = "xxx";
 app.get('/listTheme/:id',(req,res)=>{

@@ -64,7 +64,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/user', usersRouter);
 app.use('/dashboard',dashboardRouter);
-app.use("/dethi",dethiRouter);
+// app.use("/dethi",dethiRouter);
+app.use("/kiemtratongthe", dethiRouter);
 
 app.use('/thietlapdanhsachhoc', vocabListSettingRoutes);
 app.use('/products', productRoutes); 
