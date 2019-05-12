@@ -16,7 +16,8 @@ app.get('/', (req, res) => res.render('home'));
 var url ="mongodb://127.0.0.1:27017";
 // xử lí khi click vào bất kì chủ đề nào trên giao diện trang chủ
 
-//username là tên người dùng
+//username là tên người dùng. cái này ông lấy từ user thay vào nhé
+
 var username = "xxx";
 app.get('/listTheme/:id',(req,res)=>{
     // lấy tên chủ đề được click
@@ -48,16 +49,34 @@ app.get('/listTheme/:id',(req,res)=>{
      })
 })
 })
+
+app.get("/learned", function(req,res){
+      // truy cập database để tìm chủ đề 
+    
+       mongoClient.connect(url,(err,db)=>{
+           if(err) throw err;
+           var dbo = db.db('englishWebsite');
+          dbo.collection('words').find({}).toArray(function(err,re){
+              if(!re){
+                  console.log("no exist");
+              }
+              if(err) throw err;
+              // tìm được chủ đề và trả về dữ liệu tìm được trong database
+              res.render('learned_word',{data:re, username: "xxx"});
+              db.close();
+       })
+  })
+})
+
 // xử lí khi nhấn vào forget or remember
 app.post("/check",(req,res)=>{
     // lấy chủ để và từ mà client gửi lên
     var theme = req.body.theme;
     var word = req.body.word;
-    var user = req.bode.user;
+    var user = req.body.user;
     theme = theme.trim();
         //truy cập database và tim từ nhận được từ client
     mongoClient.connect(url,(err,db)=>{
-       
         if(err) throw err;
         var dbo = db.db('englishWebsite');
         var element ={chude:theme};
@@ -68,34 +87,32 @@ app.post("/check",(req,res)=>{
                 for(var i=0; i< result.word.length; i++){
                     // tìm từ , tìm thấy thì dừng vòng lặp
                     if(result.word[i].name == word){
-                        // nếu tìm được từ thì cập nhật biến check 
-                        // if(result.word[i].check == 0){
-                        //     result.word[i].check = 1;
-                        // }else{
-                        //     result.word[i].check = 0
-                        // }
                         if(result.word[i].userlist.indexOf(user)>-1){
                             //Xóa user trong mảng
                             var array = result.word[i].userlist;
                             array.splice(result.word[i].userlist.indexOf(user), 1);
-                            var where = {"word": {"name" : word}};
+                            result.word[i].userlist = array;
+                            var update = { $set: {word: result.word}}
+                            dbo.collection("words").updateOne({chude: theme}, update, function(err, res) {
+                                if (err) throw err;
+                                console.log(array);
+                                db.close();
+                              });
                         }else{
                             //Thêm user trong mảng
-
+                            var array = result.word[i].userlist;
+                            array.push(user);
+                            result.word[i].userlist = array;
+                            var update = { $set: {word: result.word}}
+                            dbo.collection("words").updateOne({chude: theme}, update, function(err, res) {
+                                if (err) throw err;
+                                console.log(array);
+                                db.close();
+                              });
                         }
                         break;
                     }
                 }
-                var updateArray = result.word;
-                // cập nhật lại database    
-                var query ={$set:{word: updateArray}}
-                var value = {chude:theme,name:word};
-                console.log(value)
-                dbo.collection('words').updateOne({chude: theme},query,(function(err,re){
-                    if(err) throw err;
-                    console.log("update successfully");
-                    db.close();
-                }))
                 // gửi giao diện kèm theo dữ liệu gửi về
                 res.render("listWord",{data:result, check: 2});
                 db.close();
