@@ -1,17 +1,4 @@
 var mongoose = require('mongoose');
-<<<<<<< HEAD
-var Schema = mongoose.Schema;
-
-var PostSchema = new Schema({
-    post_id: {
-        type: Number
-    },
-    views: {
-        type: Number
-    },
-    author_id: {
-        type: Number
-=======
 var Answer = require('./Answer');
 var Schema = mongoose.Schema;
 
@@ -23,19 +10,11 @@ var PostSchema = new Schema({
     },
     author_id: {
         type: String
->>>>>>> 216ba34625163f201cf656331af5aa7e92d5a484
     },
     time: {
         type: Date
     },
     reputations: {
-<<<<<<< HEAD
-        type: Number
-    },
-    content: {
-        type: String
-    }
-=======
         type: Number,
         default: 0, 
     },
@@ -48,6 +27,5 @@ var PostSchema = new Schema({
     ],
 }, {
     collection : "post"
->>>>>>> 216ba34625163f201cf656331af5aa7e92d5a484
 });
 module.exports = mongoose.model('Post', PostSchema);
