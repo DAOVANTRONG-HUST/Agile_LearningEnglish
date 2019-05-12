@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/css/listWord.css" rel="stylesheet" >
+    </head>
+    <body>
+        
+            <div class="center"><h2 id="header_title" class="page-title"><%=data.title%></h2></div>
+        <% data.word.forEach((da)=>{ %>
+            <div class="row">
+					<div class="col-md-9 col-sm-10">
+						<div class="lesson-content">
+							<div id="tab4" class="toggle-content"><div class="tuvung">
+									<div class="stt">
+										<%= da.number %>	</div>
+										<div id="title" hidden><%-da.theme%></div>
+									<div class="hinhanh">										
+										<div><img class="img-responsive img_left"  src=" <%=da.image %>"></div>
+										<div class="icon_image">
+											<% 
+											if(check[da.number-1] === 0) {	%>
+												<button id=<%= da.name %>>
+													<img id="<%= da.number %>" src='/icon/yes.png' width="40px" height="40px"/>
+													 <b id="text_check">Remember </b> 
+													</button>
+											 <%} else {%>
+												<button id=<%= da.name %>>
+													<img id="<%= da.number %>" src='/icon/no.png' width="40px" height="40px"/>
+													 <b id="text_check">Forget </b> 
+													</button>
+											<% } %>
+										</div>
+									</div>
+									<div class="noidung">
+											<span style="color: blue; font-size: 16px ! important;"><%=da.name%></span>
+											<span style="color: red;"><%= da.phien_am%></span><br>
+											<span class="bold">Giải thích: </span><%=da.mean%><br>
+											<span class="bold">Từ loại: </span><%=da.loai%><br>
+                                            <span class="bold">Ví dụ: </span><%=da.example%></b><br>
+                                            <b class="bold"><%=da.dich%></b><br><br>
+                                            		
+											<audio controls="">
+													<source src="<%=da.audio%>" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+								</div>
+                        </div> <!-- /.inner-content -->
+                        <div style="clear:both"></div>
+					</div> <!-- /.col-md-9 -->
+					
+                </div>
+                </div>
+                
+            <% }) %>
+	</body>
+	<!-- Sử dụng jquery để truy cập tới các  -->
+	<script src="/js/jquery.js"></script>
+	<!-- Sử dụng ajax để gửi dữ liệu lên server thay vì dùng form -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Gọi đến file Handle.js để thực hiện sự kiện -->
+	<script src="/js/handleIcon.js"></script>
+</html>

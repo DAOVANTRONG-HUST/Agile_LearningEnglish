@@ -1,0 +1,107 @@
+body {
+    background-color: #eee;
+    font-family: Arial, sans-serif;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.75em;
+    margin: auto;
+    width: 1200px;
+    margin-top:100px;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-md-offset-1 {
+    margin-left: 8.33333333%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-md-2 {
+    width: 15.777%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.col-md-6{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.gallery-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    box-shadow: 0 0 5px #888;
+}
+.gallery-item img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    background-color: #E8A930;
+    display: block;
+    -webkit-transition: all 50ms ease-in-out;
+    -moz-transition: all 50ms ease-in-out;
+    -ms-transition: all 50ms ease-in-out;
+    -o-transition: all 50ms ease-in-out;
+    transition: all 50ms ease-in-out;
+}
+.gallery-item .overlay a {
+    color: #2a2a2a;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -16px;
+    margin-left: -16px;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.gallery-item .content-gallery {
+    text-align: left;
+}
+.gallery-item .content-gallery h3 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+}
