@@ -102,21 +102,9 @@
                                 your answers
                                 in the test book.
 
-                                ----------------------------------------GIỚI THIỆU PHẦN THI PART
-                                1--------------------------------------------
+                                ---------------------------------GIỚI THIỆU PHẦN THI PART 3------------------------------------
 
-                                Directions: For each question in this part, you will hear four statements about a
-                                picture in your test
-                                book. When you hear the statements, you must select the one statement that best
-                                describes what you
-                                see in the picture. Then find the number of the question on your answer sheet and mark
-                                your answer.
-                                The statements will not be printed in your test book and will be spoken only one time.
-                                Example Sample Answer
-
-                                Statement (C). “He is writing in a notebook." is the best description of the picture, so
-                                you should select
-                                answer (C) and mark it on your answer sheet.
+                                Directions You will hear some conversations between two people. You will be asked to answer three questions about what the speakers say in each conversation. Select the best response to each question and mark the letter (A). (B). (C). or (D) on your answer sheet.
 
                             </div>
                             <div class="row">
@@ -134,48 +122,46 @@
                     </div>
 
 
-                    <%dethi.PartI.bo_cau_hoi.forEach(function (cauhoi){%>
+                    <%dethi.PartIII.bo_cau_hoi.forEach(function (cauhoi){%>
 
 
-                    <%a="a"+stt;%>
+                   
 
                     <div class="question-body" id="q-<%=cauhoi.id_cauhoi%>"><input type="hidden" name="id"
                             value="<%=cauhoi.id_cauhoi%>" />
                         <div class="question-detail type1">
-                            <h3>Question <%=stt%></h3>
-                            <div class="media"><img src=<%=cauhoi.image_src%> width="80%" />
-                            </div>
+                            <h3> <%=cauhoi.description.question%></h3>
                             <div class="q"></div>
 
                             <div class="row">
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name=<%=a%> value="0">
-                                        (A)
+                                        <input type="radio" class="form-check-input" name=<%=cauhoi.sign%> value="0">
+                                        <%=cauhoi.description.A%>
                                     </label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name=<%=a%> value="1">
-                                        (B)
+                                        <input type="radio" class="form-check-input" name=<%=cauhoi.sign%> value="1">
+                                        <%=cauhoi.description.B%>
                                     </label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name=<%=a%> value="2">
-                                        (C)
+                                        <input type="radio" class="form-check-input" name=<%=cauhoi.sign%> value="2">
+                                        <%=cauhoi.description.C%>
                                     </label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name=<%=a%> value="3">
-                                        (D)
+                                        <input type="radio" class="form-check-input" name=<%=cauhoi.sign%> value="3">
+                                        <%=cauhoi.description.D%>
                                     </label>
                                 </div>
                             </div>
@@ -203,7 +189,7 @@
                         var base_url = location.protocol + "//" + document.domain + ":" + location.port;
                         $.ajax({
                             type: "POST",
-                            url: "/dethi/submit",
+                            url: "/dethi/part3/<%=dethi._id%>",
                             data: formData,
                             dataType: "JSON",
                             success: function (data) {

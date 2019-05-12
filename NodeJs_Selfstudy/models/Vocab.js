@@ -21,4 +21,4 @@ var VocabSchema = new Schema({
         collection:"vocab"
     
 });
-module.exports = mongoose.model('Vocab', VocabSchema);
+module.exports = mongoose.model('Vocab', VocabSchema);  

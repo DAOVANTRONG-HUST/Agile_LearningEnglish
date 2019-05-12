@@ -1,5 +1,5 @@
 var express = require('express');
-var user_md=require("../models/user");
+var user_md=require("../models/user_c");
 var router = express.Router();
 
 
@@ -55,7 +55,6 @@ router.get('/datmuctieu/:id', function (req, res, next) {
      });
   
     
-     console.log(req.session.user);
      res.redirect("/dashboard/"+req.session.user._id);
     }else{
       res.redirect("/login");
@@ -91,7 +90,6 @@ router.get('/datmuctieu/:id', function (req, res, next) {
             dulieu.target_score=new_target_score;
             dulieu.save();
             req.session.user=dulieu;
-            console.log(dulieu);
             res.redirect("/dashboard/"+dulieu._id);
             
 
