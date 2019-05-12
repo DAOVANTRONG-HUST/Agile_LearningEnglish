@@ -12,6 +12,7 @@ const auth = require('../api/middleware/checkAuth');
 const perm = require('../api/middleware/checkPerm');
 
 router.all('*', auth); 
+//Anh Long dep trai dang sua de commit
 
 router.get('/', (req, res, next ) => { 
     
