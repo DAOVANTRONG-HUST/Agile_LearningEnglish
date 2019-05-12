@@ -18,6 +18,7 @@ var vocabManager = require('./vocabManager');
 router.use('/quanlythanhvien',memberManager);
 router.use('/quanlytuvung',vocabManager);
 router.use('/quanlydethi',testManager);
+//Anh Long dep trai đang sửa để commit
 
 // Login cua ban admin na
 router.get('/', function (req, res, next) {
