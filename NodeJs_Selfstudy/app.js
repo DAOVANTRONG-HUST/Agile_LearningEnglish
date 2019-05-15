@@ -22,7 +22,8 @@ var memberManager = require('./routes/memberManager');
 var testManager = require('./routes/testManager');
 var vocabManager = require('./routes/vocabManager');
 
-var forum = require('./routes/forum');
+var forumRoutes = require('./routes/forum');
+var profileRoutes = require('./routes/profile');
 
 var app = express();
 
@@ -75,7 +76,8 @@ app.use('/admin',adminRoutes);
 app.use('/quanlythanhvien', memberManager);
 app.use('/quanlytuvung', vocabManager);
 app.use('/quanlydethi', testManager);
-app.use('/forum', forum) ; 
+app.use('/forum', forumRoutes) ;
+app.use('/profile', profileRoutes) ; 
 // var memberManager = require('./routes/memberManager');
 // app.use('/quanlythanhvien', memberManager);
 

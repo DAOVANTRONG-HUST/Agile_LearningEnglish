@@ -141,7 +141,7 @@ router.get('/:_id/delete', perm, (req, res, next ) => {
         });
 })
 
-router.get('/:_id/downvote', perm, (req, res, next) => {
+router.get('/:_id/downvote', (req, res, next) => {
     const id = req.params._id;
     Post.findById(id, (err, _post)=>{
         _post.reputations -= 1 ; 
@@ -151,7 +151,7 @@ router.get('/:_id/downvote', perm, (req, res, next) => {
     });
 })
 
-router.get('/:_id/upvote', perm, (req, res, next) => {
+router.get('/:_id/upvote',  (req, res, next) => {
     const id = req.params._id;
     Post.findById(id, (err, _post) => {
         _post.reputations += 1;
@@ -160,7 +160,5 @@ router.get('/:_id/upvote', perm, (req, res, next) => {
         res.redirect('/forum/' + id);
     });
 })
-
-
 
 module.exports = router; 
