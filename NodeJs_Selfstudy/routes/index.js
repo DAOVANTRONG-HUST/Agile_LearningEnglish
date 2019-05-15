@@ -3,7 +3,7 @@ var bcrypt = require('bcrypt');
 var user_md=require("../models/user_c");
 const User = require("../models/User");
 var router = express.Router();
-
+const mongoose = require('mongoose');
 const MongoClient = require('mongodb').MongoClient;
 var chuyenthanhObjectId = require('mongodb').ObjectID;
 const assert = require('assert');
@@ -33,23 +33,78 @@ router.get('/register', function (req, res, next) {
 });
 
 router.post("/register", function (req, res, next) {
-  var data = req.body;
-  if (data.email.trim().length == 0) {
-    res.render('login/register', { data: { error: "Email is require" } });
-  } else if (data.passwd != data.repasswd && data.passwd.trim().length != 0) {
-    res.render('login/register', { data: { error: "Password not match" } });
-  } else {
-    user = {
-      email: data.email,
-      password: data.passwd,
-      first_name: data.firstname,
-      last_name: data.lastname
-    };
-    var dulieu = new user_md(user);
-    dulieu.save();
-    res.redirect("/login");
+  if(req.session.user) 
+    res.redirect("dashboard") ; 
+  else 
+  {
+    var data = req.body;
+    if (data.email.trim().length == 0) {
+      res.render('login/register', { data: { error: "Email is require" } });
+    } else if (data.passwd != data.repasswd && data.passwd.trim().length != 0) {
+      res.render('login/register', { data: { error: "Password not match" } });
+    } else {
+      User.findOne({ email: req.body.email, id: req.body.id })
+        .exec()
+        .then(user => {
+          if (user) {
+            console.log(user);
+            return res.status(409).json({
+              message: "User exists"
+            });
+          } else {
+            console.log(req.body.password);
+            bcrypt.hash(req.body.password, 10, (err, hash) => {
+              if (err) {
+                return res.status(500).json({
+                  error: err
+                });
+              } else {
+                var today = new Date();
+                // Take the date of today !
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                var yyyy = today.getFullYear();
+                today = mm + '/' + dd + '/' + yyyy;
+                // Init the new user
+                const user = new User({
+                  _id: new mongoose.Types.ObjectId(),
+                  // user_id: uid + 1,
+                  firstname: req.body.firstname,
+                  password: hash,
+                  email: req.body.email,
+                  lastname: req.body.lastname,
+                  phonenumber: req.body.phonenumber,
+                  workplace: req.body.workplace,
+                  reputation: 0,
+                  last_login: today,
+                  is_active: true,
+                  date_joined: today,
+                  list_vocab: []
+                });
+                user
+                  .save()
+                  .then(result => {
+                    console.log(result);
+                    res.redirect('/login');
+                  })
+                  .catch(err => {
+                    console.log(err);
+                    res.status(500).json({
+                      error: err
+                    });
+                  });
+              }
+            });
+          }
+        });
+    }
+    //
+
   }
-})
+  
+
+  }
+)
 
 /* GET  login*/
 router.get('/login', function (req, res, next) {
@@ -65,18 +120,18 @@ router.get('/login', function (req, res, next) {
 router.post("/login", function (req, res, next) {
   var params = req.body;
 
-  if (params.email.trim().length == 0) {
+  if (params._email.trim().length == 0) {
     res.render("login", { data: { error: "Please enter an email" } });
   } else {
-    User.find({ email: params.email },function (err,dulieu){
+    User.find({ email: params._email },function (err,dulieu){
       var user=dulieu[0];
       if(user == undefined) 
       {
-        res.render("login", { data: { error: "Email " + params.email + " chưa được đăng ký !" } });
+        res.render("login", { data: { error: "Email " + params._email + " chưa được đăng ký !" } });
       } 
       else 
       {
-        bcrypt.compare(params.password, user.password, (err, ret) => {
+        bcrypt.compare(params._password, user.password, (err, ret) => {
           if(err)
             res.render("login", { data: { error: "Password is not correct" } }); 
           else 

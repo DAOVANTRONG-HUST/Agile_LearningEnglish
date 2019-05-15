@@ -63,16 +63,17 @@ var validator = (function($){
             return true;
         },
         // 'linked' is a special test case for inputs which their values should be equal to each other (ex. confirm email or retype password)
-        linked : function(a,b){
-            if( b != a ){
+        linked: function (a, b) {
+            if (b != a) {
                 // choose a specific message or a general one
+                // alertTxt = "a= " + a + "  b= " + b ;
                 alertTxt = message[data.type + '_repeat'] || message.no_match;
                 return false;
             }
             return true;
         },
-        email : function(a){
-            if ( !email_filter.test( a ) || a.match( email_illegalChars ) ){
+        email: function (a) {
+            if (!email_filter.test(a) || a.match(email_illegalChars)) {
                 alertTxt = a ? message.email : message.empty;
                 return false;
             }
