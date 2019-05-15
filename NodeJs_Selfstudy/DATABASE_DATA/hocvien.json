@@ -1,0 +1,158 @@
+{ 
+    "_id" : ObjectId("5cc0f83824ab372d98b5faaa"), 
+    "email" : "hoangvlbk61@gmail.com", 
+    "password" : "Lehoang606", 
+    "first_name" : "Vũ Lê", 
+    "last_name" : "Hoàng", 
+    "entry_score" : NumberInt(100), 
+    "target_score" : NumberInt(990), 
+    "start_study" : ISODate("2019-02-01T17:00:00.000+0000"), 
+    "is_admin" : true
+}
+{ 
+    "_id" : ObjectId("5c9f73ad77035868b5b597b3"), 
+    "email" : "trinhthanhcong98@gmail.com", 
+    "password" : "123456", 
+    "first_name" : "cong", 
+    "last_name" : "trinh", 
+    "entry_score" : NumberInt(100), 
+    "start_study" : ISODate("2019-04-13T06:11:55.952+0000"), 
+    "target_score" : NumberInt(900), 
+    "is_admin" : true
+}
+{ 
+    "_id" : ObjectId("5c9f73c177035868b5b597b4"), 
+    "email" : "trinhthanhcong98@gmail.com", 
+    "password" : "123456", 
+    "first_name" : "cong", 
+    "last_name" : "trinh"
+}
+{ 
+    "_id" : ObjectId("5c9f73ff77035868b5b597b5"), 
+    "email" : "trinhthanhdanh2008@gmail.com", 
+    "password" : "123456", 
+    "first_name" : "danh", 
+    "last_name" : "trinh"
+}
+{ 
+    "_id" : ObjectId("5ca09b903a942c2b70a2c102"), 
+    "email" : "tronglu@gmail.com", 
+    "password" : "123456", 
+    "first_name" : "trong", 
+    "last_name" : "lu", 
+    "entry_score" : "0", 
+    "start_study" : ISODate("2019-03-31T10:51:24.965+0000"), 
+    "target_score" : "900"
+}
+{ 
+    "_id" : ObjectId("5ca0afeb2506372774b7721f"), 
+    "email" : "abc@gmail.com", 
+    "password" : "123456", 
+    "first_name" : "abc", 
+    "last_name" : "abc", 
+    "entry_score" : "500", 
+    "start_study" : ISODate("2019-03-31T12:18:11.048+0000"), 
+    "target_score" : "800"
+}
+{ 
+    "_id" : ObjectId("5ca0b31bdea79432d07b9a91"), 
+    "email" : "xyz@gmail.com", 
+    "password" : "123456", 
+    "first_name" : "xyz", 
+    "last_name" : "xyz", 
+    "entry_score" : "0", 
+    "start_study" : ISODate("2019-03-31T12:31:51.299+0000"), 
+    "target_score" : "900"
+}
+{ 
+    "_id" : ObjectId("5cb0bb3ac8041913ccc6cde9"), 
+    "email" : "zxc@gmail.com", 
+    "password" : "zxc", 
+    "first_name" : "cong", 
+    "last_name" : "1", 
+    "entry_score" : NumberInt(500), 
+    "start_study" : ISODate("2019-04-13T05:18:42.764+0000"), 
+    "target_score" : NumberInt(900)
+}
+{ 
+    "_id" : ObjectId("5cb1372e4fc9a62d6ce8c02f"), 
+    "email" : "bnm@gmail.com", 
+    "password" : "bnm", 
+    "first_name" : "bnm", 
+    "last_name" : "bnm", 
+    "__v" : NumberInt(0), 
+    "entry_score" : NumberInt(100), 
+    "start_study" : ISODate("2019-04-13T05:30:28.264+0000"), 
+    "target_score" : NumberInt(900)
+}
+{ 
+    "_id" : ObjectId("5cb1389a5549412b680f4f80"), 
+    "email" : "c@gmail.com", 
+    "password" : "c", 
+    "first_name" : "congtrinh1", 
+    "last_name" : "congtrinh1", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5cb13ca305a52d33380f2ae1"), 
+    "email" : "h@gmail.com", 
+    "password" : "h", 
+    "first_name" : "h", 
+    "last_name" : "h", 
+    "__v" : NumberInt(0), 
+    "entry_score" : NumberInt(100), 
+    "start_study" : ISODate("2019-04-13T04:30:08.829+0000"), 
+    "target_score" : NumberInt(900)
+}
+{ 
+    "_id" : ObjectId("5cb1403bf8fa873b7c4c70db"), 
+    "email" : "tmp@gmail.com", 
+    "password" : "tmp", 
+    "first_name" : "tmp", 
+    "last_name" : "tmp", 
+    "__v" : NumberInt(0), 
+    "entry_score" : NumberInt(100), 
+    "start_study" : ISODate("2019-04-13T04:16:12.228+0000"), 
+    "target_score" : NumberInt(900)
+}
+{ 
+    "_id" : ObjectId("5cb1749e8730002064a4606a"), 
+    "email" : "test", 
+    "password" : "tét", 
+    "first_name" : "test", 
+    "last_name" : "test", 
+    "__v" : NumberInt(0), 
+    "entry_score" : NumberInt(0), 
+    "start_study" : ISODate("2019-04-13T05:33:37.029+0000"), 
+    "target_score" : NumberInt(900)
+}
+{ 
+    "_id" : ObjectId("5cb6704075509d3bec24b7be"), 
+    "email" : "tronglu", 
+    "password" : "12345", 
+    "first_name" : "trong", 
+    "last_name" : "trong", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5cb67236f71b812e70ece32f"), 
+    "email" : "congtt165831@gmail.com", 
+    "password" : "ttchust98", 
+    "first_name" : "trinhthanh", 
+    "last_name" : "cong", 
+    "__v" : NumberInt(0), 
+    "entry_score" : NumberInt(0), 
+    "start_study" : ISODate("2019-04-17T00:24:51.567+0000"), 
+    "target_score" : NumberInt(900)
+}
+{ 
+    "_id" : ObjectId("5cb7c4d1429ac52e5cdbff4f"), 
+    "email" : "123@gmail.com", 
+    "password" : "123", 
+    "first_name" : "123", 
+    "last_name" : "123", 
+    "__v" : NumberInt(0), 
+    "entry_score" : NumberInt(100), 
+    "start_study" : ISODate("2019-04-18T00:29:36.562+0000"), 
+    "target_score" : NumberInt(450)
+}

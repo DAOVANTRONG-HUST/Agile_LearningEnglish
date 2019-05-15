@@ -1,0 +1,2650 @@
+{ 
+    "_id" : ObjectId("5cd805f17856f5332c30f927"), 
+    "id_exam" : NumberInt(187103), 
+    "PartV" : {
+        "id_part" : NumberInt(14309), 
+        "audio_src" : "", 
+        "bo_cau_hoi" : [
+            {
+                "id_cauhoi" : NumberInt(41), 
+                "answer" : NumberInt(1), 
+                "sign" : "a101", 
+                "explain" : "ĐÁP ÁN: (B) Change an appointment time.", 
+                "description" : {
+                    "question" : "Question 101.Mr. Kurt Spienza appears to be the only person in our team who can finish the survey by ______", 
+                    "A" : "(A) he", 
+                    "B" : "(B) him", 
+                    "C" : "(C) his", 
+                    "D" : "(D) himself"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(42), 
+                "answer" : NumberInt(0), 
+                "sign" : "a102", 
+                "explain" : "ĐÁP ÁN: (A) Meet with some clients. ", 
+                "description" : {
+                    "question" : "Question 102. What will the man do this afternoon? ", 
+                    "A" : "(A) will be", 
+                    "B" : "(B) was", 
+                    "C" : "(C) are", 
+                    "D" : "(D) has been"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(43), 
+                "answer" : NumberInt(3), 
+                "sign" : "a103", 
+                "explain" : "ĐÁP ÁN: (D) At 4 o'clock", 
+                "description" : {
+                    "question" : " Question 103. What time will the man start his appointment this afternoon?", 
+                    "A" : "(A) directly", 
+                    "B" : "(B) direct", 
+                    "C" : "(C) directed", 
+                    "D" : "(D) direction"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(44), 
+                "answer" : NumberInt(2), 
+                "sign" : "a104", 
+                "explain" : "ĐÁP ÁN: (C) A mobile phone company", 
+                "description" : {
+                    "question" : "Question 104. What kind of company does the man work for? ", 
+                    "A" : "(A) reply", 
+                    "B" : "(B) detect", 
+                    "C" : "(C) construct", 
+                    "D" : "(D) hire"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(45), 
+                "answer" : NumberInt(0), 
+                "sign" : "a105", 
+                "explain" : "ĐÁP ÁN:  (A) The price may have risen.", 
+                "description" : {
+                    "question" : "Question 105. How does the man explain the change in the woman's bill? ", 
+                    "A" : "(A) they", 
+                    "B" : "(B) them", 
+                    "C" : "(C) themselves", 
+                    "D" : "(D) their"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(46), 
+                "answer" : NumberInt(1), 
+                "sign" : "a106", 
+                "explain" : "ĐÁP ÁN:  (B) Her telephone number.", 
+                "description" : {
+                    "question" : "Question 106. What information does the man ask the woman for?", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(47), 
+                "answer" : NumberInt(3), 
+                "sign" : "a107", 
+                "explain" : "ĐÁP ÁN: (D) The retirement of a colleague.", 
+                "description" : {
+                    "question" : "Question 107. What is the celebration for?", 
+                    "A" : "(A) additional", 
+                    "B" : "(B) addition", 
+                    "C" : "(C) adding", 
+                    "D" : "(D) additionally"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(48), 
+                "answer" : NumberInt(2), 
+                "sign" : "a108", 
+                "explain" : "ĐÁP ÁN: (C) At 7:00 .", 
+                "description" : {
+                    "question" : "Question 108. When will the celebration start?", 
+                    "A" : "(A) They", 
+                    "B" : "(B) It", 
+                    "C" : "(C) There", 
+                    "D" : "( (D) That"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(49), 
+                "answer" : NumberInt(2), 
+                "sign" : "a109", 
+                "explain" : "ĐÁP ÁN: (C) To a bakery.", 
+                "description" : {
+                    "question" : "Question 109. Where will the woman go before the party? ", 
+                    "A" : "(A) repeat", 
+                    "B" : "(B) repeatedly", 
+                    "C" : "(C) repeater", 
+                    "D" : "(D) repetition"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(50), 
+                "answer" : NumberInt(1), 
+                "sign" : "a110", 
+                "explain" : "ĐÁP ÁN: (B) He recently won a prize.", 
+                "description" : {
+                    "question" : "Question 110. Why is William happy? ", 
+                    "A" : "(A) interested", 
+                    "B" : "(B) listed", 
+                    "C" : "(C) hopeful", 
+                    "D" : "(D) enclosed"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(51), 
+                "answer" : NumberInt(1), 
+                "sign" : "a111", 
+                "explain" : "ĐÁP ÁN: (B) Sign up for a workshop.", 
+                "description" : {
+                    "question" : "Question 111. What does William hope to do? ", 
+                    "A" : "(A) survey", 
+                    "B" : "(B) surveys", 
+                    "C" : "(C) surveying", 
+                    "D" : "(D) surveyed"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(52), 
+                "answer" : NumberInt(0), 
+                "sign" : "a112", 
+                "explain" : "ĐÁP ÁN: (A) An oil painting.", 
+                "description" : {
+                    "question" : "Question 112. What is William working on these days? ", 
+                    "A" : "(A) extremely", 
+                    "B" : "(B) exclusively", 
+                    "C" : "(C) continually", 
+                    "D" : "(D) completely"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(53), 
+                "answer" : NumberInt(1), 
+                "sign" : "a113", 
+                "explain" : "ĐÁP ÁN: (B) At an office building.", 
+                "description" : {
+                    "question" : "Question 113. Where is the conversation most likely taking place?", 
+                    "A" : "(A) informative", 
+                    "B" : "(B) inform", 
+                    "C" : "(C) information", 
+                    "D" : "(D) informer"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(54), 
+                "answer" : NumberInt(2), 
+                "sign" : "a114", 
+                "explain" : "(C) Sign the form.", 
+                "description" : {
+                    "question" : "Question 114. What does the assistant offer to do? ", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(55), 
+                "answer" : NumberInt(1), 
+                "sign" : "a115", 
+                "explain" : "ĐÁP ÁN:  (B) A filing cabinet.", 
+                "description" : {
+                    "question" : "Question 115. What will be delivered to the conference room? ", 
+                    "A" : "(A) are required", 
+                    "B" : "(B) require", 
+                    "C" : "(C) requires", 
+                    "D" : "(D) has required"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(56), 
+                "answer" : NumberInt(0), 
+                "sign" : "a116", 
+                "explain" : "ĐÁP ÁN: (A) An information desk clerk ", 
+                "description" : {
+                    "question" : "Question 116. Who most likely is the man? ", 
+                    "A" : "(A) only if", 
+                    "B" : "(B) until", 
+                    "C" : "(C) not only", 
+                    "D" : "(D) since"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(57), 
+                "answer" : NumberInt(2), 
+                "sign" : "a117", 
+                "explain" : "ĐÁP ÁN:  (C) To check her order.", 
+                "description" : {
+                    "question" : "Question 117. Where is the woman going? ", 
+                    "A" : "(A) attendant", 
+                    "B" : "(B) attendance", 
+                    "C" : "(C) attended", 
+                    "D" : "(D) attendee"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(58), 
+                "answer" : NumberInt(2), 
+                "sign" : "a118", 
+                "explain" : "ĐÁP ÁN: (C) Using a discount coupon.", 
+                "description" : {
+                    "question" : "Question 118. How does the man suggest lowering the admission price? ", 
+                    "A" : "(A) proficient", 
+                    "B" : "(B) considerable", 
+                    "C" : "(C) secondary", 
+                    "D" : "(D) present"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(59), 
+                "answer" : NumberInt(0), 
+                "sign" : "a119", 
+                "explain" : "ĐÁP ÁN: (A) White.", 
+                "description" : {
+                    "question" : "Question 119. What color monitors are available now? ", 
+                    "A" : "(A) maintaining", 
+                    "B" : "(B) maintenancen", 
+                    "C" : "(C) maintained", 
+                    "D" : "(D) maintains"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(60), 
+                "answer" : NumberInt(2), 
+                "sign" : "a120", 
+                "explain" : "ĐÁP ÁN: (C) $ 200 .", 
+                "description" : {
+                    "question" : "Question 120. How much does it cost to increase the size of the monitor? ", 
+                    "A" : "(A) demonstrate", 
+                    "B" : "(B) decline", 
+                    "C" : "(C) face", 
+                    "D" : "(D) ease"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(61), 
+                "answer" : NumberInt(1), 
+                "sign" : "a121", 
+                "explain" : "(B) In about two weeks.", 
+                "description" : {
+                    "question" : "Question 121. When can the man expect to receive his monitor? ", 
+                    "A" : "(A) since", 
+                    "B" : "(B) then", 
+                    "C" : "(C) here", 
+                    "D" : "(D) much"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(62), 
+                "answer" : NumberInt(2), 
+                "sign" : "a122", 
+                "explain" : "ĐÁP ÁN: (C) He can’t open the garage gate by himself.", 
+                "description" : {
+                    "question" : "122. What problem is the man faced with? ", 
+                    "A" : "(A) against", 
+                    "B" : "(B) except", 
+                    "C" : "(C) upon", 
+                    "D" : "(D) throughout"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(63), 
+                "answer" : NumberInt(3), 
+                "sign" : "a123", 
+                "explain" : "ĐÁP ÁN: (D) On Tuesday.", 
+                "description" : {
+                    "question" : "123. When did the woman receive her parking permit? ", 
+                    "A" : "(A) requests", 
+                    "B" : "(B) request", 
+                    "C" : "(C) requesting", 
+                    "D" : "(D) requested"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(64), 
+                "answer" : NumberInt(3), 
+                "sign" : "a124", 
+                "explain" : "ĐÁP ÁN: (D) Contact the HR department.", 
+                "description" : {
+                    "question" : "124. What does the woman suggest the man do? ", 
+                    "A" : "(A) suited", 
+                    "B" : "(B) conductive", 
+                    "C" : "(C) forward", 
+                    "D" : "(D) prior"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(65), 
+                "answer" : NumberInt(1), 
+                "sign" : "a125", 
+                "explain" : "ĐÁP ÁN: (B) At a hair salon.", 
+                "description" : {
+                    "question" : "125. Where most likely does this conversation take place? ", 
+                    "A" : "(A) weaken", 
+                    "B" : "(B) invalidate", 
+                    "C" : "(C) verify", 
+                    "D" : "(D) weigh"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(66), 
+                "answer" : NumberInt(3), 
+                "sign" : "a126", 
+                "explain" : "ĐÁP ÁN: (D) Change her hair color.", 
+                "description" : {
+                    "question" : "126. What would the woman like to do? ", 
+                    "A" : "(A) as expensive", 
+                    "B" : "(B) more expensive", 
+                    "C" : "(C) so expensively", 
+                    "D" : "(D) most expensively"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(67), 
+                "answer" : NumberInt(3), 
+                "sign" : "a127", 
+                "explain" : "(D) To attend a training seminar.", 
+                "description" : {
+                    "question" : "127. Why did the man visit New York? ", 
+                    "A" : "(A) extension", 
+                    "B" : "(B) production", 
+                    "C" : "(C) grade", 
+                    "D" : "(D) rise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(68), 
+                "answer" : NumberInt(2), 
+                "sign" : "a128", 
+                "explain" : "ĐÁP ÁN: (C) He can't access his messages.", 
+                "description" : {
+                    "question" : "Question 128. What is the man's problem? ", 
+                    "A" : "(A) will overcome", 
+                    "B" : "(B) be overcome", 
+                    "C" : "(C) to overcome", 
+                    "D" : "(D) has overcome"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(69), 
+                "answer" : NumberInt(1), 
+                "sign" : "a129", 
+                "explain" : "ĐÁP ÁN:  (B) To technical services.", 
+                "description" : {
+                    "question" : "Question 129. Where will the man probably go next? ", 
+                    "A" : "(A) budget", 
+                    "B" : "(B) prices", 
+                    "C" : "(C) credits ", 
+                    "D" : "(D) expenses"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(70), 
+                "answer" : NumberInt(3), 
+                "sign" : "a130", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 130. Where is the technical support staff office located? ", 
+                    "A" : "(A) has presented", 
+                    "B" : "(B) presenting", 
+                    "C" : "(C) present", 
+                    "D" : "(D) to present"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(71), 
+                "answer" : NumberInt(3), 
+                "sign" : "a131", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 131. Where is the technical support staff office located? ", 
+                    "A" : "(A) fallen", 
+                    "B" : "(B) refused", 
+                    "C" : "(C) performed", 
+                    "D" : "(D) acquired"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(72), 
+                "answer" : NumberInt(3), 
+                "sign" : "a132", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 132. Where is the technical support staff office located? ", 
+                    "A" : "(A) elevation", 
+                    "B" : "(B) mobility", 
+                    "C" : "(C) belief", 
+                    "D" : "(D) popularity"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(73), 
+                "answer" : NumberInt(3), 
+                "sign" : "a133", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 133. Where is the technical support staff office located? ", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(74), 
+                "answer" : NumberInt(3), 
+                "sign" : "a134", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 134. Where is the technical support staff office located? ", 
+                    "A" : "(A) to", 
+                    "B" : "(B) by", 
+                    "C" : "(C) on", 
+                    "D" : "(D) for"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(75), 
+                "answer" : NumberInt(3), 
+                "sign" : "a135", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 135. Where is the technical support staff office located? ", 
+                    "A" : "(A) practice", 
+                    "B" : "(B) persist", 
+                    "C" : "(C) cooperate", 
+                    "D" : "(D) retain"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(76), 
+                "answer" : NumberInt(3), 
+                "sign" : "a136", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 136. Where is the technical support staff office located? ", 
+                    "A" : "(A) exclusive", 
+                    "B" : "(B) excluding", 
+                    "C" : "(C) exclusively", 
+                    "D" : "(D) excluded"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(77), 
+                "answer" : NumberInt(3), 
+                "sign" : "a137", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 137. Where is the technical support staff office located? ", 
+                    "A" : "(A) facing", 
+                    "B" : "(B) progressing", 
+                    "C" : "(C) playing", 
+                    "D" : "(D) dealing"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(78), 
+                "answer" : NumberInt(3), 
+                "sign" : "a138", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 138. Where is the technical support staff office located? ", 
+                    "A" : "(A) Despite", 
+                    "B" : "(B) Unless", 
+                    "C" : "(C) In order to", 
+                    "D" : "(D) As well as"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(79), 
+                "answer" : NumberInt(3), 
+                "sign" : "a139", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 139. Where is the technical support staff office located? ", 
+                    "A" : "(A) such", 
+                    "B" : "(B) either", 
+                    "C" : "(C) with", 
+                    "D" : "(D) and"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(80), 
+                "answer" : NumberInt(3), 
+                "sign" : "a140", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 140. Where is the technical support staff office located? ", 
+                    "A" : "(A) seek", 
+                    "B" : "(B) seeking", 
+                    "C" : "(C) have sought", 
+                    "D" : "(D) being sought"
+                }
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5cd807323b71632188791dc7"), 
+    "id_exam" : NumberInt(187103), 
+    "PartV" : {
+        "id_part" : NumberInt(14309), 
+        "audio_src" : "", 
+        "bo_cau_hoi" : [
+            {
+                "id_cauhoi" : NumberInt(41), 
+                "answer" : NumberInt(1), 
+                "sign" : "a101", 
+                "explain" : "ĐÁP ÁN: (B) Change an appointment time.", 
+                "description" : {
+                    "question" : "Question 101.Mr. Kurt Spienza appears to be the only person in our team who can finish the survey by ______", 
+                    "A" : "(A) he", 
+                    "B" : "(B) him", 
+                    "C" : "(C) his", 
+                    "D" : "(D) himself"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(42), 
+                "answer" : NumberInt(0), 
+                "sign" : "a102", 
+                "explain" : "ĐÁP ÁN: (A) Meet with some clients. ", 
+                "description" : {
+                    "question" : "Question 102. What will the man do this afternoon? ", 
+                    "A" : "(A) will be", 
+                    "B" : "(B) was", 
+                    "C" : "(C) are", 
+                    "D" : "(D) has been"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(43), 
+                "answer" : NumberInt(3), 
+                "sign" : "a103", 
+                "explain" : "ĐÁP ÁN: (D) At 4 o'clock", 
+                "description" : {
+                    "question" : " Question 103. What time will the man start his appointment this afternoon?", 
+                    "A" : "(A) directly", 
+                    "B" : "(B) direct", 
+                    "C" : "(C) directed", 
+                    "D" : "(D) direction"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(44), 
+                "answer" : NumberInt(2), 
+                "sign" : "a104", 
+                "explain" : "ĐÁP ÁN: (C) A mobile phone company", 
+                "description" : {
+                    "question" : "Question 104. What kind of company does the man work for? ", 
+                    "A" : "(A) reply", 
+                    "B" : "(B) detect", 
+                    "C" : "(C) construct", 
+                    "D" : "(D) hire"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(45), 
+                "answer" : NumberInt(0), 
+                "sign" : "a105", 
+                "explain" : "ĐÁP ÁN:  (A) The price may have risen.", 
+                "description" : {
+                    "question" : "Question 105. How does the man explain the change in the woman's bill? ", 
+                    "A" : "(A) they", 
+                    "B" : "(B) them", 
+                    "C" : "(C) themselves", 
+                    "D" : "(D) their"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(46), 
+                "answer" : NumberInt(1), 
+                "sign" : "a106", 
+                "explain" : "ĐÁP ÁN:  (B) Her telephone number.", 
+                "description" : {
+                    "question" : "Question 106. What information does the man ask the woman for?", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(47), 
+                "answer" : NumberInt(3), 
+                "sign" : "a107", 
+                "explain" : "ĐÁP ÁN: (D) The retirement of a colleague.", 
+                "description" : {
+                    "question" : "Question 107. What is the celebration for?", 
+                    "A" : "(A) additional", 
+                    "B" : "(B) addition", 
+                    "C" : "(C) adding", 
+                    "D" : "(D) additionally"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(48), 
+                "answer" : NumberInt(2), 
+                "sign" : "a108", 
+                "explain" : "ĐÁP ÁN: (C) At 7:00 .", 
+                "description" : {
+                    "question" : "Question 108. When will the celebration start?", 
+                    "A" : "(A) They", 
+                    "B" : "(B) It", 
+                    "C" : "(C) There", 
+                    "D" : "( (D) That"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(49), 
+                "answer" : NumberInt(2), 
+                "sign" : "a109", 
+                "explain" : "ĐÁP ÁN: (C) To a bakery.", 
+                "description" : {
+                    "question" : "Question 109. Where will the woman go before the party? ", 
+                    "A" : "(A) repeat", 
+                    "B" : "(B) repeatedly", 
+                    "C" : "(C) repeater", 
+                    "D" : "(D) repetition"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(50), 
+                "answer" : NumberInt(1), 
+                "sign" : "a110", 
+                "explain" : "ĐÁP ÁN: (B) He recently won a prize.", 
+                "description" : {
+                    "question" : "Question 110. Why is William happy? ", 
+                    "A" : "(A) interested", 
+                    "B" : "(B) listed", 
+                    "C" : "(C) hopeful", 
+                    "D" : "(D) enclosed"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(51), 
+                "answer" : NumberInt(1), 
+                "sign" : "a111", 
+                "explain" : "ĐÁP ÁN: (B) Sign up for a workshop.", 
+                "description" : {
+                    "question" : "Question 111. What does William hope to do? ", 
+                    "A" : "(A) survey", 
+                    "B" : "(B) surveys", 
+                    "C" : "(C) surveying", 
+                    "D" : "(D) surveyed"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(52), 
+                "answer" : NumberInt(0), 
+                "sign" : "a112", 
+                "explain" : "ĐÁP ÁN: (A) An oil painting.", 
+                "description" : {
+                    "question" : "Question 112. What is William working on these days? ", 
+                    "A" : "(A) extremely", 
+                    "B" : "(B) exclusively", 
+                    "C" : "(C) continually", 
+                    "D" : "(D) completely"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(53), 
+                "answer" : NumberInt(1), 
+                "sign" : "a113", 
+                "explain" : "ĐÁP ÁN: (B) At an office building.", 
+                "description" : {
+                    "question" : "Question 113. Where is the conversation most likely taking place?", 
+                    "A" : "(A) informative", 
+                    "B" : "(B) inform", 
+                    "C" : "(C) information", 
+                    "D" : "(D) informer"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(54), 
+                "answer" : NumberInt(2), 
+                "sign" : "a114", 
+                "explain" : "(C) Sign the form.", 
+                "description" : {
+                    "question" : "Question 114. What does the assistant offer to do? ", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(55), 
+                "answer" : NumberInt(1), 
+                "sign" : "a115", 
+                "explain" : "ĐÁP ÁN:  (B) A filing cabinet.", 
+                "description" : {
+                    "question" : "Question 115. What will be delivered to the conference room? ", 
+                    "A" : "(A) are required", 
+                    "B" : "(B) require", 
+                    "C" : "(C) requires", 
+                    "D" : "(D) has required"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(56), 
+                "answer" : NumberInt(0), 
+                "sign" : "a116", 
+                "explain" : "ĐÁP ÁN: (A) An information desk clerk ", 
+                "description" : {
+                    "question" : "Question 116. Who most likely is the man? ", 
+                    "A" : "(A) only if", 
+                    "B" : "(B) until", 
+                    "C" : "(C) not only", 
+                    "D" : "(D) since"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(57), 
+                "answer" : NumberInt(2), 
+                "sign" : "a117", 
+                "explain" : "ĐÁP ÁN:  (C) To check her order.", 
+                "description" : {
+                    "question" : "Question 117. Where is the woman going? ", 
+                    "A" : "(A) attendant", 
+                    "B" : "(B) attendance", 
+                    "C" : "(C) attended", 
+                    "D" : "(D) attendee"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(58), 
+                "answer" : NumberInt(2), 
+                "sign" : "a118", 
+                "explain" : "ĐÁP ÁN: (C) Using a discount coupon.", 
+                "description" : {
+                    "question" : "Question 118. How does the man suggest lowering the admission price? ", 
+                    "A" : "(A) proficient", 
+                    "B" : "(B) considerable", 
+                    "C" : "(C) secondary", 
+                    "D" : "(D) present"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(59), 
+                "answer" : NumberInt(0), 
+                "sign" : "a119", 
+                "explain" : "ĐÁP ÁN: (A) White.", 
+                "description" : {
+                    "question" : "Question 119. What color monitors are available now? ", 
+                    "A" : "(A) maintaining", 
+                    "B" : "(B) maintenancen", 
+                    "C" : "(C) maintained", 
+                    "D" : "(D) maintains"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(60), 
+                "answer" : NumberInt(2), 
+                "sign" : "a120", 
+                "explain" : "ĐÁP ÁN: (C) $ 200 .", 
+                "description" : {
+                    "question" : "Question 120. How much does it cost to increase the size of the monitor? ", 
+                    "A" : "(A) demonstrate", 
+                    "B" : "(B) decline", 
+                    "C" : "(C) face", 
+                    "D" : "(D) ease"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(61), 
+                "answer" : NumberInt(1), 
+                "sign" : "a121", 
+                "explain" : "(B) In about two weeks.", 
+                "description" : {
+                    "question" : "Question 121. When can the man expect to receive his monitor? ", 
+                    "A" : "(A) since", 
+                    "B" : "(B) then", 
+                    "C" : "(C) here", 
+                    "D" : "(D) much"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(62), 
+                "answer" : NumberInt(2), 
+                "sign" : "a122", 
+                "explain" : "ĐÁP ÁN: (C) He can’t open the garage gate by himself.", 
+                "description" : {
+                    "question" : "122. What problem is the man faced with? ", 
+                    "A" : "(A) against", 
+                    "B" : "(B) except", 
+                    "C" : "(C) upon", 
+                    "D" : "(D) throughout"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(63), 
+                "answer" : NumberInt(3), 
+                "sign" : "a123", 
+                "explain" : "ĐÁP ÁN: (D) On Tuesday.", 
+                "description" : {
+                    "question" : "123. When did the woman receive her parking permit? ", 
+                    "A" : "(A) requests", 
+                    "B" : "(B) request", 
+                    "C" : "(C) requesting", 
+                    "D" : "(D) requested"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(64), 
+                "answer" : NumberInt(3), 
+                "sign" : "a124", 
+                "explain" : "ĐÁP ÁN: (D) Contact the HR department.", 
+                "description" : {
+                    "question" : "124. What does the woman suggest the man do? ", 
+                    "A" : "(A) suited", 
+                    "B" : "(B) conductive", 
+                    "C" : "(C) forward", 
+                    "D" : "(D) prior"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(65), 
+                "answer" : NumberInt(1), 
+                "sign" : "a125", 
+                "explain" : "ĐÁP ÁN: (B) At a hair salon.", 
+                "description" : {
+                    "question" : "125. Where most likely does this conversation take place? ", 
+                    "A" : "(A) weaken", 
+                    "B" : "(B) invalidate", 
+                    "C" : "(C) verify", 
+                    "D" : "(D) weigh"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(66), 
+                "answer" : NumberInt(3), 
+                "sign" : "a126", 
+                "explain" : "ĐÁP ÁN: (D) Change her hair color.", 
+                "description" : {
+                    "question" : "126. What would the woman like to do? ", 
+                    "A" : "(A) as expensive", 
+                    "B" : "(B) more expensive", 
+                    "C" : "(C) so expensively", 
+                    "D" : "(D) most expensively"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(67), 
+                "answer" : NumberInt(3), 
+                "sign" : "a127", 
+                "explain" : "(D) To attend a training seminar.", 
+                "description" : {
+                    "question" : "127. Why did the man visit New York? ", 
+                    "A" : "(A) extension", 
+                    "B" : "(B) production", 
+                    "C" : "(C) grade", 
+                    "D" : "(D) rise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(68), 
+                "answer" : NumberInt(2), 
+                "sign" : "a128", 
+                "explain" : "ĐÁP ÁN: (C) He can't access his messages.", 
+                "description" : {
+                    "question" : "Question 128. What is the man's problem? ", 
+                    "A" : "(A) will overcome", 
+                    "B" : "(B) be overcome", 
+                    "C" : "(C) to overcome", 
+                    "D" : "(D) has overcome"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(69), 
+                "answer" : NumberInt(1), 
+                "sign" : "a129", 
+                "explain" : "ĐÁP ÁN:  (B) To technical services.", 
+                "description" : {
+                    "question" : "Question 129. Where will the man probably go next? ", 
+                    "A" : "(A) budget", 
+                    "B" : "(B) prices", 
+                    "C" : "(C) credits ", 
+                    "D" : "(D) expenses"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(70), 
+                "answer" : NumberInt(3), 
+                "sign" : "a130", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 130. Where is the technical support staff office located? ", 
+                    "A" : "(A) has presented", 
+                    "B" : "(B) presenting", 
+                    "C" : "(C) present", 
+                    "D" : "(D) to present"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(71), 
+                "answer" : NumberInt(3), 
+                "sign" : "a131", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 131. Where is the technical support staff office located? ", 
+                    "A" : "(A) fallen", 
+                    "B" : "(B) refused", 
+                    "C" : "(C) performed", 
+                    "D" : "(D) acquired"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(72), 
+                "answer" : NumberInt(3), 
+                "sign" : "a132", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 132. Where is the technical support staff office located? ", 
+                    "A" : "(A) elevation", 
+                    "B" : "(B) mobility", 
+                    "C" : "(C) belief", 
+                    "D" : "(D) popularity"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(73), 
+                "answer" : NumberInt(3), 
+                "sign" : "a133", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 133. Where is the technical support staff office located? ", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(74), 
+                "answer" : NumberInt(3), 
+                "sign" : "a134", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 134. Where is the technical support staff office located? ", 
+                    "A" : "(A) to", 
+                    "B" : "(B) by", 
+                    "C" : "(C) on", 
+                    "D" : "(D) for"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(75), 
+                "answer" : NumberInt(3), 
+                "sign" : "a135", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 135. Where is the technical support staff office located? ", 
+                    "A" : "(A) practice", 
+                    "B" : "(B) persist", 
+                    "C" : "(C) cooperate", 
+                    "D" : "(D) retain"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(76), 
+                "answer" : NumberInt(3), 
+                "sign" : "a136", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 136. Where is the technical support staff office located? ", 
+                    "A" : "(A) exclusive", 
+                    "B" : "(B) excluding", 
+                    "C" : "(C) exclusively", 
+                    "D" : "(D) excluded"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(77), 
+                "answer" : NumberInt(3), 
+                "sign" : "a137", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 137. Where is the technical support staff office located? ", 
+                    "A" : "(A) facing", 
+                    "B" : "(B) progressing", 
+                    "C" : "(C) playing", 
+                    "D" : "(D) dealing"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(78), 
+                "answer" : NumberInt(3), 
+                "sign" : "a138", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 138. Where is the technical support staff office located? ", 
+                    "A" : "(A) Despite", 
+                    "B" : "(B) Unless", 
+                    "C" : "(C) In order to", 
+                    "D" : "(D) As well as"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(79), 
+                "answer" : NumberInt(3), 
+                "sign" : "a139", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 139. Where is the technical support staff office located? ", 
+                    "A" : "(A) such", 
+                    "B" : "(B) either", 
+                    "C" : "(C) with", 
+                    "D" : "(D) and"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(80), 
+                "answer" : NumberInt(3), 
+                "sign" : "a140", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 140. Where is the technical support staff office located? ", 
+                    "A" : "(A) seek", 
+                    "B" : "(B) seeking", 
+                    "C" : "(C) have sought", 
+                    "D" : "(D) being sought"
+                }
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5cd807353b71632188791dc8"), 
+    "id_exam" : NumberInt(187103), 
+    "PartV" : {
+        "id_part" : NumberInt(14309), 
+        "audio_src" : "", 
+        "bo_cau_hoi" : [
+            {
+                "id_cauhoi" : NumberInt(41), 
+                "answer" : NumberInt(1), 
+                "sign" : "a101", 
+                "explain" : "ĐÁP ÁN: (B) Change an appointment time.", 
+                "description" : {
+                    "question" : "Question 101.Mr. Kurt Spienza appears to be the only person in our team who can finish the survey by ______", 
+                    "A" : "(A) he", 
+                    "B" : "(B) him", 
+                    "C" : "(C) his", 
+                    "D" : "(D) himself"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(42), 
+                "answer" : NumberInt(0), 
+                "sign" : "a102", 
+                "explain" : "ĐÁP ÁN: (A) Meet with some clients. ", 
+                "description" : {
+                    "question" : "Question 102. What will the man do this afternoon? ", 
+                    "A" : "(A) will be", 
+                    "B" : "(B) was", 
+                    "C" : "(C) are", 
+                    "D" : "(D) has been"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(43), 
+                "answer" : NumberInt(3), 
+                "sign" : "a103", 
+                "explain" : "ĐÁP ÁN: (D) At 4 o'clock", 
+                "description" : {
+                    "question" : " Question 103. What time will the man start his appointment this afternoon?", 
+                    "A" : "(A) directly", 
+                    "B" : "(B) direct", 
+                    "C" : "(C) directed", 
+                    "D" : "(D) direction"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(44), 
+                "answer" : NumberInt(2), 
+                "sign" : "a104", 
+                "explain" : "ĐÁP ÁN: (C) A mobile phone company", 
+                "description" : {
+                    "question" : "Question 104. What kind of company does the man work for? ", 
+                    "A" : "(A) reply", 
+                    "B" : "(B) detect", 
+                    "C" : "(C) construct", 
+                    "D" : "(D) hire"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(45), 
+                "answer" : NumberInt(0), 
+                "sign" : "a105", 
+                "explain" : "ĐÁP ÁN:  (A) The price may have risen.", 
+                "description" : {
+                    "question" : "Question 105. How does the man explain the change in the woman's bill? ", 
+                    "A" : "(A) they", 
+                    "B" : "(B) them", 
+                    "C" : "(C) themselves", 
+                    "D" : "(D) their"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(46), 
+                "answer" : NumberInt(1), 
+                "sign" : "a106", 
+                "explain" : "ĐÁP ÁN:  (B) Her telephone number.", 
+                "description" : {
+                    "question" : "Question 106. What information does the man ask the woman for?", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(47), 
+                "answer" : NumberInt(3), 
+                "sign" : "a107", 
+                "explain" : "ĐÁP ÁN: (D) The retirement of a colleague.", 
+                "description" : {
+                    "question" : "Question 107. What is the celebration for?", 
+                    "A" : "(A) additional", 
+                    "B" : "(B) addition", 
+                    "C" : "(C) adding", 
+                    "D" : "(D) additionally"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(48), 
+                "answer" : NumberInt(2), 
+                "sign" : "a108", 
+                "explain" : "ĐÁP ÁN: (C) At 7:00 .", 
+                "description" : {
+                    "question" : "Question 108. When will the celebration start?", 
+                    "A" : "(A) They", 
+                    "B" : "(B) It", 
+                    "C" : "(C) There", 
+                    "D" : "( (D) That"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(49), 
+                "answer" : NumberInt(2), 
+                "sign" : "a109", 
+                "explain" : "ĐÁP ÁN: (C) To a bakery.", 
+                "description" : {
+                    "question" : "Question 109. Where will the woman go before the party? ", 
+                    "A" : "(A) repeat", 
+                    "B" : "(B) repeatedly", 
+                    "C" : "(C) repeater", 
+                    "D" : "(D) repetition"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(50), 
+                "answer" : NumberInt(1), 
+                "sign" : "a110", 
+                "explain" : "ĐÁP ÁN: (B) He recently won a prize.", 
+                "description" : {
+                    "question" : "Question 110. Why is William happy? ", 
+                    "A" : "(A) interested", 
+                    "B" : "(B) listed", 
+                    "C" : "(C) hopeful", 
+                    "D" : "(D) enclosed"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(51), 
+                "answer" : NumberInt(1), 
+                "sign" : "a111", 
+                "explain" : "ĐÁP ÁN: (B) Sign up for a workshop.", 
+                "description" : {
+                    "question" : "Question 111. What does William hope to do? ", 
+                    "A" : "(A) survey", 
+                    "B" : "(B) surveys", 
+                    "C" : "(C) surveying", 
+                    "D" : "(D) surveyed"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(52), 
+                "answer" : NumberInt(0), 
+                "sign" : "a112", 
+                "explain" : "ĐÁP ÁN: (A) An oil painting.", 
+                "description" : {
+                    "question" : "Question 112. What is William working on these days? ", 
+                    "A" : "(A) extremely", 
+                    "B" : "(B) exclusively", 
+                    "C" : "(C) continually", 
+                    "D" : "(D) completely"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(53), 
+                "answer" : NumberInt(1), 
+                "sign" : "a113", 
+                "explain" : "ĐÁP ÁN: (B) At an office building.", 
+                "description" : {
+                    "question" : "Question 113. Where is the conversation most likely taking place?", 
+                    "A" : "(A) informative", 
+                    "B" : "(B) inform", 
+                    "C" : "(C) information", 
+                    "D" : "(D) informer"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(54), 
+                "answer" : NumberInt(2), 
+                "sign" : "a114", 
+                "explain" : "(C) Sign the form.", 
+                "description" : {
+                    "question" : "Question 114. What does the assistant offer to do? ", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(55), 
+                "answer" : NumberInt(1), 
+                "sign" : "a115", 
+                "explain" : "ĐÁP ÁN:  (B) A filing cabinet.", 
+                "description" : {
+                    "question" : "Question 115. What will be delivered to the conference room? ", 
+                    "A" : "(A) are required", 
+                    "B" : "(B) require", 
+                    "C" : "(C) requires", 
+                    "D" : "(D) has required"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(56), 
+                "answer" : NumberInt(0), 
+                "sign" : "a116", 
+                "explain" : "ĐÁP ÁN: (A) An information desk clerk ", 
+                "description" : {
+                    "question" : "Question 116. Who most likely is the man? ", 
+                    "A" : "(A) only if", 
+                    "B" : "(B) until", 
+                    "C" : "(C) not only", 
+                    "D" : "(D) since"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(57), 
+                "answer" : NumberInt(2), 
+                "sign" : "a117", 
+                "explain" : "ĐÁP ÁN:  (C) To check her order.", 
+                "description" : {
+                    "question" : "Question 117. Where is the woman going? ", 
+                    "A" : "(A) attendant", 
+                    "B" : "(B) attendance", 
+                    "C" : "(C) attended", 
+                    "D" : "(D) attendee"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(58), 
+                "answer" : NumberInt(2), 
+                "sign" : "a118", 
+                "explain" : "ĐÁP ÁN: (C) Using a discount coupon.", 
+                "description" : {
+                    "question" : "Question 118. How does the man suggest lowering the admission price? ", 
+                    "A" : "(A) proficient", 
+                    "B" : "(B) considerable", 
+                    "C" : "(C) secondary", 
+                    "D" : "(D) present"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(59), 
+                "answer" : NumberInt(0), 
+                "sign" : "a119", 
+                "explain" : "ĐÁP ÁN: (A) White.", 
+                "description" : {
+                    "question" : "Question 119. What color monitors are available now? ", 
+                    "A" : "(A) maintaining", 
+                    "B" : "(B) maintenancen", 
+                    "C" : "(C) maintained", 
+                    "D" : "(D) maintains"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(60), 
+                "answer" : NumberInt(2), 
+                "sign" : "a120", 
+                "explain" : "ĐÁP ÁN: (C) $ 200 .", 
+                "description" : {
+                    "question" : "Question 120. How much does it cost to increase the size of the monitor? ", 
+                    "A" : "(A) demonstrate", 
+                    "B" : "(B) decline", 
+                    "C" : "(C) face", 
+                    "D" : "(D) ease"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(61), 
+                "answer" : NumberInt(1), 
+                "sign" : "a121", 
+                "explain" : "(B) In about two weeks.", 
+                "description" : {
+                    "question" : "Question 121. When can the man expect to receive his monitor? ", 
+                    "A" : "(A) since", 
+                    "B" : "(B) then", 
+                    "C" : "(C) here", 
+                    "D" : "(D) much"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(62), 
+                "answer" : NumberInt(2), 
+                "sign" : "a122", 
+                "explain" : "ĐÁP ÁN: (C) He can’t open the garage gate by himself.", 
+                "description" : {
+                    "question" : "122. What problem is the man faced with? ", 
+                    "A" : "(A) against", 
+                    "B" : "(B) except", 
+                    "C" : "(C) upon", 
+                    "D" : "(D) throughout"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(63), 
+                "answer" : NumberInt(3), 
+                "sign" : "a123", 
+                "explain" : "ĐÁP ÁN: (D) On Tuesday.", 
+                "description" : {
+                    "question" : "123. When did the woman receive her parking permit? ", 
+                    "A" : "(A) requests", 
+                    "B" : "(B) request", 
+                    "C" : "(C) requesting", 
+                    "D" : "(D) requested"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(64), 
+                "answer" : NumberInt(3), 
+                "sign" : "a124", 
+                "explain" : "ĐÁP ÁN: (D) Contact the HR department.", 
+                "description" : {
+                    "question" : "124. What does the woman suggest the man do? ", 
+                    "A" : "(A) suited", 
+                    "B" : "(B) conductive", 
+                    "C" : "(C) forward", 
+                    "D" : "(D) prior"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(65), 
+                "answer" : NumberInt(1), 
+                "sign" : "a125", 
+                "explain" : "ĐÁP ÁN: (B) At a hair salon.", 
+                "description" : {
+                    "question" : "125. Where most likely does this conversation take place? ", 
+                    "A" : "(A) weaken", 
+                    "B" : "(B) invalidate", 
+                    "C" : "(C) verify", 
+                    "D" : "(D) weigh"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(66), 
+                "answer" : NumberInt(3), 
+                "sign" : "a126", 
+                "explain" : "ĐÁP ÁN: (D) Change her hair color.", 
+                "description" : {
+                    "question" : "126. What would the woman like to do? ", 
+                    "A" : "(A) as expensive", 
+                    "B" : "(B) more expensive", 
+                    "C" : "(C) so expensively", 
+                    "D" : "(D) most expensively"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(67), 
+                "answer" : NumberInt(3), 
+                "sign" : "a127", 
+                "explain" : "(D) To attend a training seminar.", 
+                "description" : {
+                    "question" : "127. Why did the man visit New York? ", 
+                    "A" : "(A) extension", 
+                    "B" : "(B) production", 
+                    "C" : "(C) grade", 
+                    "D" : "(D) rise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(68), 
+                "answer" : NumberInt(2), 
+                "sign" : "a128", 
+                "explain" : "ĐÁP ÁN: (C) He can't access his messages.", 
+                "description" : {
+                    "question" : "Question 128. What is the man's problem? ", 
+                    "A" : "(A) will overcome", 
+                    "B" : "(B) be overcome", 
+                    "C" : "(C) to overcome", 
+                    "D" : "(D) has overcome"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(69), 
+                "answer" : NumberInt(1), 
+                "sign" : "a129", 
+                "explain" : "ĐÁP ÁN:  (B) To technical services.", 
+                "description" : {
+                    "question" : "Question 129. Where will the man probably go next? ", 
+                    "A" : "(A) budget", 
+                    "B" : "(B) prices", 
+                    "C" : "(C) credits ", 
+                    "D" : "(D) expenses"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(70), 
+                "answer" : NumberInt(3), 
+                "sign" : "a130", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 130. Where is the technical support staff office located? ", 
+                    "A" : "(A) has presented", 
+                    "B" : "(B) presenting", 
+                    "C" : "(C) present", 
+                    "D" : "(D) to present"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(71), 
+                "answer" : NumberInt(3), 
+                "sign" : "a131", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 131. Where is the technical support staff office located? ", 
+                    "A" : "(A) fallen", 
+                    "B" : "(B) refused", 
+                    "C" : "(C) performed", 
+                    "D" : "(D) acquired"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(72), 
+                "answer" : NumberInt(3), 
+                "sign" : "a132", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 132. Where is the technical support staff office located? ", 
+                    "A" : "(A) elevation", 
+                    "B" : "(B) mobility", 
+                    "C" : "(C) belief", 
+                    "D" : "(D) popularity"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(73), 
+                "answer" : NumberInt(3), 
+                "sign" : "a133", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 133. Where is the technical support staff office located? ", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(74), 
+                "answer" : NumberInt(3), 
+                "sign" : "a134", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 134. Where is the technical support staff office located? ", 
+                    "A" : "(A) to", 
+                    "B" : "(B) by", 
+                    "C" : "(C) on", 
+                    "D" : "(D) for"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(75), 
+                "answer" : NumberInt(3), 
+                "sign" : "a135", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 135. Where is the technical support staff office located? ", 
+                    "A" : "(A) practice", 
+                    "B" : "(B) persist", 
+                    "C" : "(C) cooperate", 
+                    "D" : "(D) retain"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(76), 
+                "answer" : NumberInt(3), 
+                "sign" : "a136", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 136. Where is the technical support staff office located? ", 
+                    "A" : "(A) exclusive", 
+                    "B" : "(B) excluding", 
+                    "C" : "(C) exclusively", 
+                    "D" : "(D) excluded"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(77), 
+                "answer" : NumberInt(3), 
+                "sign" : "a137", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 137. Where is the technical support staff office located? ", 
+                    "A" : "(A) facing", 
+                    "B" : "(B) progressing", 
+                    "C" : "(C) playing", 
+                    "D" : "(D) dealing"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(78), 
+                "answer" : NumberInt(3), 
+                "sign" : "a138", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 138. Where is the technical support staff office located? ", 
+                    "A" : "(A) Despite", 
+                    "B" : "(B) Unless", 
+                    "C" : "(C) In order to", 
+                    "D" : "(D) As well as"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(79), 
+                "answer" : NumberInt(3), 
+                "sign" : "a139", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 139. Where is the technical support staff office located? ", 
+                    "A" : "(A) such", 
+                    "B" : "(B) either", 
+                    "C" : "(C) with", 
+                    "D" : "(D) and"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(80), 
+                "answer" : NumberInt(3), 
+                "sign" : "a140", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 140. Where is the technical support staff office located? ", 
+                    "A" : "(A) seek", 
+                    "B" : "(B) seeking", 
+                    "C" : "(C) have sought", 
+                    "D" : "(D) being sought"
+                }
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5cd807373b71632188791dc9"), 
+    "id_exam" : NumberInt(187103), 
+    "PartV" : {
+        "id_part" : NumberInt(14309), 
+        "audio_src" : "", 
+        "bo_cau_hoi" : [
+            {
+                "id_cauhoi" : NumberInt(41), 
+                "answer" : NumberInt(1), 
+                "sign" : "a101", 
+                "explain" : "ĐÁP ÁN: (B) Change an appointment time.", 
+                "description" : {
+                    "question" : "Question 101.Mr. Kurt Spienza appears to be the only person in our team who can finish the survey by ______", 
+                    "A" : "(A) he", 
+                    "B" : "(B) him", 
+                    "C" : "(C) his", 
+                    "D" : "(D) himself"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(42), 
+                "answer" : NumberInt(0), 
+                "sign" : "a102", 
+                "explain" : "ĐÁP ÁN: (A) Meet with some clients. ", 
+                "description" : {
+                    "question" : "Question 102. What will the man do this afternoon? ", 
+                    "A" : "(A) will be", 
+                    "B" : "(B) was", 
+                    "C" : "(C) are", 
+                    "D" : "(D) has been"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(43), 
+                "answer" : NumberInt(3), 
+                "sign" : "a103", 
+                "explain" : "ĐÁP ÁN: (D) At 4 o'clock", 
+                "description" : {
+                    "question" : " Question 103. What time will the man start his appointment this afternoon?", 
+                    "A" : "(A) directly", 
+                    "B" : "(B) direct", 
+                    "C" : "(C) directed", 
+                    "D" : "(D) direction"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(44), 
+                "answer" : NumberInt(2), 
+                "sign" : "a104", 
+                "explain" : "ĐÁP ÁN: (C) A mobile phone company", 
+                "description" : {
+                    "question" : "Question 104. What kind of company does the man work for? ", 
+                    "A" : "(A) reply", 
+                    "B" : "(B) detect", 
+                    "C" : "(C) construct", 
+                    "D" : "(D) hire"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(45), 
+                "answer" : NumberInt(0), 
+                "sign" : "a105", 
+                "explain" : "ĐÁP ÁN:  (A) The price may have risen.", 
+                "description" : {
+                    "question" : "Question 105. How does the man explain the change in the woman's bill? ", 
+                    "A" : "(A) they", 
+                    "B" : "(B) them", 
+                    "C" : "(C) themselves", 
+                    "D" : "(D) their"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(46), 
+                "answer" : NumberInt(1), 
+                "sign" : "a106", 
+                "explain" : "ĐÁP ÁN:  (B) Her telephone number.", 
+                "description" : {
+                    "question" : "Question 106. What information does the man ask the woman for?", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(47), 
+                "answer" : NumberInt(3), 
+                "sign" : "a107", 
+                "explain" : "ĐÁP ÁN: (D) The retirement of a colleague.", 
+                "description" : {
+                    "question" : "Question 107. What is the celebration for?", 
+                    "A" : "(A) additional", 
+                    "B" : "(B) addition", 
+                    "C" : "(C) adding", 
+                    "D" : "(D) additionally"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(48), 
+                "answer" : NumberInt(2), 
+                "sign" : "a108", 
+                "explain" : "ĐÁP ÁN: (C) At 7:00 .", 
+                "description" : {
+                    "question" : "Question 108. When will the celebration start?", 
+                    "A" : "(A) They", 
+                    "B" : "(B) It", 
+                    "C" : "(C) There", 
+                    "D" : "( (D) That"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(49), 
+                "answer" : NumberInt(2), 
+                "sign" : "a109", 
+                "explain" : "ĐÁP ÁN: (C) To a bakery.", 
+                "description" : {
+                    "question" : "Question 109. Where will the woman go before the party? ", 
+                    "A" : "(A) repeat", 
+                    "B" : "(B) repeatedly", 
+                    "C" : "(C) repeater", 
+                    "D" : "(D) repetition"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(50), 
+                "answer" : NumberInt(1), 
+                "sign" : "a110", 
+                "explain" : "ĐÁP ÁN: (B) He recently won a prize.", 
+                "description" : {
+                    "question" : "Question 110. Why is William happy? ", 
+                    "A" : "(A) interested", 
+                    "B" : "(B) listed", 
+                    "C" : "(C) hopeful", 
+                    "D" : "(D) enclosed"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(51), 
+                "answer" : NumberInt(1), 
+                "sign" : "a111", 
+                "explain" : "ĐÁP ÁN: (B) Sign up for a workshop.", 
+                "description" : {
+                    "question" : "Question 111. What does William hope to do? ", 
+                    "A" : "(A) survey", 
+                    "B" : "(B) surveys", 
+                    "C" : "(C) surveying", 
+                    "D" : "(D) surveyed"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(52), 
+                "answer" : NumberInt(0), 
+                "sign" : "a112", 
+                "explain" : "ĐÁP ÁN: (A) An oil painting.", 
+                "description" : {
+                    "question" : "Question 112. What is William working on these days? ", 
+                    "A" : "(A) extremely", 
+                    "B" : "(B) exclusively", 
+                    "C" : "(C) continually", 
+                    "D" : "(D) completely"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(53), 
+                "answer" : NumberInt(1), 
+                "sign" : "a113", 
+                "explain" : "ĐÁP ÁN: (B) At an office building.", 
+                "description" : {
+                    "question" : "Question 113. Where is the conversation most likely taking place?", 
+                    "A" : "(A) informative", 
+                    "B" : "(B) inform", 
+                    "C" : "(C) information", 
+                    "D" : "(D) informer"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(54), 
+                "answer" : NumberInt(2), 
+                "sign" : "a114", 
+                "explain" : "(C) Sign the form.", 
+                "description" : {
+                    "question" : "Question 114. What does the assistant offer to do? ", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(55), 
+                "answer" : NumberInt(1), 
+                "sign" : "a115", 
+                "explain" : "ĐÁP ÁN:  (B) A filing cabinet.", 
+                "description" : {
+                    "question" : "Question 115. What will be delivered to the conference room? ", 
+                    "A" : "(A) are required", 
+                    "B" : "(B) require", 
+                    "C" : "(C) requires", 
+                    "D" : "(D) has required"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(56), 
+                "answer" : NumberInt(0), 
+                "sign" : "a116", 
+                "explain" : "ĐÁP ÁN: (A) An information desk clerk ", 
+                "description" : {
+                    "question" : "Question 116. Who most likely is the man? ", 
+                    "A" : "(A) only if", 
+                    "B" : "(B) until", 
+                    "C" : "(C) not only", 
+                    "D" : "(D) since"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(57), 
+                "answer" : NumberInt(2), 
+                "sign" : "a117", 
+                "explain" : "ĐÁP ÁN:  (C) To check her order.", 
+                "description" : {
+                    "question" : "Question 117. Where is the woman going? ", 
+                    "A" : "(A) attendant", 
+                    "B" : "(B) attendance", 
+                    "C" : "(C) attended", 
+                    "D" : "(D) attendee"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(58), 
+                "answer" : NumberInt(2), 
+                "sign" : "a118", 
+                "explain" : "ĐÁP ÁN: (C) Using a discount coupon.", 
+                "description" : {
+                    "question" : "Question 118. How does the man suggest lowering the admission price? ", 
+                    "A" : "(A) proficient", 
+                    "B" : "(B) considerable", 
+                    "C" : "(C) secondary", 
+                    "D" : "(D) present"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(59), 
+                "answer" : NumberInt(0), 
+                "sign" : "a119", 
+                "explain" : "ĐÁP ÁN: (A) White.", 
+                "description" : {
+                    "question" : "Question 119. What color monitors are available now? ", 
+                    "A" : "(A) maintaining", 
+                    "B" : "(B) maintenancen", 
+                    "C" : "(C) maintained", 
+                    "D" : "(D) maintains"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(60), 
+                "answer" : NumberInt(2), 
+                "sign" : "a120", 
+                "explain" : "ĐÁP ÁN: (C) $ 200 .", 
+                "description" : {
+                    "question" : "Question 120. How much does it cost to increase the size of the monitor? ", 
+                    "A" : "(A) demonstrate", 
+                    "B" : "(B) decline", 
+                    "C" : "(C) face", 
+                    "D" : "(D) ease"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(61), 
+                "answer" : NumberInt(1), 
+                "sign" : "a121", 
+                "explain" : "(B) In about two weeks.", 
+                "description" : {
+                    "question" : "Question 121. When can the man expect to receive his monitor? ", 
+                    "A" : "(A) since", 
+                    "B" : "(B) then", 
+                    "C" : "(C) here", 
+                    "D" : "(D) much"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(62), 
+                "answer" : NumberInt(2), 
+                "sign" : "a122", 
+                "explain" : "ĐÁP ÁN: (C) He can’t open the garage gate by himself.", 
+                "description" : {
+                    "question" : "122. What problem is the man faced with? ", 
+                    "A" : "(A) against", 
+                    "B" : "(B) except", 
+                    "C" : "(C) upon", 
+                    "D" : "(D) throughout"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(63), 
+                "answer" : NumberInt(3), 
+                "sign" : "a123", 
+                "explain" : "ĐÁP ÁN: (D) On Tuesday.", 
+                "description" : {
+                    "question" : "123. When did the woman receive her parking permit? ", 
+                    "A" : "(A) requests", 
+                    "B" : "(B) request", 
+                    "C" : "(C) requesting", 
+                    "D" : "(D) requested"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(64), 
+                "answer" : NumberInt(3), 
+                "sign" : "a124", 
+                "explain" : "ĐÁP ÁN: (D) Contact the HR department.", 
+                "description" : {
+                    "question" : "124. What does the woman suggest the man do? ", 
+                    "A" : "(A) suited", 
+                    "B" : "(B) conductive", 
+                    "C" : "(C) forward", 
+                    "D" : "(D) prior"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(65), 
+                "answer" : NumberInt(1), 
+                "sign" : "a125", 
+                "explain" : "ĐÁP ÁN: (B) At a hair salon.", 
+                "description" : {
+                    "question" : "125. Where most likely does this conversation take place? ", 
+                    "A" : "(A) weaken", 
+                    "B" : "(B) invalidate", 
+                    "C" : "(C) verify", 
+                    "D" : "(D) weigh"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(66), 
+                "answer" : NumberInt(3), 
+                "sign" : "a126", 
+                "explain" : "ĐÁP ÁN: (D) Change her hair color.", 
+                "description" : {
+                    "question" : "126. What would the woman like to do? ", 
+                    "A" : "(A) as expensive", 
+                    "B" : "(B) more expensive", 
+                    "C" : "(C) so expensively", 
+                    "D" : "(D) most expensively"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(67), 
+                "answer" : NumberInt(3), 
+                "sign" : "a127", 
+                "explain" : "(D) To attend a training seminar.", 
+                "description" : {
+                    "question" : "127. Why did the man visit New York? ", 
+                    "A" : "(A) extension", 
+                    "B" : "(B) production", 
+                    "C" : "(C) grade", 
+                    "D" : "(D) rise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(68), 
+                "answer" : NumberInt(2), 
+                "sign" : "a128", 
+                "explain" : "ĐÁP ÁN: (C) He can't access his messages.", 
+                "description" : {
+                    "question" : "Question 128. What is the man's problem? ", 
+                    "A" : "(A) will overcome", 
+                    "B" : "(B) be overcome", 
+                    "C" : "(C) to overcome", 
+                    "D" : "(D) has overcome"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(69), 
+                "answer" : NumberInt(1), 
+                "sign" : "a129", 
+                "explain" : "ĐÁP ÁN:  (B) To technical services.", 
+                "description" : {
+                    "question" : "Question 129. Where will the man probably go next? ", 
+                    "A" : "(A) budget", 
+                    "B" : "(B) prices", 
+                    "C" : "(C) credits ", 
+                    "D" : "(D) expenses"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(70), 
+                "answer" : NumberInt(3), 
+                "sign" : "a130", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 130. Where is the technical support staff office located? ", 
+                    "A" : "(A) has presented", 
+                    "B" : "(B) presenting", 
+                    "C" : "(C) present", 
+                    "D" : "(D) to present"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(71), 
+                "answer" : NumberInt(3), 
+                "sign" : "a131", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 131. Where is the technical support staff office located? ", 
+                    "A" : "(A) fallen", 
+                    "B" : "(B) refused", 
+                    "C" : "(C) performed", 
+                    "D" : "(D) acquired"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(72), 
+                "answer" : NumberInt(3), 
+                "sign" : "a132", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 132. Where is the technical support staff office located? ", 
+                    "A" : "(A) elevation", 
+                    "B" : "(B) mobility", 
+                    "C" : "(C) belief", 
+                    "D" : "(D) popularity"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(73), 
+                "answer" : NumberInt(3), 
+                "sign" : "a133", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 133. Where is the technical support staff office located? ", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(74), 
+                "answer" : NumberInt(3), 
+                "sign" : "a134", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 134. Where is the technical support staff office located? ", 
+                    "A" : "(A) to", 
+                    "B" : "(B) by", 
+                    "C" : "(C) on", 
+                    "D" : "(D) for"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(75), 
+                "answer" : NumberInt(3), 
+                "sign" : "a135", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 135. Where is the technical support staff office located? ", 
+                    "A" : "(A) practice", 
+                    "B" : "(B) persist", 
+                    "C" : "(C) cooperate", 
+                    "D" : "(D) retain"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(76), 
+                "answer" : NumberInt(3), 
+                "sign" : "a136", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 136. Where is the technical support staff office located? ", 
+                    "A" : "(A) exclusive", 
+                    "B" : "(B) excluding", 
+                    "C" : "(C) exclusively", 
+                    "D" : "(D) excluded"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(77), 
+                "answer" : NumberInt(3), 
+                "sign" : "a137", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 137. Where is the technical support staff office located? ", 
+                    "A" : "(A) facing", 
+                    "B" : "(B) progressing", 
+                    "C" : "(C) playing", 
+                    "D" : "(D) dealing"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(78), 
+                "answer" : NumberInt(3), 
+                "sign" : "a138", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 138. Where is the technical support staff office located? ", 
+                    "A" : "(A) Despite", 
+                    "B" : "(B) Unless", 
+                    "C" : "(C) In order to", 
+                    "D" : "(D) As well as"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(79), 
+                "answer" : NumberInt(3), 
+                "sign" : "a139", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 139. Where is the technical support staff office located? ", 
+                    "A" : "(A) such", 
+                    "B" : "(B) either", 
+                    "C" : "(C) with", 
+                    "D" : "(D) and"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(80), 
+                "answer" : NumberInt(3), 
+                "sign" : "a140", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 140. Where is the technical support staff office located? ", 
+                    "A" : "(A) seek", 
+                    "B" : "(B) seeking", 
+                    "C" : "(C) have sought", 
+                    "D" : "(D) being sought"
+                }
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5cd807393b71632188791dca"), 
+    "id_exam" : NumberInt(187103), 
+    "PartV" : {
+        "id_part" : NumberInt(14309), 
+        "audio_src" : "", 
+        "bo_cau_hoi" : [
+            {
+                "id_cauhoi" : NumberInt(41), 
+                "answer" : NumberInt(1), 
+                "sign" : "a101", 
+                "explain" : "ĐÁP ÁN: (B) Change an appointment time.", 
+                "description" : {
+                    "question" : "Question 101.Mr. Kurt Spienza appears to be the only person in our team who can finish the survey by ______", 
+                    "A" : "(A) he", 
+                    "B" : "(B) him", 
+                    "C" : "(C) his", 
+                    "D" : "(D) himself"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(42), 
+                "answer" : NumberInt(0), 
+                "sign" : "a102", 
+                "explain" : "ĐÁP ÁN: (A) Meet with some clients. ", 
+                "description" : {
+                    "question" : "Question 102. What will the man do this afternoon? ", 
+                    "A" : "(A) will be", 
+                    "B" : "(B) was", 
+                    "C" : "(C) are", 
+                    "D" : "(D) has been"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(43), 
+                "answer" : NumberInt(3), 
+                "sign" : "a103", 
+                "explain" : "ĐÁP ÁN: (D) At 4 o'clock", 
+                "description" : {
+                    "question" : " Question 103. What time will the man start his appointment this afternoon?", 
+                    "A" : "(A) directly", 
+                    "B" : "(B) direct", 
+                    "C" : "(C) directed", 
+                    "D" : "(D) direction"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(44), 
+                "answer" : NumberInt(2), 
+                "sign" : "a104", 
+                "explain" : "ĐÁP ÁN: (C) A mobile phone company", 
+                "description" : {
+                    "question" : "Question 104. What kind of company does the man work for? ", 
+                    "A" : "(A) reply", 
+                    "B" : "(B) detect", 
+                    "C" : "(C) construct", 
+                    "D" : "(D) hire"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(45), 
+                "answer" : NumberInt(0), 
+                "sign" : "a105", 
+                "explain" : "ĐÁP ÁN:  (A) The price may have risen.", 
+                "description" : {
+                    "question" : "Question 105. How does the man explain the change in the woman's bill? ", 
+                    "A" : "(A) they", 
+                    "B" : "(B) them", 
+                    "C" : "(C) themselves", 
+                    "D" : "(D) their"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(46), 
+                "answer" : NumberInt(1), 
+                "sign" : "a106", 
+                "explain" : "ĐÁP ÁN:  (B) Her telephone number.", 
+                "description" : {
+                    "question" : "Question 106. What information does the man ask the woman for?", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(47), 
+                "answer" : NumberInt(3), 
+                "sign" : "a107", 
+                "explain" : "ĐÁP ÁN: (D) The retirement of a colleague.", 
+                "description" : {
+                    "question" : "Question 107. What is the celebration for?", 
+                    "A" : "(A) additional", 
+                    "B" : "(B) addition", 
+                    "C" : "(C) adding", 
+                    "D" : "(D) additionally"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(48), 
+                "answer" : NumberInt(2), 
+                "sign" : "a108", 
+                "explain" : "ĐÁP ÁN: (C) At 7:00 .", 
+                "description" : {
+                    "question" : "Question 108. When will the celebration start?", 
+                    "A" : "(A) They", 
+                    "B" : "(B) It", 
+                    "C" : "(C) There", 
+                    "D" : "( (D) That"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(49), 
+                "answer" : NumberInt(2), 
+                "sign" : "a109", 
+                "explain" : "ĐÁP ÁN: (C) To a bakery.", 
+                "description" : {
+                    "question" : "Question 109. Where will the woman go before the party? ", 
+                    "A" : "(A) repeat", 
+                    "B" : "(B) repeatedly", 
+                    "C" : "(C) repeater", 
+                    "D" : "(D) repetition"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(50), 
+                "answer" : NumberInt(1), 
+                "sign" : "a110", 
+                "explain" : "ĐÁP ÁN: (B) He recently won a prize.", 
+                "description" : {
+                    "question" : "Question 110. Why is William happy? ", 
+                    "A" : "(A) interested", 
+                    "B" : "(B) listed", 
+                    "C" : "(C) hopeful", 
+                    "D" : "(D) enclosed"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(51), 
+                "answer" : NumberInt(1), 
+                "sign" : "a111", 
+                "explain" : "ĐÁP ÁN: (B) Sign up for a workshop.", 
+                "description" : {
+                    "question" : "Question 111. What does William hope to do? ", 
+                    "A" : "(A) survey", 
+                    "B" : "(B) surveys", 
+                    "C" : "(C) surveying", 
+                    "D" : "(D) surveyed"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(52), 
+                "answer" : NumberInt(0), 
+                "sign" : "a112", 
+                "explain" : "ĐÁP ÁN: (A) An oil painting.", 
+                "description" : {
+                    "question" : "Question 112. What is William working on these days? ", 
+                    "A" : "(A) extremely", 
+                    "B" : "(B) exclusively", 
+                    "C" : "(C) continually", 
+                    "D" : "(D) completely"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(53), 
+                "answer" : NumberInt(1), 
+                "sign" : "a113", 
+                "explain" : "ĐÁP ÁN: (B) At an office building.", 
+                "description" : {
+                    "question" : "Question 113. Where is the conversation most likely taking place?", 
+                    "A" : "(A) informative", 
+                    "B" : "(B) inform", 
+                    "C" : "(C) information", 
+                    "D" : "(D) informer"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(54), 
+                "answer" : NumberInt(2), 
+                "sign" : "a114", 
+                "explain" : "(C) Sign the form.", 
+                "description" : {
+                    "question" : "Question 114. What does the assistant offer to do? ", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(55), 
+                "answer" : NumberInt(1), 
+                "sign" : "a115", 
+                "explain" : "ĐÁP ÁN:  (B) A filing cabinet.", 
+                "description" : {
+                    "question" : "Question 115. What will be delivered to the conference room? ", 
+                    "A" : "(A) are required", 
+                    "B" : "(B) require", 
+                    "C" : "(C) requires", 
+                    "D" : "(D) has required"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(56), 
+                "answer" : NumberInt(0), 
+                "sign" : "a116", 
+                "explain" : "ĐÁP ÁN: (A) An information desk clerk ", 
+                "description" : {
+                    "question" : "Question 116. Who most likely is the man? ", 
+                    "A" : "(A) only if", 
+                    "B" : "(B) until", 
+                    "C" : "(C) not only", 
+                    "D" : "(D) since"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(57), 
+                "answer" : NumberInt(2), 
+                "sign" : "a117", 
+                "explain" : "ĐÁP ÁN:  (C) To check her order.", 
+                "description" : {
+                    "question" : "Question 117. Where is the woman going? ", 
+                    "A" : "(A) attendant", 
+                    "B" : "(B) attendance", 
+                    "C" : "(C) attended", 
+                    "D" : "(D) attendee"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(58), 
+                "answer" : NumberInt(2), 
+                "sign" : "a118", 
+                "explain" : "ĐÁP ÁN: (C) Using a discount coupon.", 
+                "description" : {
+                    "question" : "Question 118. How does the man suggest lowering the admission price? ", 
+                    "A" : "(A) proficient", 
+                    "B" : "(B) considerable", 
+                    "C" : "(C) secondary", 
+                    "D" : "(D) present"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(59), 
+                "answer" : NumberInt(0), 
+                "sign" : "a119", 
+                "explain" : "ĐÁP ÁN: (A) White.", 
+                "description" : {
+                    "question" : "Question 119. What color monitors are available now? ", 
+                    "A" : "(A) maintaining", 
+                    "B" : "(B) maintenancen", 
+                    "C" : "(C) maintained", 
+                    "D" : "(D) maintains"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(60), 
+                "answer" : NumberInt(2), 
+                "sign" : "a120", 
+                "explain" : "ĐÁP ÁN: (C) $ 200 .", 
+                "description" : {
+                    "question" : "Question 120. How much does it cost to increase the size of the monitor? ", 
+                    "A" : "(A) demonstrate", 
+                    "B" : "(B) decline", 
+                    "C" : "(C) face", 
+                    "D" : "(D) ease"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(61), 
+                "answer" : NumberInt(1), 
+                "sign" : "a121", 
+                "explain" : "(B) In about two weeks.", 
+                "description" : {
+                    "question" : "Question 121. When can the man expect to receive his monitor? ", 
+                    "A" : "(A) since", 
+                    "B" : "(B) then", 
+                    "C" : "(C) here", 
+                    "D" : "(D) much"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(62), 
+                "answer" : NumberInt(2), 
+                "sign" : "a122", 
+                "explain" : "ĐÁP ÁN: (C) He can’t open the garage gate by himself.", 
+                "description" : {
+                    "question" : "122. What problem is the man faced with? ", 
+                    "A" : "(A) against", 
+                    "B" : "(B) except", 
+                    "C" : "(C) upon", 
+                    "D" : "(D) throughout"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(63), 
+                "answer" : NumberInt(3), 
+                "sign" : "a123", 
+                "explain" : "ĐÁP ÁN: (D) On Tuesday.", 
+                "description" : {
+                    "question" : "123. When did the woman receive her parking permit? ", 
+                    "A" : "(A) requests", 
+                    "B" : "(B) request", 
+                    "C" : "(C) requesting", 
+                    "D" : "(D) requested"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(64), 
+                "answer" : NumberInt(3), 
+                "sign" : "a124", 
+                "explain" : "ĐÁP ÁN: (D) Contact the HR department.", 
+                "description" : {
+                    "question" : "124. What does the woman suggest the man do? ", 
+                    "A" : "(A) suited", 
+                    "B" : "(B) conductive", 
+                    "C" : "(C) forward", 
+                    "D" : "(D) prior"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(65), 
+                "answer" : NumberInt(1), 
+                "sign" : "a125", 
+                "explain" : "ĐÁP ÁN: (B) At a hair salon.", 
+                "description" : {
+                    "question" : "125. Where most likely does this conversation take place? ", 
+                    "A" : "(A) weaken", 
+                    "B" : "(B) invalidate", 
+                    "C" : "(C) verify", 
+                    "D" : "(D) weigh"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(66), 
+                "answer" : NumberInt(3), 
+                "sign" : "a126", 
+                "explain" : "ĐÁP ÁN: (D) Change her hair color.", 
+                "description" : {
+                    "question" : "126. What would the woman like to do? ", 
+                    "A" : "(A) as expensive", 
+                    "B" : "(B) more expensive", 
+                    "C" : "(C) so expensively", 
+                    "D" : "(D) most expensively"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(67), 
+                "answer" : NumberInt(3), 
+                "sign" : "a127", 
+                "explain" : "(D) To attend a training seminar.", 
+                "description" : {
+                    "question" : "127. Why did the man visit New York? ", 
+                    "A" : "(A) extension", 
+                    "B" : "(B) production", 
+                    "C" : "(C) grade", 
+                    "D" : "(D) rise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(68), 
+                "answer" : NumberInt(2), 
+                "sign" : "a128", 
+                "explain" : "ĐÁP ÁN: (C) He can't access his messages.", 
+                "description" : {
+                    "question" : "Question 128. What is the man's problem? ", 
+                    "A" : "(A) will overcome", 
+                    "B" : "(B) be overcome", 
+                    "C" : "(C) to overcome", 
+                    "D" : "(D) has overcome"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(69), 
+                "answer" : NumberInt(1), 
+                "sign" : "a129", 
+                "explain" : "ĐÁP ÁN:  (B) To technical services.", 
+                "description" : {
+                    "question" : "Question 129. Where will the man probably go next? ", 
+                    "A" : "(A) budget", 
+                    "B" : "(B) prices", 
+                    "C" : "(C) credits ", 
+                    "D" : "(D) expenses"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(70), 
+                "answer" : NumberInt(3), 
+                "sign" : "a130", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 130. Where is the technical support staff office located? ", 
+                    "A" : "(A) has presented", 
+                    "B" : "(B) presenting", 
+                    "C" : "(C) present", 
+                    "D" : "(D) to present"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(71), 
+                "answer" : NumberInt(3), 
+                "sign" : "a131", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 131. Where is the technical support staff office located? ", 
+                    "A" : "(A) fallen", 
+                    "B" : "(B) refused", 
+                    "C" : "(C) performed", 
+                    "D" : "(D) acquired"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(72), 
+                "answer" : NumberInt(3), 
+                "sign" : "a132", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 132. Where is the technical support staff office located? ", 
+                    "A" : "(A) elevation", 
+                    "B" : "(B) mobility", 
+                    "C" : "(C) belief", 
+                    "D" : "(D) popularity"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(73), 
+                "answer" : NumberInt(3), 
+                "sign" : "a133", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 133. Where is the technical support staff office located? ", 
+                    "A" : "(A) issue", 
+                    "B" : "(B) condition", 
+                    "C" : "(C) prices", 
+                    "D" : "(D) promise"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(74), 
+                "answer" : NumberInt(3), 
+                "sign" : "a134", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 134. Where is the technical support staff office located? ", 
+                    "A" : "(A) to", 
+                    "B" : "(B) by", 
+                    "C" : "(C) on", 
+                    "D" : "(D) for"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(75), 
+                "answer" : NumberInt(3), 
+                "sign" : "a135", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 135. Where is the technical support staff office located? ", 
+                    "A" : "(A) practice", 
+                    "B" : "(B) persist", 
+                    "C" : "(C) cooperate", 
+                    "D" : "(D) retain"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(76), 
+                "answer" : NumberInt(3), 
+                "sign" : "a136", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 136. Where is the technical support staff office located? ", 
+                    "A" : "(A) exclusive", 
+                    "B" : "(B) excluding", 
+                    "C" : "(C) exclusively", 
+                    "D" : "(D) excluded"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(77), 
+                "answer" : NumberInt(3), 
+                "sign" : "a137", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 137. Where is the technical support staff office located? ", 
+                    "A" : "(A) facing", 
+                    "B" : "(B) progressing", 
+                    "C" : "(C) playing", 
+                    "D" : "(D) dealing"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(78), 
+                "answer" : NumberInt(3), 
+                "sign" : "a138", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 138. Where is the technical support staff office located? ", 
+                    "A" : "(A) Despite", 
+                    "B" : "(B) Unless", 
+                    "C" : "(C) In order to", 
+                    "D" : "(D) As well as"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(79), 
+                "answer" : NumberInt(3), 
+                "sign" : "a139", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 139. Where is the technical support staff office located? ", 
+                    "A" : "(A) such", 
+                    "B" : "(B) either", 
+                    "C" : "(C) with", 
+                    "D" : "(D) and"
+                }
+            }, 
+            {
+                "id_cauhoi" : NumberInt(80), 
+                "answer" : NumberInt(3), 
+                "sign" : "a140", 
+                "explain" : "ĐÁP ÁN: (D) Near the HR department.", 
+                "description" : {
+                    "question" : "Question 140. Where is the technical support staff office located? ", 
+                    "A" : "(A) seek", 
+                    "B" : "(B) seeking", 
+                    "C" : "(C) have sought", 
+                    "D" : "(D) being sought"
+                }
+            }
+        ]
+    }
+}

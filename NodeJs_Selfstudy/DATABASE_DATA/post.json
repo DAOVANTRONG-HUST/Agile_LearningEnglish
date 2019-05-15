@@ -1,5 +1,189 @@
-{"_id":{"$oid":"5cd53a490a5dd228b88986f7"},"views":{"$numberInt":"10015"},"author_id":"Vũ Lê Hoàng","time":{"$date":{"$numberLong":"1546275600000"}},"reputations":{"$numberInt":"100"},"title":"How to improve something","content":"Film festivals used to be do-or-die moments for movie makers. They were where you met                             the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and keep going to the end of the roads. Keep trying !!! ","answers":[{"time":{"$date":{"$numberLong":"1546275600000"}},"reputations":{"$numberInt":"123"},"content":"This is the test answer","author":"Vũ Lê Hoàng"},{"time":{"$date":{"$numberLong":"1546275600000"}},"reputations":{"$numberInt":"123"},"content":"This is the second test answer","author":"Kim Jisoo"}]}
-{"_id":{"$oid":"5cd53daeca6dd728b82db512"},"views":{"$numberInt":"100"},"author_id":"Kim Jisoo","time":{"$date":{"$numberLong":"1546275600000"}},"reputations":{"$numberInt":"100"},"title":"Kill Thisss Loveeee =)) ","content":"Film festivals used to be do-or-die moments for movie makers. They were where you met                             the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and keep going to the end of the roads. Keep trying !!! ","answers":[{"time":{"$date":{"$numberLong":"1546275600000"}},"reputations":{"$numberInt":"123"},"content":"This is the test answer","author":"Vũ Lê Hoàng"},{"time":{"$date":{"$numberLong":"1546275600000"}},"reputations":{"$numberInt":"123"},"content":"This is the second test answer","author":"Kim Jisoo"}]}
-{"_id":{"$oid":"5cd53df6ca6dd728b82db513"},"views":{"$numberInt":"101"},"author_id":"Kim Dung","time":{"$date":{"$numberLong":"1546275600000"}},"reputations":{"$numberInt":"100"},"title":"Thiên Long Bát BỘ","content":"Hư Trúc, Đoàn Dự và Bắc Kiều Phong là 3 người anh em kết nghĩa. Và không chỉ ở đó, đây còn là 1 bài đăng mẫu, chả liên quan gì đến tiếng Anh cả, đăng cho vui thôi =)) ","answers":[{"time":{"$date":{"$numberLong":"1546275600000"}},"reputations":{"$numberInt":"123"},"content":"This is the test answer","author":"Vũ Lê Hoàng"},{"time":{"$date":{"$numberLong":"1546275600000"}},"reputations":{"$numberInt":"123"},"content":"This is the second test answer","author":"Kim Jisoo"}]}
-{"_id":{"$oid":"5cd5c73203555f1f84b76207"},"views":{"$numberInt":"4"},"reputations":{"$numberInt":"0"},"author_id":"Yasuoo Fangal","answers":[],"title":"linux","content":" Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet ","time":{"$date":{"$numberLong":"1557507600000"}},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5cd5d414fa69191f800ba776"},"views":{"$numberInt":"11"},"reputations":{"$numberInt":"3"},"answers":[{"reputations":{"$numberInt":"0"},"_id":{"$oid":"5cd5d54f661e3f31d8110477"},"author":"Yasuoo Fangal","content":" Hello, comment work now :3\r\n","time":{"$date":{"$numberLong":"1557507600000"}}}],"author_id":"Yasuoo Fangal","title":"THe new post","content":"Hope this last post !  ","time":{"$date":{"$numberLong":"1557507600000"}},"__v":{"$numberInt":"1"}}
+{ 
+    "_id" : ObjectId("5cd53a490a5dd228b88986f7"), 
+    "views" : NumberInt(10021), 
+    "author_id" : "Vũ Lê Hoàng", 
+    "time" : ISODate("2018-12-31T17:00:00.000+0000"), 
+    "reputations" : NumberInt(100), 
+    "title" : "How to improve something", 
+    "content" : "Film festivals used to be do-or-die moments for movie makers. They were where you met                             the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and keep going to the end of the roads. Keep trying !!! ", 
+    "answers" : [
+        {
+            "time" : ISODate("2018-12-31T17:00:00.000+0000"), 
+            "reputations" : NumberInt(123), 
+            "content" : "This is the test answer", 
+            "author" : "Vũ Lê Hoàng"
+        }, 
+        {
+            "time" : ISODate("2018-12-31T17:00:00.000+0000"), 
+            "reputations" : NumberInt(123), 
+            "content" : "This is the second test answer", 
+            "author" : "Kim Jisoo"
+        }, 
+        {
+            "reputations" : NumberInt(0), 
+            "_id" : ObjectId("5cd6881afee525249c39096b"), 
+            "author" : "Yasuoo Fangal", 
+            "content" : " Long is very handsome\r\n", 
+            "time" : ISODate("2019-05-10T17:00:00.000+0000")
+        }, 
+        {
+            "reputations" : NumberInt(0), 
+            "_id" : ObjectId("5cd68869fee525249c39096d"), 
+            "author" : "Yasuoo Fangal", 
+            "content" : " Long is very handsome\r\n", 
+            "time" : ISODate("2019-05-10T17:00:00.000+0000")
+        }, 
+        {
+            "reputations" : NumberInt(0), 
+            "_id" : ObjectId("5cd688d49cedad2dac253386"), 
+            "author" : "Yasuoo Fangal", 
+            "content" : " A Long đẹp trai", 
+            "time" : ISODate("2019-05-10T17:00:00.000+0000")
+        }
+    ], 
+    "__v" : NumberInt(3)
+}
+{ 
+    "_id" : ObjectId("5cd53daeca6dd728b82db512"), 
+    "views" : NumberInt(102), 
+    "author_id" : "Kim Jisoo", 
+    "time" : ISODate("2018-12-31T17:00:00.000+0000"), 
+    "reputations" : NumberInt(100), 
+    "title" : "Kill Thisss Loveeee =)) ", 
+    "content" : "Film festivals used to be do-or-die moments for movie makers. They were where you met                             the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and keep going to the end of the roads. Keep trying !!! ", 
+    "answers" : [
+        {
+            "time" : ISODate("2018-12-31T17:00:00.000+0000"), 
+            "reputations" : NumberInt(123), 
+            "content" : "This is the test answer", 
+            "author" : "Vũ Lê Hoàng"
+        }, 
+        {
+            "time" : ISODate("2018-12-31T17:00:00.000+0000"), 
+            "reputations" : NumberInt(123), 
+            "content" : "This is the second test answer", 
+            "author" : "Kim Jisoo"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5cd53df6ca6dd728b82db513"), 
+    "views" : NumberInt(101), 
+    "author_id" : "Kim Dung", 
+    "time" : ISODate("2018-12-31T17:00:00.000+0000"), 
+    "reputations" : NumberInt(100), 
+    "title" : "Thiên Long Bát BỘ", 
+    "content" : "Hư Trúc, Đoàn Dự và Bắc Kiều Phong là 3 người anh em kết nghĩa. Và không chỉ ở đó, đây còn là 1 bài đăng mẫu, chả liên quan gì đến tiếng Anh cả, đăng cho vui thôi =)) ", 
+    "answers" : [
+        {
+            "time" : ISODate("2018-12-31T17:00:00.000+0000"), 
+            "reputations" : NumberInt(123), 
+            "content" : "This is the test answer", 
+            "author" : "Vũ Lê Hoàng"
+        }, 
+        {
+            "time" : ISODate("2018-12-31T17:00:00.000+0000"), 
+            "reputations" : NumberInt(123), 
+            "content" : "This is the second test answer", 
+            "author" : "Kim Jisoo"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5cd5c73203555f1f84b76207"), 
+    "views" : NumberInt(4), 
+    "reputations" : NumberInt(0), 
+    "author_id" : "Yasuoo Fangal", 
+    "answers" : [
+
+    ], 
+    "title" : "linux", 
+    "content" : " Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet  Contentet ", 
+    "time" : ISODate("2019-05-10T17:00:00.000+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5cd5d414fa69191f800ba776"), 
+    "views" : NumberInt(14), 
+    "reputations" : NumberInt(3), 
+    "answers" : [
+        {
+            "reputations" : NumberInt(0), 
+            "_id" : ObjectId("5cd5d54f661e3f31d8110477"), 
+            "author" : "Yasuoo Fangal", 
+            "content" : " Hello, comment work now :3\r\n", 
+            "time" : ISODate("2019-05-10T17:00:00.000+0000")
+        }, 
+        {
+            "reputations" : NumberInt(0), 
+            "_id" : ObjectId("5cd66b6b5023561c20aaa4fa"), 
+            "author" : "Yasuoo Fangal", 
+            "content" : "comment akjsfhalsfasjflasjf \r\nàkasfasfasf\r\nầ", 
+            "time" : ISODate("2019-05-10T17:00:00.000+0000")
+        }
+    ], 
+    "author_id" : "Yasuoo Fangal", 
+    "title" : "THe new post", 
+    "content" : "Hope this last post !  ", 
+    "time" : ISODate("2019-05-10T17:00:00.000+0000"), 
+    "__v" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("5cd66b585023561c20aaa4f9"), 
+    "views" : NumberInt(4), 
+    "reputations" : NumberInt(0), 
+    "answers" : [
+        {
+            "reputations" : NumberInt(0), 
+            "_id" : ObjectId("5cd688fc9cedad2dac253388"), 
+            "author" : "Yasuoo Fangal", 
+            "content" : " Anh Long đz vl", 
+            "time" : ISODate("2019-05-10T17:00:00.000+0000")
+        }, 
+        {
+            "reputations" : NumberInt(0), 
+            "_id" : ObjectId("5cd6897374611124bcaab84e"), 
+            "author" : "Yasuoo Fangal", 
+            "content" : " A Long đep trai vl", 
+            "time" : ISODate("2019-05-10T17:00:00.000+0000")
+        }
+    ], 
+    "author_id" : "Yasuoo Fangal", 
+    "title" : "Title for forum", 
+    "content" : "akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  akjsf à  ", 
+    "time" : ISODate("2019-05-10T17:00:00.000+0000"), 
+    "__v" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("5cdbdeea2906792e383019e6"), 
+    "views" : NumberInt(9), 
+    "reputations" : NumberInt(3), 
+    "answers" : [
+        {
+            "reputations" : NumberInt(0), 
+            "_id" : ObjectId("5cdbe2b8991086208c3243d3"), 
+            "author" : "Dieadsaaa Fangal", 
+            "content" : " Hello Un ", 
+            "time" : ISODate("2019-05-14T17:00:00.000+0000")
+        }, 
+        {
+            "reputations" : NumberInt(0), 
+            "_id" : ObjectId("5cdbe2c3991086208c3243d5"), 
+            "author" : "Dieadsaaa Fangal", 
+            "content" : "Dmerun", 
+            "time" : ISODate("2019-05-14T17:00:00.000+0000")
+        }, 
+        {
+            "reputations" : NumberInt(0), 
+            "_id" : ObjectId("5cdbe902049abb311cdb185f"), 
+            "author" : "Kim Jisoo", 
+            "content" : " Hello, I'm Kj  from kr too ! ", 
+            "time" : ISODate("2019-05-14T17:00:00.000+0000")
+        }
+    ], 
+    "author_id" : "Kim Joong Un", 
+    "title" : "mình là Un ", 
+    "content" : " UN  UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN UN", 
+    "time" : ISODate("2019-05-15T09:42:02.629+0000"), 
+    "__v" : NumberInt(3)
+}
