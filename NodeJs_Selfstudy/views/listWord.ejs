@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="../../thanhtv/css/listWord.css" rel="stylesheet" >
+		<title>
+			English Self-Study Supporter
+		</title>
+		<link href="../../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Font Awesome -->
+		<link href="../../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+		<link href="../../thanhtv/css/listWord.css" rel="stylesheet">
     </head>
     <body>
-        
+		<br>
+			<center>
+				<a href="../../thietlapdanhsachhoc"><button class="btn btn-md btn-primary" type="button"> <i
+							class="fa fa-long-arrow-left"> </i> Back to home</button></a>
+				<a href="/dashboard"><button class="btn btn-md btn-primary" type="button"> <i class="fa fa-long-arrow-left"> </i> Back
+						to Dashboard</button></a>
+			</center>
             <div class="center"><h2 id="header_title" class="page-title"><%=data.title%></h2></div>
         <% data.word.forEach((da)=>{ %>
             <div class="row">

@@ -81,6 +81,12 @@ app.use('/profile', profileRoutes) ;
 // var memberManager = require('./routes/memberManager');
 // app.use('/quanlythanhvien', memberManager);
 
+app.get('/forgotpassword', (req, res, next) => {
+    if(req.session.user) 
+      res.redirect('dashboard'); 
+    else 
+      res.render('forgotpassword');
+})
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

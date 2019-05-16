@@ -17,7 +17,7 @@ const dbName = 'englishWebsite';
 /* GET home page. */
 router.get('/', function (req, res, next) {
   if (req.session.user) {
-    res.redirect("/dashboard" + req.session.user._id);
+    res.redirect("/dashboard");
   }
   else
     res.redirect('login');
@@ -39,9 +39,9 @@ router.post("/register", function (req, res, next) {
   {
     var data = req.body;
     if (data.email.trim().length == 0) {
-      res.render('login/register', { data: { error: "Email is require" } });
+      res.render('login/register', { error_msg: "Email is require"  });
     } else if (data.passwd != data.repasswd && data.passwd.trim().length != 0) {
-      res.render('login/register', { data: { error: "Password not match" } });
+      res.render('login/register', { error_msg: "Password not match"  });
     } else {
       User.findOne({ email: req.body.email, id: req.body.id })
         .exec()
@@ -98,11 +98,7 @@ router.post("/register", function (req, res, next) {
           }
         });
     }
-    //
-
   }
-  
-
   }
 )
 
@@ -113,7 +109,7 @@ router.get('/login', function (req, res, next) {
     res.redirect("/dashboard");
   }
   else 
-    res.render("login", { data: {} });
+    res.render("login", {error_msg: ""});
 });
 
 // Post login
@@ -121,19 +117,19 @@ router.post("/login", function (req, res, next) {
   var params = req.body;
 
   if (params._email.trim().length == 0) {
-    res.render("login", { data: { error: "Please enter an email" } });
+    res.render("login", { data: { error_msg: "Bạn chưa nhập dữ liệu" } });
   } else {
     User.find({ email: params._email },function (err,dulieu){
       var user=dulieu[0];
       if(user == undefined) 
       {
-        res.render("login", { data: { error: "Email " + params._email + " chưa được đăng ký !" } });
+        res.render("login", { error_msg: "Tài khoản " + params._email + " chưa được đăng ký !"  });
       } 
       else 
       {
         bcrypt.compare(params._password, user.password, (err, ret) => {
           if(err)
-            res.render("login", { data: { error: "Password is not correct" } }); 
+            res.render("login", { error_msg: "Mật khẩu không đúng !"  }); 
           else 
           {
             user.last_login = Date.now() ; 

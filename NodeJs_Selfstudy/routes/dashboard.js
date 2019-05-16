@@ -1,6 +1,9 @@
 var express = require('express');
 var user_md=require("../models/user_c");
 const User = require("../models/User");
+const Vocab = require("../models/Vocab");
+const Post = require("../models/Post");
+const Answer = require("../models/User");
 var router = express.Router();
 
 
@@ -27,7 +30,21 @@ router.get('/', function (req, res, next) {
       if(err)
         throw(err)
       else
-        res.render("index", { data: dulieu });
+      {
+        Vocab.find({}, (err, vocab_list) => {
+          Post.find({}, (err, post_list) => {
+            User.find({}, (err, user_list) => {
+              Answer.find({}, (err, answer_list) => {
+                // vocab_count = vocab_list.length ;
+                pack = { vocab_count: vocab_list, post_count: post_list, user_count: user_list, answer_count: answer_list, data: dulieu };
+                // res.status(200).json(pack)
+                res.render("index", pack);
+              })
+            })
+          })
+        })
+        // res.render("index", data= dulieu);
+      }
     })
   }
 });
